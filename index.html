@@ -467,6 +467,37 @@ header {
     transform: scale(1.05);
     opacity: 1;
 }
+
+
+
+
+
+
+
+/* 2. 人物卡片样式 - 完美复刻原图 */
+.white-profile-card {
+    background-color: #ffffff;   /* 纯白卡片 */
+    border-radius: 20px;         /* 这里的圆角更大，和原图一致 */
+    padding: 40px;               /* 宽敞的内部空间 */
+    
+    /* 核心：原图同款阴影（深邃但柔和） */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    
+    /* 防止在某些屏幕上边缘模糊 */
+    border: 1px solid rgba(0,0,0,0.02); 
+    
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+/* 3. 鼠标悬停时的上浮效果 */
+.white-profile-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+
 :root :where(.wp-block-navigation){font-weight: 500;}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
@@ -554,7 +585,7 @@ header {
 						<div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="state.ariaModal" data-wp-bind--aria-label="state.ariaLabel" data-wp-bind--role="state.roleAttribute">
 							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on--click="actions.closeMenuOnClick"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
 							<div class="wp-block-navigation__responsive-container-content" data-wp-watch="callbacks.focusFirstElement" id="modal-1-content">
-								<ul style="font-size:clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);font-style:normal;font-weight:700;" class="wp-block-navigation__container has-text-color has-base-2-color is-responsive items-justified-right wp-block-navigation has-heading-font-family"><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://jiushihema.github.io/pls_lab/%E8%8D%A3%E8%AA%89%E5%A5%96%E9%A1%B9/"><span class="wp-block-navigation-item__label">荣誉称号</span></a></li><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="http://%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C/"><span class="wp-block-navigation-item__label">研究成果</span></a></li><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://jiushihema.github.io/pls_lab/%E5%9B%A2%E9%98%9F%E6%88%90%E5%91%98"><span class="wp-block-navigation-item__label">团队成员</span></a></li></ul>
+								<ul style="font-size:clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);font-style:normal;font-weight:700;" class="wp-block-navigation__container has-text-color has-base-2-color is-responsive items-justified-right wp-block-navigation has-heading-font-family"><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://jiushihema.github.io/pls_lab/awards/" target="_blank"><span class="wp-block-navigation-item__label">荣誉称号</span></a></li><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://jiushihema.github.io/pls_lab/results"><span class="wp-block-navigation-item__label">研究成果</span></a></li><li style="font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.785), 1.4rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://jiushihema.github.io/pls_lab/members"><span class="wp-block-navigation-item__label">团队成员</span></a></li></ul>
 							</div>
 						</div>
 					</div>
