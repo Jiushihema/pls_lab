@@ -514,6 +514,187 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*研究成果展示css*/
+/* === 1. 建立 4 列网格 === */
+.columns-waterfall .wp-block-post-template {
+    display: grid !important;       /* 切换为网格布局 */
+    grid-template-columns: repeat(4, 1fr); /* 强制 4 列 */
+    grid-gap: 60px;                 /* 【核心】你要求的卡片间距 60 */
+    padding: 20px 0 80px 0;         /* 底部多留点白，防止下移的卡片撞到底部 */
+}
+
+/* === 2. 手机/平板适配 (防止手机上 4 列太挤) === */
+@media (max-width: 1200px) {
+    .columns-waterfall .wp-block-post-template {
+        grid-template-columns: repeat(2, 1fr); /* 平板变 2 列 */
+    }
+}
+@media (max-width: 768px) {
+    .columns-waterfall .wp-block-post-template {
+        grid-template-columns: 1fr; /* 手机变 1 列 */
+    }
+}
+
+/* === 3. 卡片容器基础设置 === */
+.columns-waterfall li {
+    margin: 0 !important;   /* 清除默认间距，交给 grid-gap 控制 */
+    width: 100%;
+}
+
+/* === 4. 【灵魂逻辑】实现你的“高低交错” === */
+
+/* 逻辑：针对所有“偶数位置”的卡片（第2列和第4列的卡片）
+   让它们在视觉上向下平移 60px */
+@media (min-width: 1200px) {
+    .columns-waterfall li:nth-child(even) {
+        transform: translateY(100px); /* 【核心】向下移动 60px */
+    }
+}
+/* 注意：这里利用了一个数学巧合，在4列布局中：
+   第 1, 3, 5, 7 个是奇数 -> 对应第 1, 3 列 -> 不动
+   第 2, 4, 6, 8 个是偶数 -> 对应第 2, 4 列 -> 下移 */
+
+
+/* === 5. 白卡片样式 (300x300 正方形) === */
+.columns-waterfall .white-profile-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    
+    /* 固定大小 */
+    height: 300px !important; 
+    width: 100%;
+    
+    /* 内部排版 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    text-align: center;
+}
+
+/* === 6. 内容美化 === */
+/* 图片 */
+.columns-waterfall .white-profile-card img {
+    height: 110px !important;
+    width: 150;
+    object-fit: contain;
+    margin-bottom: 4px;
+}
+
+/* 标题 - 纯黑 */
+.columns-waterfall .white-profile-card h1,
+.columns-waterfall .white-profile-card h2,
+.columns-waterfall .white-profile-card a {
+    color: #000000 !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 摘要 - 深灰 */
+.columns-waterfall .white-profile-card p,
+.columns-waterfall .white-profile-card .wp-block-post-excerpt {
+    color: #333333 !important;
+    font-size: 14px !important;
+    line-height: 1.5;
+    margin: 0;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 隐藏日期 */
+.columns-waterfall .white-profile-card .wp-block-post-date {
+    display: none !important;
+}
+/* 让卡片内的链接“撑满”整个白盒子 */
+.columns-waterfall .white-profile-card {
+    position: relative; /* 确保链接以卡片为边界 */
+}
+
+/* 找到标题里的链接，把它拉伸覆盖整个卡片 */
+.columns-waterfall .white-profile-card a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+/* === 交互特效升级包 === */
+
+/* 1. 给白卡片加上“动画引擎” */
+.columns-waterfall .white-profile-card {
+    /* 加上过渡动画，让动作丝般顺滑，而不是生硬的跳变 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    cursor: pointer; /* 鼠标放上去强制变成“小手”图标 */
+}
+
+/* 2. 鼠标悬停 (Hover) - 卡片上浮 */
+.columns-waterfall .white-profile-card:hover {
+    /* 向上浮起 10px */
+    transform: translateY(-10px) !important; 
+    /* 阴影变得更大更扩散，模拟浮空感 */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12) !important; 
+}
+
+/* 3. 鼠标按下 (Active) - 模拟按压手感 */
+.columns-waterfall .white-profile-card:active {
+    /* 稍微缩小一点点，并往下沉一点，产生“按下去”的感觉 */
+    transform: translateY(-5px) scale(0.98) !important;
+    /* 阴影收缩 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+    /* 按下的反应要快，所以时间设短一点 */
+    transition: all 0.1s ease !important;
+}
+
+/* 4. 标题悬停变色 (可选) */
+/* 当鼠标悬停在卡片上时，里面的标题变成蓝色 */
+.columns-waterfall .white-profile-card:hover h1,
+.columns-waterfall .white-profile-card:hover h2,
+.columns-waterfall .white-profile-card:hover h3,
+.columns-waterfall .white-profile-card:hover a {
+    color: #0073aa !important; /* 这里可以改成你喜欢的颜色，比如 #e60012 */
+    transition: color 0.3s ease;
+}
+
+/* 5. 去除浏览器默认的点击蓝框 (强迫症福利) */
+.columns-waterfall .white-profile-card a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
 :root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: 0.7rem;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: 0.7rem;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: 0.7rem;}:root :where(.wp-block-buttons-is-layout-grid){gap: 0.7rem;}
 :root :where(.wp-block-navigation){font-weight: 500;}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
@@ -560,7 +741,7 @@ header {
 </style>
 <link rel="stylesheet" id="uagb-swiper-css-css" href="https://jiushihema.github.io/pls_lab/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?ver=2.19.17" media="all">
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="https://jiushihema.github.io/pls_lab/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.19.17" media="all">
-<link rel="stylesheet" id="uag-style-7-css" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1768999599" media="all">
+<link rel="stylesheet" id="uag-style-7-css" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1769690373" media="all">
 <link rel="https://api.w.org/" href="https://jiushihema.github.io/pls_lab/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://jiushihema.github.io/pls_lab/wp-json/wp/v2/pages/7"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jiushihema.github.io/pls_lab/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9">
 <link rel="canonical" href="https://jiushihema.github.io/pls_lab/7-2/">
@@ -709,7 +890,7 @@ header {
 </script>
 <script src="https://jiushihema.github.io/pls_lab/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?ver=2.19.17" id="uagb-swiper-js-js"></script>
 <script src="https://jiushihema.github.io/pls_lab/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?ver=2.19.17" id="uagb-block-positioning-js-js"></script>
-<script src="https://jiushihema.github.io/pls_lab/wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1768999599" id="uag-script-7-js"></script>
+<script src="https://jiushihema.github.io/pls_lab/wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1769690373" id="uag-script-7-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://jiushihema.github.io/pls_lab/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
 </script>
