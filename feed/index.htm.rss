@@ -13,7 +13,7 @@
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
 	<lastBuildDate>Thu, 29 Jan 2026 11:05:18 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -745,7 +745,7 @@
 		<guid isPermaLink="false">http://localhost:10005/?p=376</guid>
 
 					<description><![CDATA[针对多天线空间相关信道环境，提出了一种基于基站和RIS联合优化的密钥生成方法。通过设计基站发射波束成形和RIS反射波束成形的信道探测方案，充分利用RIS的环境调控能力，有效最大化了密钥容量。]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">针对多天线空间相关信道环境，提出了一种基于基站和RIS联合优化的密钥生成方法。通过设计基站发射波束成形和RIS反射波束成形的信道探测方案，充分利用RIS的环境调控能力，有效最大化了密钥容量。 </p></div>
+										<content:encoded><![CDATA[<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">针对多天线空间相关信道环境，提出了一种基于基站和RIS联合优化的密钥生成方法。通过设计基站发射波束成形和RIS&hellip; </p></div>
 
 
 <h3 class="wp-block-heading"><strong>研究背景</strong></h3>
@@ -837,7 +837,7 @@
 		<guid isPermaLink="false">http://localhost:10005/?p=369</guid>
 
 					<description><![CDATA[针对现有基于PMI的密钥生成方案未充分考虑信道矩阵为非方阵的情况，提出了NS-PMI-PKG方案。通过引入新的预编码码本生成与检测方法，有效提高了非方阵信道下的码本检测准确性与密钥一致性，优于传统MOPRO方案。]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">针对现有基于PMI的密钥生成方案未充分考虑信道矩阵为非方阵的情况，提出了NS-PMI-PKG方案。通过引入新的预编码码本生成与检测方法，有效提高了非方阵信道下的码本检测准确性与密钥一致性，优于传统MOPRO方案。 </p></div>
+										<content:encoded><![CDATA[<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">针对现有基于PMI的密钥生成方案未充分考虑信道矩阵为非方阵的情况，提出了NS-PMI-PKG方案。通过引入新的&hellip; </p></div>
 
 
 <p>传统的基于物理层的密钥生成 (PKG) 方案中，窃听者和合法用户之间存在的空间相关性，可能导致窃听者能够重建信道并获得密钥。基于预编码矩阵索引 (PMI) 的PKG方案可以挫败这种攻击。 然而，现有的基于PMI的方案往往忽略了<strong>信道矩阵为非方阵</strong>的情况。在信道矩阵非方阵的实际场景下，现有方法的码本检测准确性和密钥一致性有待提高。</p>
