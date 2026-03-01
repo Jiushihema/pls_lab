@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	「基于恶意RIS的密钥窃取攻击与防御策略」的评论	</title>
-	<atom:link href="http://127.0.0.1:10005/malicious-ris-secret-key-acquisition-attack-defense/feed/" rel="self" type="application/rss+xml" />
-	<link>http://127.0.0.1:10005/malicious-ris-secret-key-acquisition-attack-defense/</link>
+	<atom:link href="http://jiushihema.github.io/pls_lab/malicious-ris-secret-key-acquisition-attack-defense/feed/" rel="self" type="application/rss+xml" />
+	<link>http://jiushihema.github.io/pls_lab/malicious-ris-secret-key-acquisition-attack-defense/</link>
 	<description></description>
 	<lastBuildDate>Tue, 27 Jan 2026 12:39:39 +0000</lastBuildDate>
 	<sy:updatePeriod>

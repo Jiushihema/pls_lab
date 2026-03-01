@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	「基于星座密度图的ADS-B信号指纹在线识别」的评论	</title>
-	<atom:link href="http://127.0.0.1:10005/few-shot-ads-b-rff-constellation-density-map/feed/" rel="self" type="application/rss+xml" />
-	<link>http://127.0.0.1:10005/few-shot-ads-b-rff-constellation-density-map/</link>
+	<atom:link href="http://jiushihema.github.io/pls_lab/few-shot-ads-b-rff-constellation-density-map/feed/" rel="self" type="application/rss+xml" />
+	<link>http://jiushihema.github.io/pls_lab/few-shot-ads-b-rff-constellation-density-map/</link>
 	<description></description>
 	<lastBuildDate>Thu, 29 Jan 2026 10:55:18 +0000</lastBuildDate>
 	<sy:updatePeriod>
