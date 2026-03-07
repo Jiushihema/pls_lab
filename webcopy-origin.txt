@@ -118,10 +118,6 @@ Uri: http://127.0.0.1:10005/wp-content/plugins/ultimate-addons-for-gutenberg/ass
 File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\plugins\ultimate-addons-for-gutenberg\assets\js\timeline.min-1.js
 Content Type: application/x-javascript
 
-Uri: http://127.0.0.1:10005/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\plugins\ultimate-addons-for-gutenberg\assets\js\uagb-button-child.min-1.js
-Content Type: application/x-javascript
-
 Uri: http://127.0.0.1:10005/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css
 File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\plugins\wp-quicklatex\css\quicklatex-format-1.css
 Content Type: text/css
@@ -252,6 +248,10 @@ Content Type: text/css
 
 Uri: http://127.0.0.1:10005/wp-includes/blocks/cover/style.min.css
 File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-includes\blocks\cover\style.min-1.css
+Content Type: text/css
+
+Uri: http://127.0.0.1:10005/wp-includes/blocks/navigation/style.min.css
+File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-includes\blocks\navigation\style.min.css
 Content Type: text/css
 
 Uri: http://127.0.0.1:10005/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
@@ -521,163 +521,4 @@ Content Type: image/png
 Uri: http://localhost:10005/wp-content/uploads/2026/02/f709cbecb00186669214ab01cca76b57.png
 File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\f709cbecb00186669214ab01cca76b57-1.png
 Content Type: image/png
-
-er3-1.jpg
-Content Type: image/jpeg
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/0711b9ff0f8e9bb672e8a115f4e016db.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\0711b9ff0f8e9bb672e8a115f4e016db-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/20ed3daf-9ebd-4612-86b4-4094bb94b723.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\20ed3daf-9ebd-4612-86b4-4094bb94b723-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/2b103bde82e11c57d10ff853ebc90703.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\2b103bde82e11c57d10ff853ebc90703-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/367e484326ce897f23bd88e205c9d685.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\367e484326ce897f23bd88e205c9d685-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/39991f3d006597b16c1a72906d1f60e0.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\39991f3d006597b16c1a72906d1f60e0-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/39b853ac-69f2-47ab-b3e1-cc947facc4e2.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\39b853ac-69f2-47ab-b3e1-cc947facc4e2-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/4109868f52ea772d2b9fab86e44e302f.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\4109868f52ea772d2b9fab86e44e302f-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/491084877eb0182909bdd27f3e33d507.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\491084877eb0182909bdd27f3e33d507-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/4ce1b83b78baa8ef37e0e4fa99a47d54.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\4ce1b83b78baa8ef37e0e4fa99a47d54-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/598a78506aec8e67ebb19c02ed03228d.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\598a78506aec8e67ebb19c02ed03228d-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/5b4c303d6e216aa7ad390b912c1c6fbf.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\5b4c303d6e216aa7ad390b912c1c6fbf-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/63a3d527ea435069db5a10e2d234ba51.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\63a3d527ea435069db5a10e2d234ba51-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/6af9c16e9ae142012141120a4a0f896f.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\6af9c16e9ae142012141120a4a0f896f-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/76b6a21e-bea2-409f-9e71-b2904d340070.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\76b6a21e-bea2-409f-9e71-b2904d340070-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/77ea670b44d394ea642a4c065a5f8ef3.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\77ea670b44d394ea642a4c065a5f8ef3-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/78a149ba9c95637b1a95c237378edb48.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\78a149ba9c95637b1a95c237378edb48-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/9764abe3d2dc8178661c7ff3e47fe51a.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\9764abe3d2dc8178661c7ff3e47fe51a-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/9d1fa4ae24935e0b0c00d469c05ddd28.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\9d1fa4ae24935e0b0c00d469c05ddd28-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/a58d7032b67751cec5e4abd1326f1940.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\a58d7032b67751cec5e4abd1326f1940-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/a8bf2fdad08e18e0c4429e2f0ab88e9a.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\a8bf2fdad08e18e0c4429e2f0ab88e9a-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/a8d09a52e55f31a0c00ac297a493ddce.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\a8d09a52e55f31a0c00ac297a493ddce-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/af36f7164cd69457e702cd77ed10a9f9.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\af36f7164cd69457e702cd77ed10a9f9-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/c31856c15262fefb8d9abbd7bfd6fd6e.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\c31856c15262fefb8d9abbd7bfd6fd6e-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/c43f2d1d0ca242decd84ddc1762e6294.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\c43f2d1d0ca242decd84ddc1762e6294-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/c596aea4ac7fbd6aaab7896346a36556.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\c596aea4ac7fbd6aaab7896346a36556-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/d5330e234c25067c94ce74b69bfe9a4a.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\d5330e234c25067c94ce74b69bfe9a4a-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/db8e4248-bd2d-4e16-a91d-0e8a10d68fe5.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\db8e4248-bd2d-4e16-a91d-0e8a10d68fe5-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/e0d18a81-4911-471c-b78e-18047b314886.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\e0d18a81-4911-471c-b78e-18047b314886-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/e8d2387b061d4418cc0aa0b3fba66e03.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\e8d2387b061d4418cc0aa0b3fba66e03-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/f4dae3a370e396884a0f81947392f362.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\f4dae3a370e396884a0f81947392f362-1.png
-Content Type: image/png
-
-Uri: http://localhost:10005/wp-content/uploads/2026/02/f709cbecb00186669214ab01cca76b57.png
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\wp-content\uploads\2026\02\f709cbecb00186669214ab01cca76b57-1.png
-Content Type: image/png
-
-Uri: https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Open+Sans:wght@400;600&display=swap
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\css2-family-Titillium Webwght@200;300;400;600;700,Open Sanswght@400;600-display-swap.css
-Content Type: text/css
-
-Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffAzHKIw.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\titilliumweb\v19\NaPDcZTIAOhVxoMyOr9n_E7ffAzHKIw-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffBzCKIw.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\titilliumweb\v19\NaPDcZTIAOhVxoMyOr9n_E7ffBzCKIw-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffGjEKIw.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\titilliumweb\v19\NaPDcZTIAOhVxoMyOr9n_E7ffGjEKIw-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffHjDKIw.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\titilliumweb\v19\NaPDcZTIAOhVxoMyOr9n_E7ffHjDKIw-1.ttf
-Content Type: font/ttf
-
-Uri: https://fonts.gstatic.com/s/titilliumweb/v19/NaPecZTIAOhVxoMyOr9n_E7fRMQ.ttf
-File Name: C:\Users\hema\Desktop\webcpy\127.0.0.1\s\titilliumweb\v19\NaPecZTIAOhVxoMyOr9n_E7fRMQ-1.ttf
-Content Type: font/ttf
 

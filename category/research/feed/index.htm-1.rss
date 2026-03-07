@@ -12,7 +12,7 @@
 	<atom:link href="http://127.0.0.1:10005/category/research/feed/" rel="self" type="application/rss+xml" />
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
-	<lastBuildDate>Sat, 07 Mar 2026 14:05:30 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 07 Mar 2026 15:14:56 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -53,13 +53,13 @@
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-62485281 lab-btn-group"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-cdf5aa06 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Exploiting_Malicious_RIS_for_Secret_Key_Acquisition_in_Physical-Layer_Key_Generation.pdf" rel="follow noopener" target="_self" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</div></a></div></div>
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Exploiting_Malicious_RIS_for_Secret_Key_Acquisition_in_Physical-Layer_Key_Generation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-fe76d262 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="https://doi.org/10.1109/TVT.2023.3314491" rel="follow noopener" target="_blank" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</div></a></div></div>
-</div></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://ieeexplore.ieee.org/document/10310101/" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
 </div>
 
 
@@ -111,17 +111,17 @@
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-46f43c70 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
 
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png" alt="" class="uag-image-921" width="802" height="656" title="PixPin_2026-03-07_22-04-49" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-3027cfb8 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_22-04-49.png" alt="" class="uag-image-921" width="802" height="656" title="PixPin_2026-03-07_22-04-49" loading="lazy" role="img"/></figure></div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>CDPP 防御方案将攻击成功率从趋近 1 压制到理论上界 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>0.6065</mn><mrow><mi>L</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">0.6065^{L/2}</annotation></semantics></math>0.6065L/2 以下，同时保证 CDPP 最低密钥率为 0.147 bits/channel use</strong>：如原文 <strong>Fig. 4</strong> 所示，在无防护的 RISL 攻击下，当 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><mo>+</mo><msub><mi>h</mi><mi>r</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mi mathvariant="normal">/</mi><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">|h_d+h_r|^2/|h_d|^2 &gt; 1</annotation></semantics></math>∣hd​+hr​∣2/∣hd​∣2>1 时攻击成功率单调趋近 1；而在 CDPP 防护下，<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">L=2</annotation></semantics></math>L=2 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">L=4</annotation></semantics></math>L=4 时成功率分别严格低于 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.6065</mn></mrow><annotation encoding="application/x-tex">0.6065</annotation></semantics></math>0.6065 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>0.6065</mn><mn>2</mn></msup><mo>≈</mo><mn>0.368</mn></mrow><annotation encoding="application/x-tex">0.6065^2 \approx 0.368</annotation></semantics></math>0.60652≈0.368，且随 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><mo>+</mo><msub><mi>h</mi><mi>r</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mi mathvariant="normal">/</mi><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">|h_d+h_r|^2/|h_d|^2</annotation></semantics></math>∣hd​+hr​∣2/∣hd​∣2 增大渐近收敛至该上界，与 Theorem 2 的理论推导完全吻合。</p>
+<p class="lab-experiment-caption has-medium-font-size"><strong>CDPP 防御方案将攻击成功率从趋近 1 压制到理论上界 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>0.6065</mn><mrow><mi>L</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">0.6065^{L/2}</annotation></semantics></math>0.6065L/2 以下，同时保证 CDPP 最低密钥率为 0.147 bits/channel use</strong>：如原文 <strong>Fig. 4</strong> 所示，在无防护的 RISL 攻击下，当 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><mo>+</mo><msub><mi>h</mi><mi>r</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mi mathvariant="normal">/</mi><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">|h_d+h_r|^2/|h_d|^2 &gt; 1</annotation></semantics></math>∣hd​+hr​∣2/∣hd​∣2&gt;1 时攻击成功率单调趋近 1；而在 CDPP 防护下，<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">L=2</annotation></semantics></math>L=2 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">L=4</annotation></semantics></math>L=4 时成功率分别严格低于 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.6065</mn></mrow><annotation encoding="application/x-tex">0.6065</annotation></semantics></math>0.6065 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>0.6065</mn><mn>2</mn></msup><mo>≈</mo><mn>0.368</mn></mrow><annotation encoding="application/x-tex">0.6065^2 \approx 0.368</annotation></semantics></math>0.60652≈0.368，且随 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><mo>+</mo><msub><mi>h</mi><mi>r</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mi mathvariant="normal">/</mi><mi mathvariant="normal">∣</mi><msub><mi>h</mi><mi>d</mi></msub><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">|h_d+h_r|^2/|h_d|^2</annotation></semantics></math>∣hd​+hr​∣2/∣hd​∣2 增大渐近收敛至该上界，与 Theorem 2 的理论推导完全吻合。</p>
 </div>
 </div>
 
@@ -194,13 +194,13 @@
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-62485281 lab-btn-group"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-cdf5aa06 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Real-World_Aircraft_Recognition_Based_on_RF_Fingerprinting_With_Few_Labeled_ADS-B_Signals.pdf" rel="follow noopener" target="_self" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</div></a></div></div>
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Real-World_Aircraft_Recognition_Based_on_RF_Fingerprinting_With_Few_Labeled_ADS-B_Signals.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-fe76d262 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="https://doi.org/10.1109/TVT.2023.3314491" rel="follow noopener" target="_blank" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</div></a></div></div>
-</div></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TVT.2023.3314491" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
 </div>
 
 
@@ -252,12 +252,12 @@
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
 
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png" alt="" class="uag-image-876" width="802" height="656" title="a3d420dd59e4354d91145054e2ab4ef2" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/a3d420dd59e4354d91145054e2ab4ef2.png" alt="" class="uag-image-876" width="802" height="656" title="a3d420dd59e4354d91145054e2ab4ef2" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -335,13 +335,13 @@
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-62485281 lab-btn-group"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-cdf5aa06 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligent_Surface-Aided_Secret_Key_Generation_in_Multi-Cell_Systems.pdf" rel="follow noopener" target="_self" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</div></a></div></div>
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligent_Surface-Aided_Secret_Key_Generation_in_Multi-Cell_Systems.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-fe76d262 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="https://doi.org/10.1109/TCOMM.2023.3301048" rel="follow noopener" target="_blank" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</div></a></div></div>
-</div></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TCOMM.2023.3301048" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
 </div>
 
 
@@ -397,12 +397,12 @@
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-72007c97 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
 
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png" alt="" class="uag-image-904" width="802" height="656" title="111111" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png" alt="" class="uag-image-904" width="802" height="656" title="111111" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -480,13 +480,13 @@
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-62485281 lab-btn-group"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-cdf5aa06 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligent_Surface-Assisted_Secret_Key_Generation_in_Spatially_Correlated_Channels.pdf" rel="follow noopener" target="_self" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</div></a></div></div>
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligent_Surface-Assisted_Secret_Key_Generation_in_Spatially_Correlated_Channels.pdf" target="_blank" rel="noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
-<div class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-fe76d262 wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="https://doi.org/10.1109/TWC.2023.3296076" rel="follow noopener" target="_blank" role="button"><div class="uagb-button__link"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</div></a></div></div>
-</div></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TWC.2023.3296076" target="_blank" rel="noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
 </div>
 
 
@@ -538,12 +538,12 @@
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-a3b04d11 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results (实验结果)</h3></div>
 
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png" alt="" class="uag-image-911" width="802" height="656" title="PixPin_2026-03-07_21-51-22" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-536919e5 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-51-22.png" alt="" class="uag-image-911" width="802" height="656" title="PixPin_2026-03-07_21-51-22" loading="lazy" role="img"/></figure></div>
 
 
 
