@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; PLS-LAB</title>
+	<atom:link href="http://127.0.0.1:10005/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://127.0.0.1:10005</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 Mar 2026 08:30:37 +0000</lastBuildDate>
+	<language>zh-Hans</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.1</generator>
+
+<image>
+	<url>http://127.0.0.1:10005/wp-content/uploads/2026/01/718857fe-7e7e-4487-90e8-2c81ebcfa141-150x150.png</url>
+	<title>Uncategorized &#8211; PLS-LAB</title>
+	<link>http://127.0.0.1:10005</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title></title>
+		<link>http://127.0.0.1:10005/707-2/</link>
+					<comments>http://127.0.0.1:10005/707-2/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Sat, 07 Mar 2026 08:30:36 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://127.0.0.1:10005/?p=707</guid>
+
+					<description><![CDATA[RIS-Assisted Physical Layer Key Generation for Secure W [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-group">
+<h1 class="wp-block-heading has-text-align-center" style="margin-top: 40px; margin-bottom: 10px;">RIS-Assisted Physical Layer Key Generation for Secure Wireless Communications</h1>
+<p class="has-text-align-center has-text-color" style="color: #555555; font-size: 18px;">张三, <strong>王五*</strong>, 李四</p>
+<p class="has-text-align-center has-text-color" style="color: #888888; font-size: 15px; font-style: italic;">发表于: IEEE Transactions on Wireless Communications, 2026</p>
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link has-base-color has-contrast-background-color has-text-color has-background wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF (Preprint)</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4bb.png" alt="💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> GitHub 代码</a></div>
+</div>
+<div class="wp-block-spacer" style="height: 30px;" aria-hidden="true">&nbsp;</div>
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://s.wp.com/images/block-editor/welcome-editor.svg" alt="请替换为您的架构图">
+<figcaption class="wp-element-caption">图1：智能反射面（RIS）辅助的合法双方信道特征增强与窃听信道恶化模型</figcaption>
+</figure>
+<div class="wp-block-spacer" style="height: 20px;" aria-hidden="true">&nbsp;</div>
+<h3 class="wp-block-heading"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract (摘要)</h3>
+<blockquote class="wp-block-quote" style="border-left-color: #000000; border-left-width: 4px; padding-left: 20px;"><p>针对静态无线环境中信道随机性不足导致物理层密钥生成率低的问题，本文提出了一种基于智能反射面（RIS）辅助的密钥生成机制。通过联合优化基站的波束成形矩阵和RIS的相移矩阵，我们主动构造了快速时变且高熵的等效级联信道。仿真结果表明，与传统方案相比，该方案将密钥生成率提升了 120%。</p></blockquote>
+<h3 class="wp-block-heading" style="margin-top: 30px;"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions (核心贡献)</h3>
+<ul class="wp-block-list">
+<li>建立了一种新颖的交替优化算法，解决 RIS 相移与密钥生成率最大化的非凸优化问题。</li>
+<li>在相关信道模型下，推导了具有被动窃听者场景下的安全密钥容量闭式下界。</li>
+<li>开源了基于 MATLAB 的完整相移优化与信道探测代码，便于后续研究复现。</li>
+</ul>
+<h3 class="wp-block-heading" style="margin-top: 30px;"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper (引用格式)</h3>
+<pre class="wp-block-code"><code>@article{zhang2026ris,
+  title={RIS-Assisted Physical Layer Key Generation for Secure Wireless Communications},
+  author={Zhang, San and Li, Si and Wang, Wu},
+  journal={IEEE Transactions on Wireless Communications},
+  year={2026},
+  publisher={IEEE}
+}</code></pre>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://127.0.0.1:10005/707-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
