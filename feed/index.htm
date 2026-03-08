@@ -12,7 +12,7 @@
 	<atom:link href="http://127.0.0.1:10005/feed/" rel="self" type="application/rss+xml" />
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
-	<lastBuildDate>Sun, 08 Mar 2026 06:05:17 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 08 Mar 2026 07:30:41 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -82,7 +82,7 @@
 
 
 <ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出并分析 RISL 主动攻击</strong>：在块衰落环境中，攻击者控制 RIS 交替将反射系数设为全 0 和全 1，使 RSS 随时间规律波动，导致合法双方量化比特序列呈现固定模式（如$\{0,1,0,1,\ldots\}$），从而使攻击者可完全预测所生成的密钥。</li>
+<li class="lab-feature-list"><strong>提出并分析 RISL 主动攻击</strong>：在块衰落环境中，攻击者控制 RIS 交替将反射系数设为全 0 和全 1，使 RSS 随时间规律波动，导致合法双方量化比特序列呈现固定模式（如$\{0,1,0,1,\ldots\}$），从而使攻击者几乎可完全预测所生成的密钥。</li>
 
 
 
@@ -90,7 +90,7 @@
 
 
 
-<li class="lab-feature-list"><strong>提出 CDPP 防御方案并推导成功率上界</strong>：Alice 在发送导频时引入服从复高斯分布的人工随机系数$w(i)$，使信道增益中叠加了不可预测的随机性，从而破坏 RSS 的规律性波动。理论证明，在 CDPP 防护下，即使$|h_d + h_r|^2 \,/\, |h_d|^2 \to \infty$攻击成功率的上界也仅为$0.6065^{L/2}$，相比无防护时趋近于 1 有根本性改善。</li>
+<li class="lab-feature-list"><strong>提出 CDPP 防御方案并推导成功率上界</strong>：Alice 在发送私有导频时引入服从复高斯分布的人工随机系数$w(i)$，使信道增益中叠加了不可预测的随机性，从而破坏 RSS 的规律性波动。理论证明，在 CDPP 防护下，即使$|h_d + h_r|^2 \,/\, |h_d|^2 \to \infty$攻击成功率的上界也仅为$0.6065^{L/2}$，相比无防护时趋近于 1 有根本性改善。</li>
 </ul>
 
 
@@ -105,7 +105,7 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文考虑一个基于 RSS 的 PKG 模型，Alice 与 Bob 两个单天线合法端在 TDD 模式下通过交替探测信道生成对称密钥，而攻击者 Eve 配备了一个拥有 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 个无源反射元素的 RIS。<strong>RISL 攻击阶段</strong>，Eve 在奇数轮探测中将反射矩阵设为零矩阵（仅直接链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>d</mi></msub></mrow><annotation encoding="application/x-tex">h_d</annotation></semantics></math>hd​ 有效），在偶数轮中设为单位矩阵（直接链路与 RIS 感应链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">h_r</annotation></semantics></math>hr​ 叠加），使偶数轮 RSS 系统性地强于奇数轮，合法双方量化比特退化为可预测的交替序列 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>K</mi><mi>e</mi></msub><mo>=</mo><mo stretchy="false">{</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">K_e = \{0,1,\ldots,0,1\}</annotation></semantics></math>。<strong>CDPP 防御阶段</strong>，Alice 在下行导频中乘以私有随机系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><mo>∼</mo><mrow><mi mathvariant="script">C</mi><mi mathvariant="script">N</mi></mrow><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i) \sim \mathcal{CN}(0,1)</annotation></semantics></math>，Bob 上行发送公共导频后，Alice 将自身信道估计乘以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)</annotation></semantics></math> 对齐，使等效信道增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><msub><mi>h</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)h_{ba}(i)</annotation></semantics></math> 引入不可预测的随机性，从根本上破坏 RSS 的规律性，同时保持合法双方的信道互易性。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文考虑一个基于 RSS 的 PKG 模型，Alice 与 Bob 两个单天线合法端在 TDD 模式下通过交替探测信道生成对称密钥，而攻击者 Eve 配备了一个拥有 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 个无源反射元素的 RIS。<strong>RISL 攻击阶段</strong>，Eve 在奇数轮探测中将反射矩阵设为零矩阵（仅直接链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>d</mi></msub></mrow><annotation encoding="application/x-tex">h_d</annotation></semantics></math>hd​ 有效），在偶数轮中设为单位矩阵（直接链路与 RIS 感应链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">h_r</annotation></semantics></math>hr​ 叠加），使偶数轮 RSS 系统性地强于奇数轮，合法双方量化比特退化为可预测的交替序列 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>K</mi><mi>e</mi></msub><mo>=</mo><mo stretchy="false">{</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">K_e = \{0,1,\ldots,0,1\}</annotation></semantics></math>。<strong>CDPP 防御阶段</strong>，Alice 在下行导频中乘以私有随机系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><mo>∼</mo><mrow><mi mathvariant="script">C</mi><mi mathvariant="script">N</mi></mrow><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i) \sim \mathcal{CN}(0,1)</annotation></semantics></math>，Bob 上行发送公共导频后，Alice 将接收信号 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>y</mi><mo>ˉ</mo></mover><mi>a</mi></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\bar{y}_a(i)</annotation></semantics></math>乘以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)</annotation></semantics></math> ，使等效信道增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><msub><mi>h</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)h_{ba}(i)</annotation></semantics></math> 引入不可预测的随机性，从根本上破坏 RSS 的规律性，同时保持合法双方的信道互易性。</p>
 </div>
 </div>
 
@@ -127,7 +127,7 @@
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper (引用格式)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
 
 
 
@@ -281,7 +281,7 @@
   pages     = {2866--2871},
   month     = feb,
   year      = {2024},
-  doi       = {10.1109/TVT.2023.3304566}
+  doi       = {10.1109/TVT.2023.3314491}
 }
 </code></pre>
 </div>
@@ -355,7 +355,7 @@
 
 
 
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率。针对该问题的非凸性，本文推导了 WSKR 的一个上界并证明其紧性。为求解上界最大化问题，本文采用基于交替优化的算法，将联合优化分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升算法。仿真结果验证了所提算法的近最优性能，以及 RIS 通过缓解导频污染来提升 WSKR 的有效性。</p></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率。针对该问题的非凸性，本文采用基于交替优化的算法，将联合优化问题分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升算法。仿真结果验证了所提方案的有效性，展示了 WSKR 的显著提升。此外，与单 RIS 方案相比，部署多个 RIS 能提供空间分集，从而进一步改善多小区 PKG 性能。</p></blockquote></figure>
 
 
 
@@ -364,19 +364,15 @@
 
 
 <ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出了新型 RIS 辅助多小区 PKG 框架</strong>：基于 BS 处的预编码矩阵与 RIS 处的相移，构建了一套完整的多小区物理层密钥生成框架，并推导了密钥生成速率（KGR）的闭合表达式，进而将问题建模为 WSKR 最大化优化问题。</li>
+<li class="lab-feature-list"><strong>提出了新型 RIS 辅助多小区 PKG 框架</strong>：基于 BS 处的预编码矩阵与 RIS 处的相移，构建了完整的多小区物理层密钥生成框架，推导了密钥生成速率的闭合表达式，并将问题建模为全网 WSKR 最大化优化问题。此外，理论证明了在无 RIS 部署时，小区间干扰会导致 KGR 极低乃至趋近于零。</li>
 
 
 
-<li class="lab-feature-list"><strong>推导了 WSKR 紧上界</strong>：针对原始非凸优化问题难以直接求解的挑战，利用数据处理不等式推导出 KGR 的一个紧上界，并理论证明了其紧性（当 RF 链数等于天线数时上界精确成立），从而将原问题转化为更易处理的上界最大化问题。</li>
+<li class="lab-feature-list"><strong>设计了高效的 AO 双子问题求解算法</strong>：针对原始非凸优化问题，将联合优化分解为两个交替求解的子问题。对于预编码矩阵子问题，基于 KKT 条件推导其最优结构，并结合二分搜索求解拉格朗日乘子；对于相移向量子问题，推导了目标函数关于相移的闭合梯度表达式，采用 PGA 算法迭代更新并通过回溯线搜索确定步长，保证了算法目标值的单调不减收敛性。</li>
 
 
 
-<li class="lab-feature-list"><strong>设计了高效的 AO 双子问题求解算法</strong>：将联合优化分解为两个交替求解的子问题：针对预编码矩阵子问题，基于 KKT 条件推导出最优结构，并结合二分搜索求解拉格朗日乘子；针对相移向量子问题，推导了目标函数关于相移的闭合梯度表达式，采用 PGA 算法迭代更新并通过反向线搜索确定步长，保证了算法的单调收敛性。</li>
-
-
-
-<li class="lab-feature-list"><strong>揭示了多 RIS 空间分集增益</strong>：通过四小区场景的仿真，系统研究了 RIS 部署位置与数量对 PKG 性能的影响，证明了分布式部署多个 RIS（每个 RIS 靠近各自服务的 UT）相比单 RIS 方案能提供更丰富的空间分集，从而进一步提升多小区 PKG 性能。</li>
+<li class="lab-feature-list"><strong>揭示了分布式多 RIS 的空间分集增益</strong>：通过七小区场景的系统仿真，研究了 RIS 部署位置与数量对 PKG 性能的影响。仿真结果表明，将 RIS 部署在小区边界处能够最有效地抑制小区间导频污染；与单 RIS 方案相比，将多个 RIS 分布式部署于各小区边界能提供更丰富的空间分集，在提升全网 WSKR 的同时改善各小区间的 KGR 公平性。</li>
 </ul>
 
 
@@ -386,12 +382,12 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png" alt="" class="uag-image-903" width="802" height="656" title="PixPin_2026-03-07_21-35-18" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png" alt="" class="uag-image-985" width="802" height="656" title="PixPin_2026-03-08_15-17-22" loading="lazy" role="img"/></figure></div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道信息联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math>Pk​ 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>，并通过智能控制器下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过调整相移对反射信号进行定向叠加，使小区间干扰在目标节点处相消，从而在上下行信道估计中提取互易的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化、信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>​。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道状态信息（统计 CSI）联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math> 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>，并通过智能控制器将相移配置下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过优化后的相移对反射信号进行调控，使来自其他小区的小区间导频干扰在目标通信节点处发生破坏性叠加以抑制干扰功率，从而在上下行信道估计中提取具有互易性的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化，生成原始密钥比特序列，再经信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>​。</p>
 </div>
 </div>
 
@@ -402,12 +398,24 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/111111.png" alt="" class="uag-image-904" width="802" height="656" title="111111" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/22222.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/22222.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/22222.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/22222.png" alt="" class="uag-image-986" width="802" height="656" title="22222" loading="lazy" role="img"/></figure></div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>RIS 对小区边缘 UT 的 WSKR 提升最为显著</strong>：在无 RIS 的基线方案中，小区边缘 UT 因遭受严重小区间导频污染，WSKR 趋近于零；而所提方案在相同条件下 WSKR 达到 6.57 bits/channel use，基线仅为 0.49 bits/channel use，提升超过 13 倍。</p>
+<p class="lab-experiment-caption has-medium-font-size"><strong>无 RIS 时 WSKR 严重受限，RIS 部署不可或缺</strong>：在七小区仿真场景中，无 RIS 方案的 WSKR 在高发射功率区间饱和于仅 <strong>2.5 bits/channel use</strong>，根本原因在于非互易的小区间干扰主导了上下行信道估计，使得密钥一致性严重恶化（BDR 饱和于约 0.34）。所提联合优化算法能够持续提升 WSKR，显著超越所有基线方案。</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png" alt="" class="uag-image-987" width="802" height="656" title="PixPin_2026-03-08_15-20-10" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size"><strong>分布式多 RIS 优于单 RIS</strong>：在总 RIS 元素数相同（均为 180 个）的条件下，将六个 RIS（各 30 元素）分布式部署于六个小区边界，相比将单个 RIS（180 元素）集中部署，全网 WSKR 从 <strong>9.19 bits/channel use</strong> 提升至 <strong>10.39 bits/channel use</strong>，各小区最低 KGR 亦从 0.25 提升至 0.35 bits/channel use，公平性显著改善。</p>
 </div>
 </div>
 
@@ -418,15 +426,15 @@
 
 
 <pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{hu2023reconfigurable,
-  author    = {Lei Hu and Chen Sun and Guyue Li and Aiqun Hu and Derrick Wing Kwan Ng},
-  title     = {Reconfigurable Intelligent Surface-Aided Secret Key Generation in Multi-Cell Systems},
-  journal   = {IEEE Transactions on Communications},
-  volume    = {71},
-  number    = {11},
-  pages     = {6499--6513},
-  month     = nov,
-  year      = {2023},
-  doi       = {10.1109/TCOMM.2023.3303867}
+  author  = {Lei Hu and Chen Sun and Guyue Li and Aiqun Hu and Derrick Wing Kwan Ng},
+  title   = {Reconfigurable Intelligent Surface-Aided Secret Key Generation in Multi-Cell Systems},
+  journal = {IEEE Transactions on Communications},
+  volume  = {71},
+  number  = {11},
+  pages   = {6499--6513},
+  month   = nov,
+  year    = {2023},
+  doi     = {10.1109/TCOMM.2023.3301048}
 }
 </code></pre>
 </div>
@@ -591,56 +599,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>http://127.0.0.1:10005/733-2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title></title>
-		<link>http://127.0.0.1:10005/707-2/</link>
-					<comments>http://127.0.0.1:10005/707-2/#respond</comments>
-		
-		<dc:creator><![CDATA[jiushihema]]></dc:creator>
-		<pubDate>Sat, 07 Mar 2026 08:30:36 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">http://127.0.0.1:10005/?p=707</guid>
-
-					<description><![CDATA[RIS-Assisted Physical Layer Key Generation for Secure W [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-group">
-<h1 class="wp-block-heading has-text-align-center" style="margin-top: 40px; margin-bottom: 10px;">RIS-Assisted Physical Layer Key Generation for Secure Wireless Communications</h1>
-<p class="has-text-align-center has-text-color" style="color: #555555; font-size: 18px;">张三, <strong>王五*</strong>, 李四</p>
-<p class="has-text-align-center has-text-color" style="color: #888888; font-size: 15px; font-style: italic;">发表于: IEEE Transactions on Wireless Communications, 2026</p>
-<div class="wp-block-buttons">
-<div class="wp-block-button"><a class="wp-block-button__link has-base-color has-contrast-background-color has-text-color has-background wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF (Preprint)</a></div>
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4bb.png" alt="💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> GitHub 代码</a></div>
-</div>
-<div class="wp-block-spacer" style="height: 30px;" aria-hidden="true">&nbsp;</div>
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" src="https://s.wp.com/images/block-editor/welcome-editor.svg" alt="请替换为您的架构图">
-<figcaption class="wp-element-caption">图1：智能反射面（RIS）辅助的合法双方信道特征增强与窃听信道恶化模型</figcaption>
-</figure>
-<div class="wp-block-spacer" style="height: 20px;" aria-hidden="true">&nbsp;</div>
-<h3 class="wp-block-heading"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract (摘要)</h3>
-<blockquote class="wp-block-quote" style="border-left-color: #000000; border-left-width: 4px; padding-left: 20px;"><p>针对静态无线环境中信道随机性不足导致物理层密钥生成率低的问题，本文提出了一种基于智能反射面（RIS）辅助的密钥生成机制。通过联合优化基站的波束成形矩阵和RIS的相移矩阵，我们主动构造了快速时变且高熵的等效级联信道。仿真结果表明，与传统方案相比，该方案将密钥生成率提升了 120%。</p></blockquote>
-<h3 class="wp-block-heading" style="margin-top: 30px;"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions (核心贡献)</h3>
-<ul class="wp-block-list">
-<li>建立了一种新颖的交替优化算法，解决 RIS 相移与密钥生成率最大化的非凸优化问题。</li>
-<li>在相关信道模型下，推导了具有被动窃听者场景下的安全密钥容量闭式下界。</li>
-<li>开源了基于 MATLAB 的完整相移优化与信道探测代码，便于后续研究复现。</li>
-</ul>
-<h3 class="wp-block-heading" style="margin-top: 30px;"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper (引用格式)</h3>
-<pre class="wp-block-code"><code>@article{zhang2026ris,
-  title={RIS-Assisted Physical Layer Key Generation for Secure Wireless Communications},
-  author={Zhang, San and Li, Si and Wang, Wu},
-  journal={IEEE Transactions on Wireless Communications},
-  year={2026},
-  publisher={IEEE}
-}</code></pre>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://127.0.0.1:10005/707-2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

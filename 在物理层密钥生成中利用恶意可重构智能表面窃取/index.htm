@@ -1242,7 +1242,7 @@ padding-top: 20px !important;
 		}
 /*# sourceURL=wp-block-template-skip-link-inline-css */
 </style>
-<link rel='stylesheet' id='uag-style-918-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-918.css?ver=1772950045' media='all'>
+<link rel='stylesheet' id='uag-style-918-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-918.css?ver=1772955431' media='all'>
 <link rel="https://api.w.org/" href="../wp-json/index.htm"><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/posts/918"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9.1">
 <link rel="canonical" href="index.htm">
@@ -1339,7 +1339,7 @@ padding-top: 20px !important;
 
 
 <ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出并分析 RISL 主动攻击</strong>：在块衰落环境中，攻击者控制 RIS 交替将反射系数设为全 0 和全 1，使 RSS 随时间规律波动，导致合法双方量化比特序列呈现固定模式（如$\{0,1,0,1,\ldots\}$），从而使攻击者可完全预测所生成的密钥。</li>
+<li class="lab-feature-list"><strong>提出并分析 RISL 主动攻击</strong>：在块衰落环境中，攻击者控制 RIS 交替将反射系数设为全 0 和全 1，使 RSS 随时间规律波动，导致合法双方量化比特序列呈现固定模式（如$\{0,1,0,1,\ldots\}$），从而使攻击者几乎可完全预测所生成的密钥。</li>
 
 
 
@@ -1347,7 +1347,7 @@ padding-top: 20px !important;
 
 
 
-<li class="lab-feature-list"><strong>提出 CDPP 防御方案并推导成功率上界</strong>：Alice 在发送导频时引入服从复高斯分布的人工随机系数$w(i)$，使信道增益中叠加了不可预测的随机性，从而破坏 RSS 的规律性波动。理论证明，在 CDPP 防护下，即使$|h_d + h_r|^2 \,/\, |h_d|^2 \to \infty$攻击成功率的上界也仅为$0.6065^{L/2}$，相比无防护时趋近于 1 有根本性改善。</li>
+<li class="lab-feature-list"><strong>提出 CDPP 防御方案并推导成功率上界</strong>：Alice 在发送私有导频时引入服从复高斯分布的人工随机系数$w(i)$，使信道增益中叠加了不可预测的随机性，从而破坏 RSS 的规律性波动。理论证明，在 CDPP 防护下，即使$|h_d + h_r|^2 \,/\, |h_d|^2 \to \infty$攻击成功率的上界也仅为$0.6065^{L/2}$，相比无防护时趋近于 1 有根本性改善。</li>
 </ul>
 
 
@@ -1362,7 +1362,7 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文考虑一个基于 RSS 的 PKG 模型，Alice 与 Bob 两个单天线合法端在 TDD 模式下通过交替探测信道生成对称密钥，而攻击者 Eve 配备了一个拥有 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 个无源反射元素的 RIS。<strong>RISL 攻击阶段</strong>，Eve 在奇数轮探测中将反射矩阵设为零矩阵（仅直接链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>d</mi></msub></mrow><annotation encoding="application/x-tex">h_d</annotation></semantics></math>hd​ 有效），在偶数轮中设为单位矩阵（直接链路与 RIS 感应链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">h_r</annotation></semantics></math>hr​ 叠加），使偶数轮 RSS 系统性地强于奇数轮，合法双方量化比特退化为可预测的交替序列 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>K</mi><mi>e</mi></msub><mo>=</mo><mo stretchy="false">{</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">K_e = \{0,1,\ldots,0,1\}</annotation></semantics></math>。<strong>CDPP 防御阶段</strong>，Alice 在下行导频中乘以私有随机系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><mo>∼</mo><mrow><mi mathvariant="script">C</mi><mi mathvariant="script">N</mi></mrow><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i) \sim \mathcal{CN}(0,1)</annotation></semantics></math>，Bob 上行发送公共导频后，Alice 将自身信道估计乘以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)</annotation></semantics></math> 对齐，使等效信道增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><msub><mi>h</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)h_{ba}(i)</annotation></semantics></math> 引入不可预测的随机性，从根本上破坏 RSS 的规律性，同时保持合法双方的信道互易性。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文考虑一个基于 RSS 的 PKG 模型，Alice 与 Bob 两个单天线合法端在 TDD 模式下通过交替探测信道生成对称密钥，而攻击者 Eve 配备了一个拥有 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 个无源反射元素的 RIS。<strong>RISL 攻击阶段</strong>，Eve 在奇数轮探测中将反射矩阵设为零矩阵（仅直接链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>d</mi></msub></mrow><annotation encoding="application/x-tex">h_d</annotation></semantics></math>hd​ 有效），在偶数轮中设为单位矩阵（直接链路与 RIS 感应链路 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">h_r</annotation></semantics></math>hr​ 叠加），使偶数轮 RSS 系统性地强于奇数轮，合法双方量化比特退化为可预测的交替序列 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>K</mi><mi>e</mi></msub><mo>=</mo><mo stretchy="false">{</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">K_e = \{0,1,\ldots,0,1\}</annotation></semantics></math>。<strong>CDPP 防御阶段</strong>，Alice 在下行导频中乘以私有随机系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><mo>∼</mo><mrow><mi mathvariant="script">C</mi><mi mathvariant="script">N</mi></mrow><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i) \sim \mathcal{CN}(0,1)</annotation></semantics></math>，Bob 上行发送公共导频后，Alice 将接收信号 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>y</mi><mo>ˉ</mo></mover><mi>a</mi></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\bar{y}_a(i)</annotation></semantics></math>乘以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)</annotation></semantics></math> ，使等效信道增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo><msub><mi>h</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>i</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">w(i)h_{ba}(i)</annotation></semantics></math> 引入不可预测的随机性，从根本上破坏 RSS 的规律性，同时保持合法双方的信道互易性。</p>
 </div>
 </div>
 
@@ -1384,7 +1384,7 @@ padding-top: 20px !important;
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 Cite This Paper (引用格式)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 引用</h3></div>
 
 
 

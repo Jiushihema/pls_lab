@@ -1242,7 +1242,7 @@ padding-top: 20px !important;
 		}
 /*# sourceURL=wp-block-template-skip-link-inline-css */
 </style>
-<link rel='stylesheet' id='uag-style-871-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-871.css?ver=1772950046' media='all'>
+<link rel='stylesheet' id='uag-style-871-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-871.css?ver=1772955432' media='all'>
 <link rel="https://api.w.org/" href="../wp-json/index.htm"><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/posts/871"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9.1">
 <link rel="canonical" href="index.htm">
@@ -1330,7 +1330,7 @@ padding-top: 20px !important;
 
 
 
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率。针对该问题的非凸性，本文推导了 WSKR 的一个上界并证明其紧性。为求解上界最大化问题，本文采用基于交替优化的算法，将联合优化分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升算法。仿真结果验证了所提算法的近最优性能，以及 RIS 通过缓解导频污染来提升 WSKR 的有效性。</p></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率。针对该问题的非凸性，本文采用基于交替优化的算法，将联合优化问题分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升算法。仿真结果验证了所提方案的有效性，展示了 WSKR 的显著提升。此外，与单 RIS 方案相比，部署多个 RIS 能提供空间分集，从而进一步改善多小区 PKG 性能。</p></blockquote></figure>
 
 
 
@@ -1339,19 +1339,15 @@ padding-top: 20px !important;
 
 
 <ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出了新型 RIS 辅助多小区 PKG 框架</strong>：基于 BS 处的预编码矩阵与 RIS 处的相移，构建了一套完整的多小区物理层密钥生成框架，并推导了密钥生成速率（KGR）的闭合表达式，进而将问题建模为 WSKR 最大化优化问题。</li>
+<li class="lab-feature-list"><strong>提出了新型 RIS 辅助多小区 PKG 框架</strong>：基于 BS 处的预编码矩阵与 RIS 处的相移，构建了完整的多小区物理层密钥生成框架，推导了密钥生成速率的闭合表达式，并将问题建模为全网 WSKR 最大化优化问题。此外，理论证明了在无 RIS 部署时，小区间干扰会导致 KGR 极低乃至趋近于零。</li>
 
 
 
-<li class="lab-feature-list"><strong>推导了 WSKR 紧上界</strong>：针对原始非凸优化问题难以直接求解的挑战，利用数据处理不等式推导出 KGR 的一个紧上界，并理论证明了其紧性（当 RF 链数等于天线数时上界精确成立），从而将原问题转化为更易处理的上界最大化问题。</li>
+<li class="lab-feature-list"><strong>设计了高效的 AO 双子问题求解算法</strong>：针对原始非凸优化问题，将联合优化分解为两个交替求解的子问题。对于预编码矩阵子问题，基于 KKT 条件推导其最优结构，并结合二分搜索求解拉格朗日乘子；对于相移向量子问题，推导了目标函数关于相移的闭合梯度表达式，采用 PGA 算法迭代更新并通过回溯线搜索确定步长，保证了算法目标值的单调不减收敛性。</li>
 
 
 
-<li class="lab-feature-list"><strong>设计了高效的 AO 双子问题求解算法</strong>：将联合优化分解为两个交替求解的子问题：针对预编码矩阵子问题，基于 KKT 条件推导出最优结构，并结合二分搜索求解拉格朗日乘子；针对相移向量子问题，推导了目标函数关于相移的闭合梯度表达式，采用 PGA 算法迭代更新并通过反向线搜索确定步长，保证了算法的单调收敛性。</li>
-
-
-
-<li class="lab-feature-list"><strong>揭示了多 RIS 空间分集增益</strong>：通过四小区场景的仿真，系统研究了 RIS 部署位置与数量对 PKG 性能的影响，证明了分布式部署多个 RIS（每个 RIS 靠近各自服务的 UT）相比单 RIS 方案能提供更丰富的空间分集，从而进一步提升多小区 PKG 性能。</li>
+<li class="lab-feature-list"><strong>揭示了分布式多 RIS 的空间分集增益</strong>：通过七小区场景的系统仿真，研究了 RIS 部署位置与数量对 PKG 性能的影响。仿真结果表明，将 RIS 部署在小区边界处能够最有效地抑制小区间导频污染；与单 RIS 方案相比，将多个 RIS 分布式部署于各小区边界能提供更丰富的空间分集，在提升全网 WSKR 的同时改善各小区间的 KGR 公平性。</li>
 </ul>
 
 
@@ -1361,12 +1357,12 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="../wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png ,../wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png 780w, ../wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png 360w" sizes="auto, (max-width: 480px) 150px" src="../wp-content/uploads/2026/03/PixPin_2026-03-07_21-35-18.png" alt="" class="uag-image-903" width="802" height="656" title="PixPin_2026-03-07_21-35-18" loading="lazy" role="img"></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="../wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png ,../wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png 780w, ../wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png 360w" sizes="auto, (max-width: 480px) 150px" src="../wp-content/uploads/2026/03/PixPin_2026-03-08_15-17-22.png" alt="" class="uag-image-985" width="802" height="656" title="PixPin_2026-03-08_15-17-22" loading="lazy" role="img"></figure></div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道信息联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math>Pk​ 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>，并通过智能控制器下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过调整相移对反射信号进行定向叠加，使小区间干扰在目标节点处相消，从而在上下行信道估计中提取互易的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化、信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>​。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道状态信息（统计 CSI）联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math> 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>，并通过智能控制器将相移配置下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过优化后的相移对反射信号进行调控，使来自其他小区的小区间导频干扰在目标通信节点处发生破坏性叠加以抑制干扰功率，从而在上下行信道估计中提取具有互易性的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化，生成原始密钥比特序列，再经信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>​。</p>
 </div>
 </div>
 
@@ -1377,12 +1373,24 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="../wp-content/uploads/2026/03/111111.png ,../wp-content/uploads/2026/03/111111.png 780w, ../wp-content/uploads/2026/03/111111.png 360w" sizes="auto, (max-width: 480px) 150px" src="../wp-content/uploads/2026/03/111111.png" alt="" class="uag-image-904" width="802" height="656" title="111111" loading="lazy" role="img"></figure></div>
+<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="../wp-content/uploads/2026/03/22222.png ,../wp-content/uploads/2026/03/22222.png 780w, ../wp-content/uploads/2026/03/22222.png 360w" sizes="auto, (max-width: 480px) 150px" src="../wp-content/uploads/2026/03/22222.png" alt="" class="uag-image-986" width="802" height="656" title="22222" loading="lazy" role="img"></figure></div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>RIS 对小区边缘 UT 的 WSKR 提升最为显著</strong>：在无 RIS 的基线方案中，小区边缘 UT 因遭受严重小区间导频污染，WSKR 趋近于零；而所提方案在相同条件下 WSKR 达到 6.57 bits/channel use，基线仅为 0.49 bits/channel use，提升超过 13 倍。</p>
+<p class="lab-experiment-caption has-medium-font-size"><strong>无 RIS 时 WSKR 严重受限，RIS 部署不可或缺</strong>：在七小区仿真场景中，无 RIS 方案的 WSKR 在高发射功率区间饱和于仅 <strong>2.5 bits/channel use</strong>，根本原因在于非互易的小区间干扰主导了上下行信道估计，使得密钥一致性严重恶化（BDR 饱和于约 0.34）。所提联合优化算法能够持续提升 WSKR，显著超越所有基线方案。</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-01e98235 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="../wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png ,../wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png 780w, ../wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png 360w" sizes="auto, (max-width: 480px) 150px" src="../wp-content/uploads/2026/03/PixPin_2026-03-08_15-20-10.png" alt="" class="uag-image-987" width="802" height="656" title="PixPin_2026-03-08_15-20-10" loading="lazy" role="img"></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size"><strong>分布式多 RIS 优于单 RIS</strong>：在总 RIS 元素数相同（均为 180 个）的条件下，将六个 RIS（各 30 元素）分布式部署于六个小区边界，相比将单个 RIS（180 元素）集中部署，全网 WSKR 从 <strong>9.19 bits/channel use</strong> 提升至 <strong>10.39 bits/channel use</strong>，各小区最低 KGR 亦从 0.25 提升至 0.35 bits/channel use，公平性显著改善。</p>
 </div>
 </div>
 
@@ -1393,15 +1401,15 @@ padding-top: 20px !important;
 
 
 <pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{hu2023reconfigurable,
-  author    = {Lei Hu and Chen Sun and Guyue Li and Aiqun Hu and Derrick Wing Kwan Ng},
-  title     = {Reconfigurable Intelligent Surface-Aided Secret Key Generation in Multi-Cell Systems},
-  journal   = {IEEE Transactions on Communications},
-  volume    = {71},
-  number    = {11},
-  pages     = {6499--6513},
-  month     = nov,
-  year      = {2023},
-  doi       = {10.1109/TCOMM.2023.3303867}
+  author  = {Lei Hu and Chen Sun and Guyue Li and Aiqun Hu and Derrick Wing Kwan Ng},
+  title   = {Reconfigurable Intelligent Surface-Aided Secret Key Generation in Multi-Cell Systems},
+  journal = {IEEE Transactions on Communications},
+  volume  = {71},
+  number  = {11},
+  pages   = {6499--6513},
+  month   = nov,
+  year    = {2023},
+  doi     = {10.1109/TCOMM.2023.3301048}
 }
 </code></pre>
 </div>
