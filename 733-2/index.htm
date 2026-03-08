@@ -4,7 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name='robots' content='max-image-preview:large'>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']], 
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+  }
+};
+
+</script>
 <title>多天线空间相关信道下RIS辅助密钥生成方法 &#8211; PLS-LAB</title>
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net'>
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; Feed" href="../feed/index.htm">
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; 评论 Feed" href="../comments/feed/index.htm">
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; 多天线空间相关信道下RIS辅助密钥生成方法 评论 Feed" href="feed/index.htm">
@@ -14,7 +28,6 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
-<link rel='stylesheet' id='wp-quicklatex-format-css' href='../wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.9.1' media='all'>
 <style id='wp-block-site-logo-inline-css'>
 .wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
 /*# sourceURL=http://127.0.0.1:10005/wp-includes/blocks/site-logo/style.min.css */
@@ -1229,10 +1242,7 @@ padding-top: 20px !important;
 		}
 /*# sourceURL=wp-block-template-skip-link-inline-css */
 </style>
-<link rel='stylesheet' id='uag-style-733-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-733.css?ver=1772946889' media='all'>
-<script src="../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="../wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0" id="wp-quicklatex-frontend-js"></script>
+<link rel='stylesheet' id='uag-style-733-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-733.css?ver=1772950046' media='all'>
 <link rel="https://api.w.org/" href="../wp-json/index.htm"><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/posts/733"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9.1">
 <link rel="canonical" href="index.htm">
@@ -1316,15 +1326,15 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text">📌 Abstract (摘要)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text">📌 摘要</h3></div>
 
 
 
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>可重构智能表面（RIS）凭借其对无线传播环境的智能定制能力，是提升物理层密钥生成（PKG）性能的颠覆性技术。现有 RIS 辅助 PKG 方法大多基于基站（BS）与 RIS 处信道独立同分布（i.i.d.）的理想化假设，然而该模型对各向同性散射环境中的典型 RIS 并不准确，忽略信道空间相关性将可能导致 PKG 性能下降。本文建立了一种通用空间相关信道模型，并提出了一种基于发射波束赋形与反射波束赋形的新型信道探测框架。本文推导了密钥生成速率（KGR）的闭合表达式，并构建了一个优化问题，采用低复杂度的块连续上界最小化（BSUM）结合 Mirror-Prox 方法进行求解。仿真结果表明，与基于 i.i.d. 衰落模型的现有方法相比，当相邻 RIS 元素间距为四分之一波长时，所提方法可实现约 5 dB 的发射功率增益；此外，KGR 随 RIS 元素数量的增加显著提升，而随 BS 和用户天线数量的增加仅有边际提升。</p></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>可重构智能表面（RIS）凭借其对无线传播环境的智能定制能力，是提升物理层密钥生成性能的颠覆性技术。现有 RIS 辅助 PKG 方法大多基于基站与 RIS 处信道独立同分布的理想化假设，然而该模型对各向同性散射环境中的典型 RIS 并不准确，忽略信道空间相关性将可能导致 PKG 性能下降。本文建立了一种通用空间相关信道模型，并提出了一种基于发射波束赋形与反射波束赋形的新型信道探测框架。本文推导了密钥生成速率的闭合表达式，并构建了一个优化问题，采用低复杂度的块连续上界最小化结合 Mirror-Prox 方法进行求解。仿真结果表明，与基于 i.i.d. 衰落模型的现有方法相比，当相邻 RIS 元素间距为四分之一波长时，所提方法可实现约 5 dB 的发射功率增益；此外，KGR 随 RIS 元素数量的增加显著提升，而随 BS 和用户天线数量的增加仅有边际提升。</p></blockquote></figure>
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text">💡 Key Contributions (核心贡献)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text">💡 核心贡献</h3></div>
 
 
 
@@ -1342,7 +1352,7 @@ padding-top: 20px !important;
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text">🔧 Method Overview（方法概览）</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text">🔧 方法概览</h3></div>
 
 
 
@@ -1352,13 +1362,13 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文所提框架在 MIMOME 系统中运行，Alice（BS）与 Bob（用户）在 RIS 辅助下通过 TDD 协议交替探测信道，同时对抗多天线窃听者 Eve。<strong>下行信道探测阶段</strong>，Alice 通过优化的发射波束赋形向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">w</mi></mrow><annotation encoding="application/x-tex">\mathbf{w}</annotation></semantics></math>w 发送导频，Bob 对接收信号进行合并与 LS 信道估计；<strong>上行信道探测阶段</strong>，Bob 发送导频，Alice 同样完成信道估计。RIS 的反射波束赋形矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">Φ</mi></mrow><annotation encoding="application/x-tex">\boldsymbol{\Phi}</annotation></semantics></math>Φ 与 Alice 的发射波束赋形向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">w</mi></mrow><annotation encoding="application/x-tex">\mathbf{w}</annotation></semantics></math>w 联合优化，目标是在最差窃听信道条件下最大化最小 KGR，所得信道估计经量化、信息协调与隐私放大后生成对称密钥。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文所提框架在 MIMOME 系统中运行，Alice（BS）与 Bob（用户）在 RIS 辅助下通过 TDD 协议交替探测信道，同时对抗多天线窃听者 Eve。<strong>下行信道探测阶段</strong>，Alice 通过优化的发射波束赋形向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">w</mi></mrow><annotation encoding="application/x-tex">\mathbf{w}</annotation></semantics></math> 发送导频，Bob 对接收信号进行合并与 LS 信道估计；<strong>上行信道探测阶段</strong>，Bob 发送导频，Alice 同样完成信道估计。RIS 的反射波束赋形矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">Φ</mi></mrow><annotation encoding="application/x-tex">\boldsymbol{\Phi}</annotation></semantics></math> 与 Alice 的发射波束赋形向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">w</mi></mrow><annotation encoding="application/x-tex">\mathbf{w}</annotation></semantics></math> 联合优化，目标是在最差窃听信道条件下最大化最小 KGR，所得信道估计经量化、信息协调与隐私放大后生成对称密钥。</p>
 </div>
 </div>
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-a3b04d11 lab-subheading"><h3 class="uagb-heading-text">📊 Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-a3b04d11 lab-subheading"><h3 class="uagb-heading-text">📊 实验结果</h3></div>
 
 
 
@@ -1368,13 +1378,13 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>考虑空间相关性后可实现约 5 dB 发射功率增益，计算复杂度降低约两个数量级</strong>：当 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>≥</mo><mn>30</mn></mrow><annotation encoding="application/x-tex">P \geq 30</annotation></semantics></math>P≥30 dBm、相邻 RIS 元素间距为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mi mathvariant="normal">/</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">\lambda/4</annotation></semantics></math>λ/4、BS 天线相关系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">\rho = 0.2</annotation></semantics></math>ρ=0.2 时，所提方案相比基于 i.i.d. 假设的波束赋形方案获得约 5 dB 发射功率增益，相比无 RIS 的最优发射波束赋形方案获得约 6 dB 增益；同时，BSUM + Mirror-Prox 算法的计算时间比 ASSG 算法减少约两个数量级，同时保持相近 KGR 性能。</p>
+<p class="lab-experiment-caption has-medium-font-size"><strong>考虑空间相关性后可实现约 5 dB 发射功率增益，计算复杂度降低约两个数量级</strong>：当 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>≥</mo><mn>30</mn></mrow><annotation encoding="application/x-tex">P \geq 30</annotation></semantics></math>、相邻 RIS 元素间距为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mi mathvariant="normal">/</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">\lambda/4</annotation></semantics></math>、BS 天线相关系数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">\rho = 0.2</annotation></semantics></math> 时，所提方案相比基于 i.i.d. 假设的波束赋形方案获得约 5 dB 发射功率增益，相比无 RIS 的最优发射波束赋形方案获得约 6 dB 增益；同时，BSUM + Mirror-Prox 算法的计算时间比 ASSG 算法减少约两个数量级，同时保持相近 KGR 性能。</p>
 </div>
 </div>
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 Cite This Paper (引用格式)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 引用</h3></div>
 
 
 
@@ -1470,6 +1480,7 @@ padding-top: 20px !important;
 	
 //# sourceURL=wp-block-template-skip-link-js-after
 </script>
+<script src="../npm/mathjax%404/tex-chtml.js?ver=6.9.1" id="mathjax-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"http://127.0.0.1:10005/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
 </script>

@@ -4,7 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name='robots' content='max-image-preview:large'>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$','$'],['\\(','\\)']], 
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+  }
+};
+
+</script>
 <title>多小区系统中可重构智能表面辅助的物理层密钥生成 &#8211; PLS-LAB</title>
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net'>
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; Feed" href="../feed/index.htm">
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; 评论 Feed" href="../comments/feed/index.htm">
 <link rel="alternate" type="application/rss+xml" title="PLS-LAB &raquo; 多小区系统中可重构智能表面辅助的物理层密钥生成 评论 Feed" href="feed/index.htm">
@@ -14,7 +28,6 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
-<link rel='stylesheet' id='wp-quicklatex-format-css' href='../wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.9.1' media='all'>
 <style id='wp-block-site-logo-inline-css'>
 .wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
 /*# sourceURL=http://127.0.0.1:10005/wp-includes/blocks/site-logo/style.min.css */
@@ -1229,10 +1242,7 @@ padding-top: 20px !important;
 		}
 /*# sourceURL=wp-block-template-skip-link-inline-css */
 </style>
-<link rel='stylesheet' id='uag-style-871-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-871.css?ver=1772946889' media='all'>
-<script src="../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="../wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0" id="wp-quicklatex-frontend-js"></script>
+<link rel='stylesheet' id='uag-style-871-css' href='http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/1000/uag-css-871.css?ver=1772950046' media='all'>
 <link rel="https://api.w.org/" href="../wp-json/index.htm"><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/posts/871"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9.1">
 <link rel="canonical" href="index.htm">
@@ -1316,15 +1326,15 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text">📌 Abstract (摘要)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text">📌 摘要</h3></div>
 
 
 
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面（RIS）对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站（BS）处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率（WSKR）。针对该问题的非凸性，本文推导了 WSKR 的一个上界并证明其紧性。为求解上界最大化问题，本文采用基于交替优化（AO）的算法，将联合优化分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker（KKT）条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升（PGA）算法。仿真结果验证了所提算法的近最优性能，以及 RIS 通过缓解导频污染来提升 WSKR 的有效性。</p></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>物理层密钥生成（PKG）利用无线信道的互易性与随机性，在两个合法通信端之间生成对称密钥。然而，在多小区系统中，PKG 因不同小区复用相同导频而遭受严重的导频污染问题。为此，本文引入多个可重构智能表面对传播环境进行自适应整形，以提升 PKG 性能。具体而言，本文构建了一个优化问题，通过联合优化基站处的预编码矩阵与 RIS 处的相移，以最大化加权和密钥速率。针对该问题的非凸性，本文推导了 WSKR 的一个上界并证明其紧性。为求解上界最大化问题，本文采用基于交替优化的算法，将联合优化分解为两个子问题：对于预编码矩阵子问题，采用基于 Karush-Kuhn-Tucker条件的拉格朗日对偶方法；对于相移子问题，采用投影梯度上升算法。仿真结果验证了所提算法的近最优性能，以及 RIS 通过缓解导频污染来提升 WSKR 的有效性。</p></blockquote></figure>
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text">💡 Key Contributions (核心贡献)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text">💡 核心贡献</h3></div>
 
 
 
@@ -1346,7 +1356,7 @@ padding-top: 20px !important;
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text">🔧 Method Overview（方法概览）</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text">🔧 方法概览</h3></div>
 
 
 
@@ -1356,13 +1366,13 @@ padding-top: 20px !important;
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道信息联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math>Pk​ 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>v，并通过智能控制器下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过调整相移对反射信号进行定向叠加，使小区间干扰在目标节点处相消，从而在上下行信道估计中提取互易的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化、信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>κk​。</p>
+<p class="lab-experiment-caption has-medium-font-size">本文所提框架由三个阶段串联构成。<strong>参数设计阶段</strong>，各 BS 根据统计信道信息联合设计预编码矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="bold">P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\mathbf{P}_k</annotation></semantics></math>Pk​ 与 RIS 相移向量 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\mathbf{v}</annotation></semantics></math>，并通过智能控制器下发至各 RIS。<strong>信道探测阶段</strong>，BS 与 UT 在 TDD 协议下交替发送导频，RIS 通过调整相移对反射信号进行定向叠加，使小区间干扰在目标节点处相消，从而在上下行信道估计中提取互易的信道特征。<strong>密钥生成阶段</strong>，BS 与 UT 对所得信道估计进行量化、信息协调与隐私放大，最终生成对称密钥 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>κ</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\kappa_k</annotation></semantics></math>​。</p>
 </div>
 </div>
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-72007c97 lab-subheading"><h3 class="uagb-heading-text">📊 Experimental Results (实验结果)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-72007c97 lab-subheading"><h3 class="uagb-heading-text">📊 实验结果</h3></div>
 
 
 
@@ -1378,7 +1388,7 @@ padding-top: 20px !important;
 
 
 
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 Cite This Paper (引用格式)</h3></div>
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text">📝 引用</h3></div>
 
 
 
@@ -1474,6 +1484,7 @@ padding-top: 20px !important;
 	
 //# sourceURL=wp-block-template-skip-link-js-after
 </script>
+<script src="../npm/mathjax%404/tex-chtml.js?ver=6.9.1" id="mathjax-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"http://127.0.0.1:10005/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
 </script>

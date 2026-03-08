@@ -118,14 +118,6 @@ Uri: http://127.0.0.1:10005/wp-content/plugins/ultimate-addons-for-gutenberg/ass
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\plugins\ultimate-addons-for-gutenberg\assets\js\timeline.min.js
 Content Type: application/x-javascript
 
-Uri: http://127.0.0.1:10005/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.9.1
-File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\plugins\wp-quicklatex\css\quicklatex-format.css
-Content Type: text/css
-
-Uri: http://127.0.0.1:10005/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0
-File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\plugins\wp-quicklatex\js\wp-quicklatex-frontend.js
-Content Type: application/x-javascript
-
 Uri: http://127.0.0.1:10005/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\themes\twentytwentyfour\assets\fonts\cardo\cardo_italic_400.woff2
 Content Type: application/font-woff2
@@ -234,11 +226,11 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligen
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\2026\03\Reconfigurable_Intelligent_Surface-Assisted_Secret_Key_Generation_in_Spatially_Correlated_Channels.pdf
 Content Type: application/pdf
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1772946880
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1772950037
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-127.css
 Content Type: text/css
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1772946879
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1772950036
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-187.css
 Content Type: text/css
 
@@ -256,14 +248,6 @@ Content Type: application/x-javascript
 
 Uri: http://127.0.0.1:10005/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-includes\js\dist\script-modules\interactivity\index.min.js
-Content Type: application/x-javascript
-
-Uri: http://127.0.0.1:10005/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
-File Name: C:\Downloaded Web Sites\127.0.0.1\wp-includes\js\jquery\jquery-migrate.min.js
-Content Type: application/x-javascript
-
-Uri: http://127.0.0.1:10005/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
-File Name: C:\Downloaded Web Sites\127.0.0.1\wp-includes\js\jquery\jquery.min.js
 Content Type: application/x-javascript
 
 Uri: http://127.0.0.1:10005/wp-json/
@@ -585,6 +569,10 @@ Content Type: image/png
 Uri: http://localhost:10005/wp-content/uploads/2026/02/f709cbecb00186669214ab01cca76b57.png
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\2026\02\f709cbecb00186669214ab01cca76b57.png
 Content Type: image/png
+
+Uri: https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js
+File Name: C:\Downloaded Web Sites\127.0.0.1\npm\mathjax@4\tex-chtml.js
+Content Type: application/javascript
 
 Uri: https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Open+Sans:wght@400;600&display=swap
 File Name: C:\Downloaded Web Sites\127.0.0.1\css2
