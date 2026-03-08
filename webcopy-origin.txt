@@ -234,11 +234,11 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligen
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\2026\03\Reconfigurable_Intelligent_Surface-Assisted_Secret_Key_Generation_in_Spatially_Correlated_Channels.pdf
 Content Type: application/pdf
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1772944498
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1772946880
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-127.css
 Content Type: text/css
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1772944497
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1772946879
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-187.css
 Content Type: text/css
 
@@ -248,10 +248,6 @@ Content Type: text/css
 
 Uri: http://127.0.0.1:10005/wp-includes/blocks/cover/style.min.css?ver=6.9.1
 File Name: C:\Downloaded Web Sites\127.0.0.1\wp-includes\blocks\cover\style.min.css
-Content Type: text/css
-
-Uri: http://127.0.0.1:10005/wp-includes/blocks/navigation/style.min.css?ver=6.9.1
-File Name: C:\Downloaded Web Sites\127.0.0.1\wp-includes\blocks\navigation\style.min.css
 Content Type: text/css
 
 Uri: http://127.0.0.1:10005/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=b0f909c3ec791c383210
