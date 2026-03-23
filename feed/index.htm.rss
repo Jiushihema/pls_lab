@@ -12,7 +12,7 @@
 	<atom:link href="http://127.0.0.1:10005/feed/" rel="self" type="application/rss+xml" />
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
-	<lastBuildDate>Mon, 23 Mar 2026 08:18:24 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Mar 2026 09:47:24 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,302 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>基于操控信道测量匹配的密钥生成</title>
+		<link>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 09:14:24 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">http://127.0.0.1:10005/?p=1076</guid>
+
+					<description><![CDATA[利用无线信道互易性的物理层密钥生成技术已在物联网、移动通信网络和工业控制系统等多种无线场景中展现出可行性与有效性。现有研究大多依赖量化技术将信道测量转换为密钥比特，然而时分双工系统中的非同步信道探测与噪声效应会导致量化结果不一致和密钥比特失配。本文突破传统量化思路，提出通过整体最小化差异的方式匹配用户间随机操控（置换或编辑）后的信道测量值。具体地，本文设计了两种密钥生成算法：基于二部图匹配的 BM-SKG 和基于编辑序列对齐的 SA-SKG。BM-SKG 通过信道测量的置换顺序生成密钥，SA-SKG 则通过对齐编辑后的信道测量序列实现密钥协商。两种算法均允许一方预设密钥并在数据包中嵌入加密消息，从而降低密钥生成的通信开销。大量实验结果表明，BM-SKG 与 SA-SKG 在多种场景下均能以低代价实现信道测量上的无误差密钥协商。]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">基于操控信道测量匹配的密钥生成</h2>
+
+
+<p class="lab-paper-meta has-small-font-size">DU Y, DAI H, LIU H, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size"><em>IEEE Transactions on Mobile Computing</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TMC.2024.3364909" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>利用无线信道互易性的物理层密钥生成技术已在物联网、移动通信网络和工业控制系统等多种无线场景中展现出可行性与有效性。现有研究大多依赖量化技术将信道测量转换为密钥比特，然而时分双工系统中的非同步信道探测与噪声效应会导致量化结果不一致和密钥比特失配。本文突破传统量化思路，提出通过整体最小化差异的方式匹配用户间随机操控（置换或编辑）后的信道测量值。具体地，本文设计了两种密钥生成算法：基于二部图匹配的 BM-SKG 和基于编辑序列对齐的 SA-SKG。BM-SKG 通过信道测量的置换顺序生成密钥，SA-SKG 则通过对齐编辑后的信道测量序列实现密钥协商。两种算法均允许一方预设密钥并在数据包中嵌入加密消息，从而降低密钥生成的通信开销。大量实验结果表明，BM-SKG 与 SA-SKG 在多种场景下均能以低代价实现信道测量上的无误差密钥协商。</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>提出基于操控信道测量匹配的密钥生成新范式，支持密钥预设</strong>：通过对信道测量进行随机置换或编辑操控，将密钥信息编码于操控模式（置换顺序或编辑模式）中，绕开传统量化过程中的非互易性问题；同时允许一方在信道采样阶段预设密钥并随数据包传输加密消息，减少通信开销。</li>
+
+
+
+<li class="lab-feature-list"><strong>设计 BM-SKG：基于稀疏二部图匹配的高安全性算法</strong>：将信道片段建模为加权二部图，通过边剪枝改进的最小权二部图匹配算法推断置换顺序，时间复杂度降至 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>M</mi><mn>2</mn></msup><mi>log</mi><mo>⁡</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(M^2 \log M)</annotation></semantics></math>；64 个片段即可提供超过 256 比特等效加密强度，在 128 比特加密强度下密钥生成时间约 27 毫秒，适用于计算资源充足、安全需求高的场景。</li>
+
+
+
+<li class="lab-feature-list"><strong>设计 SA-SKG：基于编辑序列对齐的高效算法</strong>：通过动态规划计算编辑距离识别插入/删除操作模式，时间复杂度为 ；64 个片段可提供超过 128 比特等效加密强度，128 比特强度下生成时间约 9 毫秒，适用于时间敏感场景；结合信道复用机制后密钥生成率可达 4 bps。</li>
+
+
+
+<li class="lab-feature-list"><strong>设计高效信息协调方案与信道复用机制，并通过 NIST 随机性测试</strong>：提出两轮挑战-响应的轻量级信息协调方案，无需传统多轮交互即可纠正偶发失配；信道复用机制支持多轮密钥生成；全部 9 项 NIST 随机性测试在四种实验场景下均以 99% 置信度通过。</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png" alt="" class="uag-image-1077" width="802" height="656" title="PixPin_2026-03-23_17-11-17" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size">两种算法共享相同的前两个阶段。<strong>信道采样阶段</strong>，Alice 与 Bob 交换探测信号，分别获取 RSS 或 CSI 信道测量序列 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">V_A</annotation></semantics></math> 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>B</mi></msub></mrow><annotation encoding="application/x-tex">V_B</annotation></semantics></math>​。<strong>基于熵的随机打乱与分段阶段</strong>，Alice 以满足熵要求的随机顺序打乱 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">V_A</annotation></semantics></math>​ 并通知 Bob，双方同步打乱后各自将序列等长分段为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math> 个信道片段，提高序列复杂度同时保持互易性。<strong>BM-SKG 的片段置换与匹配阶段</strong>：Alice 对片段序列施加随机置换 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math> 后公开，Bob 将其建模为加权二部图，通过改进的最小权匹配推断 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math>，以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math> 作为密钥。<strong>SA-SKG 的片段编辑与对齐阶段</strong>：Alice 对片段序列随机插入/删除部分片段后公开，Bob 通过计算编辑距离识别编辑模式（插入位置 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi></mrow><annotation encoding="application/x-tex">I</annotation></semantics></math> 与删除位置 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>J</mi></mrow><annotation encoding="application/x-tex">J</annotation></semantics></math>），以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mi mathvariant="normal">∥</mi><mi>J</mi></mrow><annotation encoding="application/x-tex">I \| J</annotation></semantics></math> 作为密钥。两种算法最后均经过信息协调与隐私放大生成最终密钥。</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png" alt="" class="uag-image-1078" width="802" height="348" title="PixPin_2026-03-23_17-12-03" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png" alt="" class="uag-image-1079" width="802" height="294" title="PixPin_2026-03-23_17-12-36" loading="lazy" role="img"/></figure></div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size"><strong>BM-SKG 与 SA-SKG 在全部场景下将比特错误率（BER）和密钥错误率（KER）保持在接近 0 的水平，同时分别以约 27 毫秒和 9 毫秒完成 128 比特等效加密强度的密钥生成</strong>：如原文 <strong>Fig. 7</strong> 所示，在固定 64 个片段、片段长度为 6 的条件下，SA-SKG 在室内外移动/静止四种场景下 BER 和 KER 均为 0（静止室内场景 BER 仅 0.0009、KER 仅 0.0068），BM-SKG 同样接近 0；对比的六种量化基准方法在多个场景下 BER 和 KER 显著更高，而两种方法的密钥生成率（KGR = 1 bps）与大多数基准相当。<strong>Table I</strong> 的 NIST 统计测试结果进一步表明，BM-SKG、SA-SKG 及其信道复用版本（BM-SKGr、SA-SKGr）在全部 9 项测试中均以 99% 置信度通过，验证了密钥的高随机性。</p>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{du2024bmskg,
+  author    = {Yicong Du and Huan Dai and Hongbo Liu and Yan Wang and Guyue Li and Yanzhi Ren and Yingying Chen and Ke Zhang},
+  title     = {Secret Key Generation Based on Manipulated Channel Measurement Matching},
+  journal   = {IEEE Transactions on Mobile Computing},
+  volume    = {23},
+  number    = {10},
+  pages     = {9532--9548},
+  month     = oct,
+  year      = {2024},
+  doi       = {10.1109/TMC.2024.3364909}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>破坏基于信道互易性的密钥生成中的密钥一致性</title>
+		<link>http://127.0.0.1:10005/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/</link>
+					<comments>http://127.0.0.1:10005/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 09:00:24 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">http://127.0.0.1:10005/?p=1068</guid>
+
+					<description><![CDATA[基于信道互易性的密钥生成（CRKG）技术利用无线信道的互易随机性在无线终端之间建立共享密钥，被认为是未来无线网络中补充现有密码技术的重要方案。本文提出一种新型攻击——RIS 干扰（RIS-jamming）攻击，并证明攻击者可通过部署恶意 RIS 破坏信道互易性，从而阻止合法用户就同一密钥达成一致。具体地，本文从三个方面阐述 RIS 干扰攻击的实现方式：使用有源非互易电路、执行异步时变控制以及降低信噪比。通过将密钥率与 RIS 部署参数建立定量关系，对攻击效果进行了理论分析。为抵抗此类攻击，本文提出一种基于宽带信号多径分离的防御方案——污染路径移除 CRKG（CPR-CRKG），通过识别并剔除恶意 RIS 路径，使合法用户仍能从剩余路径中生成密钥。仿真结果与实验结果相互印证：在实际 Wi-Fi 设备与自制 RIS 原型的联合实验中，攻击使原始密钥的平均比特不一致率（BDR）提升了 20%，而所提 CPR-CRKG 方案在 RIS 传播路径可分离的条件下能有效缓解攻击影响。]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">破坏基于信道互易性的密钥生成中的密钥一致性</h2>
+
+
+<p class="lab-paper-meta has-small-font-size">LI G, STAAT P, LI H, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size"><em>IEEE Transactions on Information Forensics and Security</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TIFS.2024.3389569" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p><a href="http://127.0.0.1:10005/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf">基于信道互易性的密钥生成（CRKG）技术利用无线信道的互易随机性在无线终端之间建立共享密钥，被认为是未来无线网络中补充现有密码技术的重要方案。本文提出一种新型攻击——RIS 干扰（RIS-jamming）攻击，并证明攻击者可通过部署恶意 RIS 破坏信道互易性，从而阻止合法用户就同一密钥达成一致。具体地，本文从三个方面阐述 RIS 干扰攻击的实现方式：使用有源非互易电路、执行异步时变控制以及降低信噪比。通过将密钥率与 RIS 部署参数建立定量关系，对攻击效果进行了理论分析。为抵抗此类攻击，本文提出一种基于宽带信号多径分离的防御方案——污染路径移除 CRKG（CPR-CRKG），通过识别并剔除恶意 RIS 路径，使合法用户仍能从剩余路径中生成密钥。仿真结果与实验结果相互印证：在实际 Wi-Fi 设备与自制 RIS 原型的联合实验中，攻击使原始密钥的平均比特不一致率（BDR）提升了 20%，而所提 CPR-CRKG 方案在 RIS 传播路径可分离的条件下能有效缓解攻击影响。</a></p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>提出 RIS 干扰攻击并给出三种实现方式</strong>：攻击者通过部署恶意 RIS 破坏 CRKG 所依赖的信道互易性，具体实现包括：①引入有源非互易电路使上下行 RIS 反射矩阵不一致；②采用异步时变配置使 RIS 在信道探测间隔内随机切换相位；③通过降低信噪比增大量化误差。与传统主动干扰攻击相比，RIS 干扰攻击利用 RIS 的低成本与被动特性，无需发送额外信号，且对频率跳变等现有抗干扰手段具有天然免疫性。</li>
+
+
+
+<li class="lab-feature-list"><strong>建立密钥率与 RIS 部署参数的定量关系，理论分析攻击效果</strong>：推导出在 RIS 干扰下密钥率 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">R_1</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">R_2</annotation></semantics></math>​、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">R_3</annotation></semantics></math>​ 与直接链路增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi mathvariant="normal">ℓ</mi></msub></mrow><annotation encoding="application/x-tex">\beta_\ell</annotation></semantics></math>​、RIS 增益 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">\beta_r</annotation></semantics></math>​ 的解析表达式，证明异步 RIS 配置攻击（Attack 2）比非对称 RIS 结构攻击（Attack 1）具有更强的破坏力，并给出 RIS 部署位置对攻击效果影响的理论边界（当 Alice/Bob 与 RIS 距离为 Alice-Bob 间距的 20% 时，<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi>r</mi></msub><mo>&gt;</mo><mn>0.01</mn></mrow><annotation encoding="application/x-tex">\beta_r &gt; 0.01</annotation></semantics></math>，攻击可行）。</li>
+
+
+
+<li class="lab-feature-list"><strong>提出 CPR-CRKG 防御方案，利用宽带多径分离剔除污染路径</strong>：基于 OFDM 宽带信号的时域分辨能力，对信道估计矩阵进行 IDCT 变换以分离各多径分量，通过比较上下行路径的自相关系数检测 RIS 感应路径，并将其从可用路径集合中剔除，从而在不依赖信息协商的情况下恢复密钥生成能力；整体复杂度为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>K</mi><mn>2</mn></msup><msub><mi>N</mi><mi>p</mi></msub><mo>+</mo><mi>K</mi><mi>log</mi><mo>⁡</mo><mi>K</mi><mo>+</mo><msub><mi>N</mi><mi>p</mi></msub><msub><mi>N</mi><mrow><mi>s</mi><mi>e</mi><mi>l</mi></mrow></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(K^2 N_p + K \log K + N_p N_{sel})</annotation></semantics></math>。</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png" alt="" class="uag-image-1070" width="802" height="656" title="PixPin_2026-03-23_16-57-00" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size">系统由单天线 Alice、Bob 和攻击者 Eve 组成，采用 TDD-OFDM 协议（如 IEEE 802.11n Wi-Fi）进行双向信道探测。有效信道为直接链路与 RIS 感应链路的叠加 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>t</mi><mo separator="true">,</mo><mi>k</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>h</mi><mi>d</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mi>β</mi><mi>r</mi></msub><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msup><mi>e</mi><mrow><mi>j</mi><msub><mi>ϕ</mi><mi>r</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">\tilde{h}_{ba}(t, k) = h_d(k) + \beta_r \Phi(t) e^{j\phi_r(t)}</annotation></semantics></math>，其中 RIS 反射矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\Phi(t)</annotation></semantics></math> 的非互易性是攻击的核心。<strong>攻击阶段</strong>，Eve 令上行与下行的 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\Phi(t)</annotation></semantics></math> 不一致（Attack 1）或在探测间隔内随机切换（Attack 2），使 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>b</mi><mi>a</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\tilde{h}_{ba}</annotation></semantics></math>​ 与 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>a</mi><mi>b</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\tilde{h}_{ab}</annotation></semantics></math>​ 失去互易性，BDR 升高至 0.15~0.2 的误差底限。<strong>防御阶段</strong>，CPR-CRKG 利用宽带 OFDM 的时域分辨率，通过 IDCT 将频域信道估计矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>H</mi><mo>~</mo></mover></mrow><annotation encoding="application/x-tex">\tilde{H}</annotation></semantics></math> 映射到时域路径域 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>G</mi><mo>~</mo></mover></mrow><annotation encoding="application/x-tex">\tilde{G}</annotation></semantics></math>，对每条路径计算自相关系数以检测快速变化的 RIS 路径，协商排除后仅对剩余路径进行量化与密钥提取。</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png" alt="" class="uag-image-1071" width="802" height="656" title="PixPin_2026-03-23_16-58-06" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png" alt="" class="uag-image-1072" width="802" height="656" title="PixPin_2026-03-23_16-58-17" loading="lazy" role="img"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size"><strong>在真实 Wi-Fi + 自制 RIS 原型联合实验中，RIS 干扰攻击使合法用户 BDR 平均提升 20%，而 CPR-CRKG 防御方案将 BDR 降至接近无攻击水平的约 1/4</strong>：如原文 <strong>Fig. 12</strong> 所示，BDR 随 RIS 调制频率线性增长直至 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><msub><mi>f</mi><mi>p</mi></msub></mrow><annotation encoding="application/x-tex">f_r = f_p</annotation></semantics></math>​ 时达到饱和，在距 Alice 约 2 m 的典型位置可实现约 20% 的 BDR 提升；<strong>Fig. 13</strong> 的空间热力图进一步显示，当 RIS 靠近 Alice 且入射角较小时攻击效果最强，最高可达约 30% 的 BDR 提升。<strong>Fig. 9</strong> 的仿真结果则表明，在 CPR-CRKG 防护下，受攻击方案的 BDR 曲线（虚线）约为对应攻击曲线（实线）的四分之一，且在 SNR &lt; 15 dB 时 CPR-CRKG 的 BDR 甚至低于无攻击的原始 CRKG 方案，验证了防御方案对噪声与攻击的双重抑制效果。</p>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png" alt="" class="uag-image-1073" width="802" height="656" title="PixPin_2026-03-23_16-57-51" loading="lazy" role="img"/></figure></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{li2024risjamming,
+  author    = {Guyue Li and Paul Staat and Haoyu Li and Markus Heinrichs and Christian Zenger and Rainer Kronberger and Harald Elders-Boll and Christof Paar and Aiqun Hu},
+  title     = {{RIS}-Jamming: Breaking Key Consistency in Channel Reciprocity-Based Key Generation},
+  journal   = {IEEE Transactions on Information Forensics and Security},
+  volume    = {19},
+  pages     = {5090--5105},
+  year      = {2024},
+  doi       = {10.1109/TIFS.2024.3389569}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://127.0.0.1:10005/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>支付通道网络中安全且匿名的多通道更新协议</title>
 		<link>http://127.0.0.1:10005/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/</link>
 					<comments>http://127.0.0.1:10005/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/#respond</comments>
@@ -43,7 +339,7 @@
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">支付通道网络中安全且匿名的多通道更新协议</h2>
 
 
-<p class="lab-paper-meta has-small-font-size">WANG J, GAO S, <strong>LI G</strong>,</p>
+<p class="lab-paper-meta has-small-font-size">WANG J, GAO S,&nbsp;<strong>LI G</strong>,</p>
 
 
 
@@ -54,11 +350,11 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Real-World_Aircraft_Recognition_Based_on_RF_Fingerprinting_With_Few_Labeled_ADS-B_Signals.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TVT.2023.3314491" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://ieeexplore.ieee.org/abstract/document/10654379" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
 </div>
 </div>
 
@@ -100,15 +396,17 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28-1024x453.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28-1024x453.png" alt="" class="uag-image-1059" width="802" height="656" title="PixPin_2026-03-23_16-12-28" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png" alt="" class="uag-image-1089" width="1024" height="443" title="PixPin_2026-03-23_17-22-30" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png" alt="" class="uag-image-1060" width="802" height="656" title="PixPin_2026-03-23_16-12-37" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-4ef57bdf wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png" alt="" class="uag-image-1060" width="400" height="400" title="PixPin_2026-03-23_16-12-37" loading="lazy" role="img"/></figure></div>
 
 
 
-<p class="lab-experiment-caption has-medium-font-size">PCN 被建模为加权图 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>:</mo><mo>=</mo><mo stretchy="false">(</mo><mi>V</mi><mo separator="true">,</mo><mi>E</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">G := (V, E)</annotation></semantics></math>，其中节点集 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi></mrow><annotation encoding="application/x-tex">V</annotation></semantics></math> 代表用户区块链地址，边集 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math> 代表已开设的支付通道。<strong>SAMCU 协议</strong>共分六个阶段执行：<strong>初始化</strong>阶段由 Dealer 完成更新图分割并生成 txrelay 所需参数；<strong>Pre-Setup-SG</strong> 阶段每个接收方 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">R_{i,j}</annotation></semantics></math>生成 txin 和 txep1，其中 txep1 仅包含同一子图内各接收方的输出及一个用于跨子图通知的特殊输出；<strong>Pre-Setup-UG</strong> 阶段密钥方生成 txrelay 和 txep2，并将相关参数分发至各子图；<strong>Setup</strong> 阶段通道发送方生成 txstate、txrefund 及 txp1/p2；<strong>Confirmation</strong> 阶段通过两步通知机制确保所有通道均已完成状态更新、所有接收方持有有效 txep1 后再进入最终阶段；<strong>Finalization</strong> 阶段完成链下状态更新，若发生争议则进入 <strong>Response</strong> 阶段，各接收方按照 EPTT 树结构在链上强制执行支付。UGS 的划分原则要求：发送方与接收方必须作为密钥方，每个子图至少包含每条链的一段，且更新图必须被划分为至少三个子图，以防止中间方同时掌握发送方与接收方的身份。</p>
+<p class="lab-experiment-caption has-medium-font-size wp-container-content-9dbf05af">PCN 被建模为加权图 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>:</mo><mo>=</mo><mo stretchy="false">(</mo><mi>V</mi><mo separator="true">,</mo><mi>E</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">G := (V, E)</annotation></semantics></math>，其中节点集 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi></mrow><annotation encoding="application/x-tex">V</annotation></semantics></math> 代表用户区块链地址，边集 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math> 代表已开设的支付通道。<strong>SAMCU 协议</strong>共分六个阶段执行：<strong>初始化</strong>阶段由 Dealer 完成更新图分割并生成 txrelay 所需参数；<strong>Pre-Setup-SG</strong> 阶段每个接收方 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">R_{i,j}</annotation></semantics></math>生成 txin 和 txep1，其中 txep1 仅包含同一子图内各接收方的输出及一个用于跨子图通知的特殊输出；<strong>Pre-Setup-UG</strong> 阶段密钥方生成 txrelay 和 txep2，并将相关参数分发至各子图；<strong>Setup</strong> 阶段通道发送方生成 txstate、txrefund 及 txp1/p2；<strong>Confirmation</strong> 阶段通过两步通知机制确保所有通道均已完成状态更新、所有接收方持有有效 txep1 后再进入最终阶段；<strong>Finalization</strong> 阶段完成链下状态更新，若发生争议则进入 <strong>Response</strong> 阶段，各接收方按照 EPTT 树结构在链上强制执行支付。UGS 的划分原则要求：发送方与接收方必须作为密钥方，每个子图至少包含每条链的一段，且更新图必须被划分为至少三个子图，以防止中间方同时掌握发送方与接收方的身份。</p>
+</div>
 </div>
 
 
@@ -133,7 +431,7 @@
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png" alt="" class="uag-image-1063" width="802" height="656" title="PixPin_2026-03-23_16-16-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-c1c6bca8 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png" alt="" class="uag-image-1063" width="802" height="656" title="PixPin_2026-03-23_16-16-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
 </div>
 </div>
 
@@ -413,23 +711,21 @@
 
 
 
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png" alt="" class="uag-image-1049" width="802" height="656" title="PixPin_2026-03-23_15-27-09" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png" alt="" class="uag-image-1049" width="1000" height="400" title="PixPin_2026-03-23_15-27-09" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png" alt="" class="uag-image-1047" width="802" height="656" title="PixPin_2026-03-23_15-26-17" loading="lazy" role="img"/></figure></div>
-</div>
+<div class="wp-block-uagb-image uagb-block-82ea6282 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png" alt="" class="uag-image-1047" width="1002" height="400" title="PixPin_2026-03-23_15-26-17" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
 
 
 
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>VBF-PST 方案将 NIST 随机性测试通过率从 UK-PST 的 0.1 提升至接近 1（约 99%），同时将相邻帧比特替换率（BRR）稳定维持在 0.45 附近</strong>：如原文 <strong>Fig. 9(a)(b)​</strong> 所示，在参数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">K=2</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>SET</mtext><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\text{SET}=2</annotation></semantics></math> 的配置下，VBF-PST 在相邻时刻 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">T_1</annotation></semantics></math>​ 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">T_2</annotation></semantics></math> 的 NIST 测试通过率均接近 1，而 UK-PST 仅为 0.1（即每 10 次安全传输中仅 1 次通过全部 NIST 测试）；<strong>Fig. 10</strong> 进一步显示，该配置下 BRR 在不同 Doppler 频率（0~5 Hz）下稳定保持在 0.45 附近，显著优于 UK-PST，有效抵御了差分攻击。此外，<strong>Fig. 11</strong> 的安全分析结果表明，通过自适应 ECC 参数优化，合法用户的密钥恢复成功率保持在高水平，而 Eve 的成功率始终低于 0.2。</p>
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-15bdad6d wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png" alt="" class="uag-image-1048" width="500" height="500" title="PixPin_2026-03-23_15-26-48" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.11</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png" alt="" class="uag-image-1048" width="802" height="656" title="PixPin_2026-03-23_15-26-48" loading="lazy" role="img"/></figure></div>
+<p class="lab-experiment-caption has-medium-font-size wp-container-content-432d1f4f"><strong>VBF-PST 方案将 NIST 随机性测试通过率从 UK-PST 的 0.1 提升至接近 1（约 99%），同时将相邻帧比特替换率（BRR）稳定维持在 0.45 附近</strong>：如原文 <strong>Fig. 9(a)(b)​</strong> 所示，在参数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">K=2</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>SET</mtext><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\text{SET}=2</annotation></semantics></math> 的配置下，VBF-PST 在相邻时刻 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">T_1</annotation></semantics></math>​ 和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">T_2</annotation></semantics></math> 的 NIST 测试通过率均接近 1，而 UK-PST 仅为 0.1（即每 10 次安全传输中仅 1 次通过全部 NIST 测试）；<strong>Fig. 10</strong> 进一步显示，该配置下 BRR 在不同 Doppler 频率（0~5 Hz）下稳定保持在 0.45 附近，显著优于 UK-PST，有效抵御了差分攻击。此外，<strong>Fig. 11</strong> 的安全分析结果表明，通过自适应 ECC 参数优化，合法用户的密钥恢复成功率保持在高水平，而 Eve 的成功率始终低于 0.2。</p>
 </div>
 </div>
 
@@ -700,7 +996,7 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-b04ba3db"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16-1024x349.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16-1024x349.png" alt="" class="uag-image-1028" width="802" height="656" title="PixPin_2026-03-18_21-41-16" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-b04ba3db"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16-1024x349.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_21-41-16-1024x349.png" alt="" class="uag-image-1028" width="1000" height="400" title="PixPin_2026-03-18_21-41-16" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -992,14 +1288,12 @@
 
 
 
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png" alt="" class="uag-image-1014" width="802" height="656" title="PixPin_2026-03-18_20-40-50" loading="lazy" role="img"/></figure></div>
-
-
-
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-40-50.png" alt="" class="uag-image-1014" width="849" height="487" title="PixPin_2026-03-18_20-40-50" loading="lazy" role="img"/></figure></div>
+
+
+
 <p class="lab-experiment-caption has-medium-font-size">MA 系统的核心在于将天线安装于三维机械滑轨，由中央处理单元驱动步进电机将天线重定位至目标位置，从而通过改变天线间物理路径长度（而非仅调整相位）来实现波束宽度的实时优化。<strong>双尺度波束设计</strong>包含两个核心要素：一是基于实时 CSI 的信道参数估计（到达角、时延、路径增益），构建物理层 MA 信道模型；二是联合优化 MA 位置与预编码矩阵，在通信、感知和安全三类任务中分别形成所需的宽/窄波束组合。在通信场景中，宽波束与鲁棒预编码协同保障移动用户连接，窄波束在低移动性或精确 CSI 条件下恢复高速传输；在感知场景中，两阶段策略依次完成宽波束环境扫描与窄波束精确定位；在安全场景中，宽窄波束同时工作，分别承担用户空间隔离与定向安全传输两项功能。深度神经网络（DNN）可进一步辅助场景识别与 MA 位置预测，降低在线优化延迟。</p>
-</div>
 </div>
 
 
@@ -1008,25 +1302,25 @@
 
 
 
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png" alt="" class="uag-image-1015" width="802" height="656" title="PixPin_2026-03-18_20-41-49" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.4</figcaption></figure></div>
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-432d1f4f"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-41-49.png" alt="" class="uag-image-1015" width="400" height="400" title="PixPin_2026-03-18_20-41-49" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.4</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png" alt="" class="uag-image-1016" width="802" height="656" title="PixPin_2026-03-18_20-43-12" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.5</figcaption></figure></div>
-</div>
+<div class="wp-block-uagb-image uagb-block-b357864e wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-432d1f4f"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-12.png" alt="" class="uag-image-1016" width="400" height="400" title="PixPin_2026-03-18_20-43-12" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.5</figcaption></figure></div>
 </div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>MA 在所有天线配置中始终实现最低 CRB，感知精度最优；固定半波长间距阵列的 CRB 显著偏高，性能劣化明显</strong>：如原文 <strong>Fig. 4</strong> 所示，MA 阵列的 CRB 曲线始终处于最低水平，稀疏固定天线阵列虽接近 MA 性能但仍存在差距，而标准半波长固定阵列的 CRB 则显著偏高，验证了 MA 在感知精度上的根本性优势。此外，<strong>Fig. 3</strong> 的高移动性场景仿真表明 MA 双尺度波束的系统和速率优于固定天线方案，<strong>Fig. 5</strong> 的密钥生成速率对比亦表明 MA 赋能方案在物理层密钥生成场景下表现最优。</p>
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-78cc2d9e wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<div class="wp-block-uagb-image uagb-block-840a35ae wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-432d1f4f"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png" alt="" class="uag-image-1017" width="600" height="500" title="PixPin_2026-03-18_20-43-26" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.3</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-840a35ae wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_20-43-26.png" alt="" class="uag-image-1017" width="699" height="445" title="PixPin_2026-03-18_20-43-26" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.3</figcaption></figure></div>
+<p class="lab-experiment-caption has-medium-font-size wp-container-content-432d1f4f"><strong>MA 在所有天线配置中始终实现最低 CRB，感知精度最优；固定半波长间距阵列的 CRB 显著偏高，性能劣化明显</strong>：如原文 <strong>Fig. 4</strong> 所示，MA 阵列的 CRB 曲线始终处于最低水平，稀疏固定天线阵列虽接近 MA 性能但仍存在差距，而标准半波长固定阵列的 CRB 则显著偏高，验证了 MA 在感知精度上的根本性优势。此外，<strong>Fig. 3</strong> 的高移动性场景仿真表明 MA 双尺度波束的系统和速率优于固定天线方案，<strong>Fig. 5</strong> 的密钥生成速率对比亦表明 MA 赋能方案在物理层密钥生成场景下表现最优。</p>
+</div>
 </div>
 </div>
 
@@ -1158,17 +1452,19 @@
 
 
 
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
 <div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png" alt="" class="uag-image-1008" width="802" height="656" title="PixPin_2026-03-18_17-46-47" loading="lazy" role="img"/></figure></div>
 
 
 
 <div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png" alt="" class="uag-image-1007" width="802" height="656" title="PixPin_2026-03-18_17-46-29" loading="lazy" role="img"/></figure></div>
+</div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png" alt="" class="uag-image-1009" width="802" height="656" title="PixPin_2026-03-18_17-47-52" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-9ddd8b30 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png" alt="" class="uag-image-1009" width="600" height="225" title="PixPin_2026-03-18_17-47-52" loading="lazy" role="img"/></figure></div>
 </div>
 
 
@@ -1217,290 +1513,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>http://127.0.0.1:10005/%e5%ad%98%e5%9c%a8%e6%b7%b7%e5%90%88%e5%85%b1%e8%b0%8b%e7%aa%83%e5%90%ac%e8%80%85%e7%9a%84%e6%84%9f%e7%9f%a5%e9%80%9a%e4%bf%a1%e4%b8%80%e4%bd%93%e5%8c%96%e7%b3%bb%e7%bb%9f%e8%81%94%e5%90%88%e6%b3%a2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>面向多天线 5G 用户设备的信道鲁棒射频指纹识别</title>
-		<link>http://127.0.0.1:10005/%e9%9d%a2%e5%90%91%e5%a4%9a%e5%a4%a9%e7%ba%bf-5g-%e7%94%a8%e6%88%b7%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/</link>
-					<comments>http://127.0.0.1:10005/%e9%9d%a2%e5%90%91%e5%a4%9a%e5%a4%a9%e7%ba%bf-5g-%e7%94%a8%e6%88%b7%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/#respond</comments>
-		
-		<dc:creator><![CDATA[jiushihema]]></dc:creator>
-		<pubDate>Wed, 18 Mar 2026 09:36:01 +0000</pubDate>
-				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://127.0.0.1:10005/?p=999</guid>
-
-					<description><![CDATA[本文充分利用多天线的潜力，提出一种新型设备专属特征——相对射频指纹，该特征刻画了多天线发射机中不同射频链路之间的相互关系]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
-<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">面向多天线 5G 用户设备的信道鲁棒射频指纹识别</h2>
-
-
-<p class="lab-paper-meta has-small-font-size">Z. Zhang, G. Li, J. Shi, H. Li, and A. Hu</p>
-
-
-
-<p class="lab-paper-meta has-small-font-size"><em>IEEE Transactions on Vehicular Technology</em></p>
-</div>
-
-
-
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Channel-Robust_RF_Fingerprint_Identification_for_Multi-Antenna_5G_User_Equipments.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
-
-
-
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TIFS.2025.3611154" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
-
-
-
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>射频指纹（RFF）是实现安全高效设备身份认证的有前景方案，但现有方法的识别精度在实际多径场景下受到严重影响。本文提出一种鲁棒的射频指纹识别方法，利用信道状态信息馈来抵消多径信道对 RFF 特征提取的影响。直接采用迫零均衡无法将射频硬件损伤与信道效应完全解耦，使得传统方法效果有限。为此，本文充分利用多天线的潜力，提出一种新型设备专属特征——相对射频指纹，该特征刻画了多天线发射机中不同射频链路之间的相互关系。本文设计了一种增强型 ZF 后均衡算法，以最大程度地消除多径信道影响并保留用户的 R-RFF。在多种信道条件和噪声水平下对 R-RFF 的鲁棒性进行了评估，结果表明，所提 R-RFF 方法在 SNR 为 30 dB 的 3GPP TDL 抽头延迟线信道下，对 70 个设备可实现 91.2% 的识别准确率。</p></blockquote></figure>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
-
-
-
-<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出 R-RFF 新特征，挖掘多天线设备的物理层指纹维度</strong>：R-RFF 利用同一设备不同天线链路之间射频硬件损伤的稳定相对关系构建特征向量，该特征本质上是一种物理不可克隆函数（PUF），与信道状态无关，为 5G 多天线系统的物理层安全提供了全新维度，同时支持初始认证与周期性持续认证。</li>
-
-
-
-<li class="lab-feature-list"><strong>设计增强型 ZF 后均衡框架，从理论上证明 R-RFF 的信道独立性</strong>：针对预编码方案无法完全解耦射频损伤与多径信道的问题，提出基于 CSI 反馈的后均衡函数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><msub><mover accent="true"><mi>H</mi><mo>~</mo></mover><mi>U</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">F(\tilde{H}_U)</annotation></semantics></math>F(H~U​)，通过利用 TDD 上下行信道互易性构造等效变换，理论证明均衡后提取的特征 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>C</mi><mrow><mi>U</mi><mi>E</mi></mrow></msub><mo>≈</mo><msub><mi>T</mi><mrow><mi>U</mi><mi>E</mi></mrow></msub><mo stretchy="false">(</mo><msub><mi>R</mi><mrow><mi>U</mi><mi>E</mi></mrow></msub><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">C_{UE} \approx T_{UE}(R_{UE})^{-1}</annotation></semantics></math>CUE​≈TUE​(RUE​)−1 与多径信道无关，从根本上保证了特征的鲁棒性。</li>
-
-
-
-<li class="lab-feature-list"><strong>建立完整的 5G NR 仿真系统，覆盖全部 TDL 信道模型</strong>：基于 MATLAB 5G NR 工具箱，针对 110 个 UE 模拟了 AWGN、Rician、TDL-A/B/C/D/E 共 6 类信道场景，结合多 SNR 级别与综合数据增强训练策略，全面评估了不同多径条件下的 RFF 性能，并分析了 Doppler 效应对识别精度的影响，给出了各 SCS 配置下支持移动速度的定量边界。</li>
-</ul>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
-
-
-
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-34-23.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-34-23.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-34-23.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-34-23.png" alt="" class="uag-image-1001" width="802" height="656" title="PixPin_2026-03-18_17-34-23" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">系统由配备 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>=</mo><mn>32</mn></mrow><annotation encoding="application/x-tex">M=32</annotation></semantics></math>根天线的 gNB 和配备 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">N=2</annotation></semantics></math>或 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math>根天线的 UE 组成，工作于 TDD-OFDM 模式。<strong>R-RFF 提取流程</strong>分为三个阶段：首先，gNB 通过天线循环切换策略获取自身的相对损伤矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>C</mi><mrow><mi>g</mi><mi>N</mi><mi>B</mi></mrow></msub><mo>=</mo><msub><mi>T</mi><mrow><mi>g</mi><mi>N</mi><mi>B</mi></mrow></msub><mo stretchy="false">(</mo><msub><mi>R</mi><mrow><mi>g</mi><mi>N</mi><mi>B</mi></mrow></msub><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">C_{gNB} = T_{gNB}(R_{gNB})^{-1}</annotation></semantics></math>；随后，UE 将下行信道估计 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>H</mi><mo>^</mo></mover><mi>D</mi></msub></mrow><annotation encoding="application/x-tex">\hat{H}_D</annotation></semantics></math> 反馈至 gNB，gNB 利用上下行信道互易性 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>H</mi><mo>~</mo></mover><mi>U</mi></msub><mo>≈</mo><msubsup><mover accent="true"><mi>H</mi><mo>~</mo></mover><mi>D</mi><mi>T</mi></msubsup></mrow><annotation encoding="application/x-tex">\tilde{H}_U \approx \tilde{H}_D^T</annotation></semantics></math>​ 构造后均衡函数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mo stretchy="false">(</mo><msubsup><mi>T</mi><mrow><mi>g</mi><mi>N</mi><mi>B</mi></mrow><mi>T</mi></msubsup><msubsup><mover accent="true"><mi>H</mi><mo>~</mo></mover><mi>D</mi><mi>T</mi></msubsup><msubsup><mi>R</mi><mrow><mi>U</mi><mi>E</mi></mrow><mi>T</mi></msubsup><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">F = (T_{gNB}^T \tilde{H}_D^T R_{UE}^T)^{-1}</annotation></semantics></math>；最后，gNB 对接收的上行信道估计 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>H</mi><mo>^</mo></mover><mi>U</mi></msub></mrow><annotation encoding="application/x-tex">\hat{H}_U</annotation></semantics></math>​ 应用 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math>F 并左乘伪逆矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi></mrow><annotation encoding="application/x-tex">W</annotation></semantics></math>W，提取出与信道无关的 R-RFF 特征 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>C</mi><mrow><mi>U</mi><mi>E</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{UE}</annotation></semantics></math>​。提取的 R-RFF 以 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mrow><mi>S</mi><mi>C</mi></mrow></msub><mo>×</mo><mi>N</mi><mo>×</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">N_{SC} \times N \times N</annotation></semantics></math> 的张量形式输入改进版 AlexNet（5 个卷积层 + 2 个全连接层）进行分类，训练时采用覆盖多信道类型与 SNR 级别的综合仿真策略以增强泛化能力。</p>
-</div>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
-
-
-
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-35-34.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-35-34.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-35-34.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-35-34.png" alt="" class="uag-image-1002" width="802" height="656" title="PixPin_2026-03-18_17-35-34" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>在 TDL-C 多径信道下，R-RFF 方法对 30 个设备的识别准确率达到 93.3%（SNR = 25 dB），而基准方法仅为 57.3%，提升约 36 个百分点</strong>：如原文 <strong>Fig. 6</strong> 所示，在 AWGN 信道下两种方法均表现良好，但在引入多径衰落后，基准方法 [20] 在两径信道下准确率降至 71.6%，在 TDL-C 信道下进一步跌至 57.3%；相比之下，R-RFF 方案在 TDL-C 信道下仍保持 93.3% 的准确率，在 SNR = 15 dB 的低信噪比条件下亦达到 59.9%（基准仅 39.9%），充分验证了所提方法对多径干扰的鲁棒性。</p>
-</div>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
-
-
-
-<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{luo2025rrff,
-  author    = {Hongyi Luo and Guyue Li and Alessandro Brighente and Mauro Conti and Yuexiu Xing and Aiqun Hu and Xianbin Wang},
-  title     = {Channel-Robust {RF} Fingerprint Identification for Multi-Antenna {5G} User Equipments},
-  journal   = {IEEE Transactions on Information Forensics and Security},
-  volume    = {20},
-  pages     = {10761--10776},
-  year      = {2025},
-  doi       = {10.1109/TIFS.2025.3611154}
-}
-</code></pre>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
-
-</div>
-</div>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://127.0.0.1:10005/%e9%9d%a2%e5%90%91%e5%a4%9a%e5%a4%a9%e7%ba%bf-5g-%e7%94%a8%e6%88%b7%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>基于排序索引匹配的高效无误差密钥生成</title>
-		<link>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%8e%92%e5%ba%8f%e7%b4%a2%e5%bc%95%e5%8c%b9%e9%85%8d%e7%9a%84%e9%ab%98%e6%95%88%e6%97%a0%e8%af%af%e5%b7%ae%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
-					<comments>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%8e%92%e5%ba%8f%e7%b4%a2%e5%bc%95%e5%8c%b9%e9%85%8d%e7%9a%84%e9%ab%98%e6%95%88%e6%97%a0%e8%af%af%e5%b7%ae%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
-		
-		<dc:creator><![CDATA[jiushihema]]></dc:creator>
-		<pubDate>Wed, 18 Mar 2026 09:26:23 +0000</pubDate>
-				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://127.0.0.1:10005/?p=992</guid>
-
-					<description><![CDATA[利用无线信道固有随机性的密钥生成技术是无线网络物理层安全的重要范式。然而，现有基于量化的方法在消除噪声引起的不一致比特方面存在困难。近期研究提出通过匹配合法双方间具有相似变化模式的分段信道样本（即信道片段）来实现无误差密钥生成]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
-<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">基于排序索引匹配的高效无误差密钥生成</h2>
-
-
-<p class="lab-paper-meta has-small-font-size">DU Y, DAI H, LIU H, et al.</p>
-
-
-
-<p class="lab-paper-meta has-small-font-size"><em>IEEE Transactions on Mobile Computing</em></p>
-</div>
-
-
-
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Real-World_Aircraft_Recognition_Based_on_RF_Fingerprinting_With_Few_Labeled_ADS-B_Signals.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
-
-
-
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TMC.2024.3465042" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
-
-
-
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>利用无线信道固有随机性的密钥生成技术是无线网络物理层安全的重要范式。然而，现有基于量化的方法在消除噪声引起的不一致比特方面存在困难。近期研究提出通过匹配合法双方间具有相似变化模式的分段信道样本（即信道片段）来实现无误差密钥生成，但这类方法在生成长密钥时同样面临高计算开销与匹配精度下降的问题。为此，本文提出一种基于排序索引匹配的密钥生成方法（SIM-SKG），以实现高效且无误差的密钥生成。具体而言，通过对信道样本进行排序，确保每个信道片段具有唯一的变化模式以实现精确匹配；为规避半双工通信模式与环境噪声的影响，本文提出匹配索引而非信道样本本身；同时设计了一种噪声扰动方案，进一步缓解索引匹配过程中的歧义问题。大量实验结果表明，SIM-SKG 在 RSS 与 CSI 信道测量的多种场景下均具备高效性与高精度，能够在仅 1.7 毫秒内完成长达 2048 比特的无误差密钥生成。此外，理论分析与实验共同验证了 SIM-SKG 对多种攻击的安全性。</p></blockquote></figure>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
-
-
-
-<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出 SIM-SKG 算法，实现无需协商的无误差密钥生成</strong>：通过对信道样本排序后匹配各片段内的索引，而非直接匹配信道测量值，有效降低了半双工通信引起的异步采样与环境噪声对匹配结果的影响，实现了合法双方之间无需额外交互的密钥一致。</li>
-
-
-
-<li class="lab-feature-list"><strong>设计乘性噪声扰动方案以提升匹配精度</strong>：针对信道样本测量值相近导致排序后片段模式重复的问题，引入乘性随机矩阵对信道样本分布进行扩展，在统计意义上拉大相近测量值之间的差距，从而有效消除片段匹配中的歧义。</li>
-
-
-
-<li class="lab-feature-list"><strong>开发轻量级自主纠错机制与重匹配机制</strong>：针对噪声引起的偶发索引不一致，设计了无需信息协商的自主纠错方案，避免了传统方案中多轮交互带来的通信开销与安全隐患；同时集成重匹配机制进一步提升密钥生成速率。</li>
-
-
-
-<li class="lab-feature-list"><strong>开展全面安全分析，验证对五类攻击的抵御能力</strong>：针对随机猜测攻击、推断攻击、模仿攻击、跟踪攻击和逆向攻击分别进行理论分析与实验验证，结果表明各类攻击下攻击者的比特不匹配率均接近 0.5（等价于随机猜测），证明 SIM-SKG 具备信息论意义上的安全性。</li>
-</ul>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
-
-
-
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-21-25.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-21-25.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-21-25.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-21-25.png" alt="" class="uag-image-996" width="802" height="656" title="PixPin_2026-03-18_17-21-25" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">SIM-SKG 的核心思路是：将信道样本排序后，每个信道片段将呈现单调递增或递减的唯一变化模式，从而为精确的片段级匹配奠定基础。完整流程分为四个阶段。<strong>噪声扰动阶段</strong>，Alice 与 Bob 各自将信道样本与共享随机矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Π</mi></mrow><annotation encoding="application/x-tex">\Pi</annotation></semantics></math>Π 相乘，将原始分布展宽，扩大相近测量值之间的差距。<strong>排序与分段阶段</strong>，双方对扰动后的信道序列进行排序并等长分段，得到各自的片段序列，每段均具有唯一的单调变化模式。<strong>片段打乱与索引匹配阶段</strong>，Alice 按随机顺序 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">RO</annotation></semantics></math>RO 打乱自身片段序列后广播，Bob 通过比较各片段内排序索引的接近程度找到最优匹配，双方由此在不泄露信道测量值的前提下就排列顺序 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">RO</annotation></semantics></math>RO 达成一致。<strong>自主纠错与隐私放大阶段</strong>，利用轻量级纠错方案修正噪声引起的少量索引不一致，再经隐私放大输出最终密钥。整体计算复杂度为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>N</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(N^2)</annotation></semantics></math>O(N2)，远低于现有基于二部图匹配的方案。</p>
-</div>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
-
-
-
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-22-45.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-22-45.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-22-45.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-22-45.png" alt="" class="uag-image-997" width="802" height="656" title="PixPin_2026-03-18_17-22-45" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>SIM-SKG 在全场景下将比特不匹配率保持为 0，同时以 1.7 毫秒完成 2048 比特无误差密钥生成，时间开销仅为对比方法 DP-SKG 的约 1/40</strong>：如原文 <strong>Fig. 14</strong> 所示，在相同片段长度（5）与 256 个 RSS 片段的条件下，SIM-SKG 生成 2048 比特密钥仅需 1.7 毫秒，时间开销从 0.035 毫秒到 6.2 毫秒随密钥长度增长极为平缓；而 DP-SKG 的时间开销超过 69 毫秒，差距约 40 倍</p>
-</div>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
-
-
-
-<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{du2025simskg,
-  author    = {Yicong Du and Huan Dai and Hongbo Liu and Guyue Li and Yanzhi Ren and Ke Zhang},
-  title     = {Efficient and Error-Free Secret Key Generation Leveraging Sorted Indices Matching},
-  journal   = {IEEE Transactions on Mobile Computing},
-  volume    = {24},
-  number    = {2},
-  pages     = {779--793},
-  month     = feb,
-  year      = {2025},
-  doi       = {10.1109/TMC.2024.3465042}
-}
-</code></pre>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
-
-</div>
-</div>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%8e%92%e5%ba%8f%e7%b4%a2%e5%bc%95%e5%8c%b9%e9%85%8d%e7%9a%84%e9%ab%98%e6%95%88%e6%97%a0%e8%af%af%e5%b7%ae%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -50,6 +50,14 @@ Uri: http://127.0.0.1:10005/基于排序索引匹配的高效无误差密钥生�
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\基于排序索引匹配的高效无误差密钥生成\feed\index.htm.rss
 Content Type: application/rss+xml
 
+Uri: http://127.0.0.1:10005/基于操控信道测量匹配的密钥生成/
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\基于操控信道测量匹配的密钥生成\index.htm
+Content Type: text/html
+
+Uri: http://127.0.0.1:10005/基于操控信道测量匹配的密钥生成/feed/
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\基于操控信道测量匹配的密钥生成\feed\index.htm.rss
+Content Type: application/rss+xml
+
 Uri: http://127.0.0.1:10005/基于无线通信系统内生安全属性的物理层下一代频/
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\基于无线通信系统内生安全属性的物理层下一代频\index.htm
 Content Type: text/html
@@ -80,6 +88,14 @@ Content Type: text/html
 
 Uri: http://127.0.0.1:10005/支付通道网络中安全且匿名的多通道更新协议/feed/
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\支付通道网络中安全且匿名的多通道更新协议\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: http://127.0.0.1:10005/破坏基于信道互易性的密钥生成中的密钥一致性/
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\破坏基于信道互易性的密钥生成中的密钥一致性\index.htm
+Content Type: text/html
+
+Uri: http://127.0.0.1:10005/破坏基于信道互易性的密钥生成中的密钥一致性/feed/
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\破坏基于信道互易性的密钥生成中的密钥一致性\feed\index.htm.rss
 Content Type: application/rss+xml
 
 Uri: http://127.0.0.1:10005/面向多天线-5g-用户设备的信道鲁棒射频指纹识别/
@@ -474,14 +490,6 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-5
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_15-51-59.png
 Content Type: image/png
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28-1024x453.png
-File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-12-28-1024x453.png
-Content Type: image/png
-
-Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-28.png
-File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-12-28.png
-Content Type: image/png
-
 Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-12-37-278x300.png
 Content Type: image/png
@@ -502,6 +510,58 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-1
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-16-16.png
 Content Type: image/png
 
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00-300x215.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-57-00-300x215.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-57-00.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-57-51.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-58-06.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_16-58-17.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17-272x300.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-11-17-272x300.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-11-17.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-12-03-1024x348.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-12-03.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-12-36-1024x294.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-12-36.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-22-30-1024x443.png
+Content Type: image/png
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PixPin_2026-03-23_17-22-30.png
+Content Type: image/png
+
 Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/PPCA_Privacy-Preserving_Continuous_Authentication_Scheme_With_Consistency_Proof_for_Zero-Trust_Architecture_Networks.pdf
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\PPCA_Privacy-Preserving_Continuous_Authentication_Scheme_With_Consistency_Proof_for_Zero-Trust_Architecture_Networks.pdf
 Content Type: application/pdf
@@ -518,15 +578,27 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/Reconfigurable_Intelligen
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\Reconfigurable_Intelligent_Surface-Assisted_Secret_Key_Generation_in_Spatially_Correlated_Channels.pdf
 Content Type: application/pdf
 
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf
+Content Type: application/pdf
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf
+Content Type: application/pdf
+
+Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf
+Content Type: application/pdf
+
 Uri: http://127.0.0.1:10005/wp-content/uploads/2026/03/Securing_Wireless_Communications_via_Channel_Reciprocity_and_Dynamic_Constellation_Obfuscation.pdf
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\03\Securing_Wireless_Communications_via_Channel_Reciprocity_and_Dynamic_Constellation_Obfuscation.pdf
 Content Type: application/pdf
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1774254074
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1774259310
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-127.css
 Content Type: text/css
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1774254072
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1774259309
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-187.css
 Content Type: text/css
 
@@ -606,6 +678,14 @@ Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-11.xml
 Content Type: text/xml
 
+Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e5%259f%25ba%25e4%25ba%258e%25e6%2593%258d%25e6%258e%25a7%25e4%25bf%25a1%25e9%2581%2593%25e6%25b5%258b%25e9%2587%258f%25e5%258c%25b9%25e9%2585%258d%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e7%2594%259f%25e6%2588%2590%2F
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-3.json
+Content Type: application/json
+
+Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e5%259f%25ba%25e4%25ba%258e%25e6%2593%258d%25e6%258e%25a7%25e4%25bf%25a1%25e9%2581%2593%25e6%25b5%258b%25e9%2587%258f%25e5%258c%25b9%25e9%2585%258d%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e7%2594%259f%25e6%2588%2590%2F&format=xml
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-3.xml
+Content Type: text/xml
+
 Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e5%259f%25ba%25e4%25ba%258e%25e6%2597%25a0%25e7%25ba%25bf%25e9%2580%259a%25e4%25bf%25a1%25e7%25b3%25bb%25e7%25bb%259f%25e5%2586%2585%25e7%2594%259f%25e5%25ae%2589%25e5%2585%25a8%25e5%25b1%259e%25e6%2580%25a7%25e7%259a%2584%25e7%2589%25a9%25e7%2590%2586%25e5%25b1%2582%25e4%25b8%258b%25e4%25b8%2580%25e4%25bb%25a3%25e9%25a2%2591%2F
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-7.json
 Content Type: application/json
@@ -636,6 +716,14 @@ Content Type: application/json
 
 Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e6%2594%25af%25e4%25bb%2598%25e9%2580%259a%25e9%2581%2593%25e7%25bd%2591%25e7%25bb%259c%25e4%25b8%25ad%25e5%25ae%2589%25e5%2585%25a8%25e4%25b8%2594%25e5%258c%25bf%25e5%2590%258d%25e7%259a%2584%25e5%25a4%259a%25e9%2580%259a%25e9%2581%2593%25e6%259b%25b4%25e6%2596%25b0%25e5%258d%258f%25e8%25ae%25ae%2F&format=xml
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-3.xml
+Content Type: text/xml
+
+Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e7%25a0%25b4%25e5%259d%258f%25e5%259f%25ba%25e4%25ba%258e%25e4%25bf%25a1%25e9%2581%2593%25e4%25ba%2592%25e6%2598%2593%25e6%2580%25a7%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e7%2594%259f%25e6%2588%2590%25e4%25b8%25ad%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e4%25b8%2580%25e8%2587%25b4%25e6%2580%25a7%2F
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-4.json
+Content Type: application/json
+
+Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e7%25a0%25b4%25e5%259d%258f%25e5%259f%25ba%25e4%25ba%258e%25e4%25bf%25a1%25e9%2581%2593%25e4%25ba%2592%25e6%2598%2593%25e6%2580%25a7%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e7%2594%259f%25e6%2588%2590%25e4%25b8%25ad%25e7%259a%2584%25e5%25af%2586%25e9%2592%25a5%25e4%25b8%2580%25e8%2587%25b4%25e6%2580%25a7%2F&format=xml
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\oembed\1.0\embed-4.xml
 Content Type: text/xml
 
 Uri: http://127.0.0.1:10005/wp-json/oembed/1.0/embed?url=http:%2F%2F127.0.0.1:10005%2F%25e9%259d%25a2%25e5%2590%2591%25e5%25a4%259a%25e5%25a4%25a9%25e7%25ba%25bf-5g-%25e7%2594%25a8%25e6%2588%25b7%25e8%25ae%25be%25e5%25a4%2587%25e7%259a%2584%25e4%25bf%25a1%25e9%2581%2593%25e9%25b2%2581%25e6%25a3%2592%25e5%25b0%2584%25e9%25a2%2591%25e6%258c%2587%25e7%25ba%25b9%25e8%25af%2586%25e5%2588%25ab%2F
@@ -736,6 +824,14 @@ Content Type: application/json
 
 Uri: http://127.0.0.1:10005/wp-json/wp/v2/posts/1058
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\wp\v2\posts\1058.json
+Content Type: application/json
+
+Uri: http://127.0.0.1:10005/wp-json/wp/v2/posts/1068
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\wp\v2\posts\1068.json
+Content Type: application/json
+
+Uri: http://127.0.0.1:10005/wp-json/wp/v2/posts/1076
+File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-json\wp\v2\posts\1076.json
 Content Type: application/json
 
 Uri: http://127.0.0.1:10005/wp-json/wp/v2/posts/733
