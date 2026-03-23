@@ -12,7 +12,7 @@
 	<atom:link href="http://127.0.0.1:10005/feed/" rel="self" type="application/rss+xml" />
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
-	<lastBuildDate>Mon, 23 Mar 2026 09:54:40 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Mar 2026 10:02:06 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -1453,13 +1453,12 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png" alt="" class="uag-image-1008" width="500" height="400" title="PixPin_2026-03-18_17-46-47" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9dbf05af"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png" alt="" class="uag-image-1008" width="500" height="400" title="PixPin_2026-03-18_17-46-47" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-d5f8b4dd wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png" alt="" class="uag-image-1007" width="500" height="400" title="PixPin_2026-03-18_17-46-29" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-d5f8b4dd wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9dbf05af"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png" alt="" class="uag-image-1007" width="500" height="400" title="PixPin_2026-03-18_17-46-29" loading="lazy" role="img"/></figure></div>
 </div>
 
 
@@ -1469,9 +1468,8 @@
 
 
 
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-e1300cac wp-block-group-is-layout-flex">
 <p class="lab-experiment-caption has-medium-font-size"><strong>两阶段方案（AO-TSS）相比单阶段方案在低 SINR 门限下显著提升系统平均保密率，且对雷达感知性能的影响可忽略不计</strong>：如原文 <strong>Fig. 10</strong> 所示，随着 LU SINR 门限的增大，所提两阶段方案的平均系统保密率始终高于无两阶段优化的方案，在低 SINR 门限区间优势尤为明显；ZF 算法因消除了干扰、扩展了 SINR 门限可行域，其保密率甚至高于 SDR 算法，两者在高 SINR 下趋于一致。<strong>Fig. 9</strong> 的收敛曲线表明，AO-TSS 在不同系统参数下均能快速收敛。<strong>Table III</strong> 进一步定量验证：在各 SINR 门限下，两阶段方案与单阶段方案的感知目标函数差距可忽略，证明安全通信性能的提升是在几乎不损失雷达感知性能的前提下实现的。</p>
-</div>
 </div>
 
 
