@@ -12,7 +12,7 @@
 	<atom:link href="http://127.0.0.1:10005/feed/" rel="self" type="application/rss+xml" />
 	<link>http://127.0.0.1:10005</link>
 	<description></description>
-	<lastBuildDate>Mon, 23 Mar 2026 10:02:06 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Apr 2026 06:09:17 +0000</lastBuildDate>
 	<language>zh-Hans</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,152 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>流体天线系统辅助物理层密钥生成</title>
+		<link>http://127.0.0.1:10005/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>http://127.0.0.1:10005/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 06:09:17 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">http://127.0.0.1:10005/?p=1130</guid>
+
+					<description><![CDATA[本文研究了多天线基站系统中利用流体天线系统（FAS）动态定制无线环境的物理层密钥生成（PLKG）问题。无需额外节点或大量射频（RF）链，FAS 通过利用信道空间相关性实现自适应天线端口选择，有效提升合法节点的密钥生成率（SKR）。为全面评估 FAS 在 PLKG 中的性能，本文提出了集成发射波束成形与稀疏端口选择的 FAS 辅助 PLKG 模型，分别适用于独立同分布（i.i.d.）与空间相关信道场景。具体而言，PLKG 利用互易信道探测推导基于合法信道估计互信息的近似 SKR 表达式，并在空间相关信道场景下显式考虑窃听者（Eve）的信道观测。针对这两种场景建立了非凸优化问题，在发射功率约束与稀疏端口激活约束下最大化 SKR。本文利用逐次凸逼近（SCA）与 Cauchy-Schwarz 不等式提出迭代算法获取局部最优解，并采用重写 ​ 范数算法促进 FAS 辅助 PLKG 的稀疏端口激活。为逼近穷举搜索获得的最优激活端口，基于 Rayleigh 商分析提出低复杂度滑动窗口端口选择方法以替代重写 ￼​ 范数法。仿真结果表明，FAS 辅助 PLKG 方案在两种环境下均显著优于固定天线辅助 PLKG 方案：FAS 通过动态稀疏端口选择以更少的 RF 链实现更高的 SKR，有效降低资源开销；滑动窗口法相比重写 ￼​ 范数法更接近全局最优端口选择，适用于实际部署。]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">流体天线系统辅助物理层密钥生成</h2>
+
+
+<p class="lab-paper-meta has-small-font-size">Zhiyu Huang and Guyue Li and Hao Xu and Derrick Wing Kwan Ng</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size"><em>IEEE Journal on Selected Areas in Communications</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Real-World_Aircraft_Recognition_Based_on_RF_Fingerprinting_With_Few_Labeled_ADS-B_Signals.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/JSAC.2026.3679311" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>本文研究了多天线基站系统中利用流体天线系统（FAS）动态定制无线环境的物理层密钥生成（PLKG）问题。无需额外节点或大量射频（RF）链，FAS 通过利用信道空间相关性实现自适应天线端口选择，有效提升合法节点的密钥生成率（SKR）。为全面评估 FAS 在 PLKG 中的性能，本文提出了集成发射波束成形与稀疏端口选择的 FAS 辅助 PLKG 模型，分别适用于独立同分布（i.i.d.）与空间相关信道场景。具体而言，PLKG 利用互易信道探测推导基于合法信道估计互信息的近似 SKR 表达式，并在空间相关信道场景下显式考虑窃听者（Eve）的信道观测。针对这两种场景建立了非凸优化问题，在发射功率约束与稀疏端口激活约束下最大化 SKR。本文利用逐次凸逼近（SCA）与 Cauchy-Schwarz 不等式提出迭代算法获取局部最优解，并采用重写 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ 范数算法促进 FAS 辅助 PLKG 的稀疏端口激活。为逼近穷举搜索获得的最优激活端口，基于 Rayleigh 商分析提出低复杂度滑动窗口端口选择方法以替代重写 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ 范数法。仿真结果表明，FAS 辅助 PLKG 方案在两种环境下均显著优于固定天线辅助 PLKG 方案：FAS 通过动态稀疏端口选择以更少的 RF 链实现更高的 SKR，有效降低资源开销；滑动窗口法相比重写 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ 范数法更接近全局最优端口选择，适用于实际部署。</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>提出两种 FAS 辅助 PLKG 模型，覆盖独立与空间相关窃听场景，推导近似 SKR 闭合表达式</strong>：独立场景下 Eve 距 Bob 超过 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\lambda/2</annotation></semantics></math>，信道估计统计独立；相关场景下 Eve 距 Bob 不超过 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\lambda/2</annotation></semantics></math>，需显式考虑窃听信道与合法信道的空间相关性。两种场景均通过互信息与联合熵分析推导近似 SKR 表达式，将 FAS 端口激活矩阵与空间相关结构 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>J</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">J_A</annotation></semantics></math>​ 纳入 SKR 分析，量化动态端口选择如何通过增强合法信道互信息并抑制 Eve 可观测相关性来提升密钥生成性能；理论分析表明 SKR 增益随基站空间相关矩阵最大特征值 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>λ</mi><mi>max</mi><mo>⁡</mo></msub></mrow><annotation encoding="application/x-tex">\lambda_{\max}</annotation></semantics></math>​ 单调递增。</li>
+
+
+
+<li><strong>设计 SCA + Cauchy-Schwarz 迭代算法与重写 ℓ1范数稀疏优化方法求解非凸端口选择问题</strong>：针对目标函数中的非凸项，采用 SCA 结合 Cauchy-Schwarz 不等式松弛建立性能下界并迭代求解（Algorithm 1）；通过引入自适应对角加权矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>l</mi></msub><mo>=</mo><mi>g</mi><mo stretchy="false">(</mo><msub><mi>w</mi><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">V_l = g(w_{l-1})</annotation></semantics></math> 的重写 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ 范数约束（Algorithm 2）促进波束成形向量的稀疏性，使激活端口数精确满足 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∥</mi><mi>w</mi><msub><mi mathvariant="normal">∥</mi><mn>0</mn></msub><mo>=</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">\|w\|_0 = N</annotation></semantics></math>；算法整体复杂度为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>M</mi><mn>3</mn></msup><mo>+</mo><msup><mi>M</mi><mn>2</mn></msup><mi>N</mi><mo>+</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(M^3 + M^2N + M)</annotation></semantics></math>。</li>
+
+
+
+<li><strong>提出基于 Rayleigh 商理论的滑动窗口端口选择法，将复杂度从指数级降至多项式级</strong>：利用零阶第一类 Bessel 函数 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>J</mi><mn>0</mn></msub><mo stretchy="false">(</mo><mo>⋅</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">J_0(\cdot)</annotation></semantics></math>的振荡衰减特性，分析 FAS 归一化尺寸 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi></mrow><annotation encoding="application/x-tex">W</annotation></semantics></math>W 对空间相关矩阵最大特征值 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>λ</mi><mi>max</mi><mo>⁡</mo></msub><mo stretchy="false">(</mo><msub><mi>J</mi><mi>A</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\lambda_{\max}(J_A)</annotation></semantics></math> 的影响，证明选取连续紧凑端口可最大化 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>w</mi><mi>H</mi></msup><msub><mi>J</mi><mi>A</mi></msub><mi>w</mi></mrow><annotation encoding="application/x-tex">w^H J_A w</annotation></semantics></math> 进而最大化 SKR；通过在 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math>M 个预设端口上滑动长度为 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 的窗口生成 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>−</mo><mi>N</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">M-N+1</annotation></semantics></math>个候选集（Algorithm 3/4），将穷举搜索的指数级复杂度降至 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mo stretchy="false">(</mo><mi>M</mi><mo>+</mo><mi>N</mi><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><msup><mi>M</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O((M+N-1)M^2)</annotation></semantics></math>（如 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>=</mo><mn>32</mn><mo separator="true">,</mo><mi>N</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">M=32, N=5</annotation></semantics></math>时穷举超 20 万种组合，滑动窗口仅需 28 次候选评估）。</li>
+
+
+
+<li class="lab-feature-list"><strong>通过全面仿真验证 FAS 辅助 PLKG 的性能边界、收敛性与鲁棒性</strong>：仿真表明 FAS 方案（N=5）在两种场景下均优于 FA 方案（N=7），实现以更少 RF 链获得更高 SKR；SKR 随 RF 链数增加在空间相关场景下提升 38.2%，远高于 i.i.d. 场景的 4.2%，前者对 RF 链数量更敏感；算法在 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>=</mo><mn>32</mn></mrow><annotation encoding="application/x-tex">M=32</annotation></semantics></math>时平均约 15 次迭代收敛，<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>=</mo><mn>16</mn></mrow><annotation encoding="application/x-tex">M=16</annotation></semantics></math>时约 10 次收敛；信道估计误差增大时 FAS 方案性能下降速度慢于 FA 方案，展现更强鲁棒性。</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-03-04.png ,http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-03-04.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-03-04.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-03-04.png" alt="" class="uag-image-1131" width="802" height="656" title="PixPin_2026-04-02_14-03-04" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size">系统由配备线性流体天线表面的多天线基站 Alice（<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math>M 个预设端口共享 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math>N 个 RF 链，线性分布于长度 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mi>W</mi></mrow><annotation encoding="application/x-tex">\lambda W</annotation></semantics></math>λW 的空间内）、单天线用户 Bob 和单天线窃听者 Eve 组成，工作于 TDD 模式。<strong>信道模型</strong>采用 FAS 空间相关信道模型 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mrow><mi>a</mi><mi>b</mi></mrow></msub><mo>=</mo><msubsup><mi>β</mi><mrow><mi>a</mi><mi>b</mi></mrow><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msubsup><msubsup><mi>J</mi><mi>A</mi><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msubsup><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>a</mi><mi>b</mi></mrow></msub></mrow><annotation encoding="application/x-tex">h_{ab} = \beta_{ab}^{1/2} J_A^{1/2} \tilde{h}_{ab}</annotation></semantics></math>，空间相关矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>J</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">J_A</annotation></semantics></math>JA​ 的第 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(n,m)</annotation></semantics></math> 元素由零阶 Bessel 函数描述：<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>J</mi><mi>A</mi></msub><mo stretchy="false">(</mo><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>J</mi><mn>0</mn></msub><mtext> ⁣</mtext><mrow><mo fence="true">(</mo><mfrac><mrow><mn>2</mn><mi>π</mi><mi mathvariant="normal">∣</mi><mi>n</mi><mo>−</mo><mi>m</mi><mi mathvariant="normal">∣</mi></mrow><mrow><mi>M</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>W</mi><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">J_A(n,m) = J_0\!\left(\frac{2\pi|n-m|}{M-1}W\right)</annotation></semantics></math>。<strong>PLKG 流程</strong>分为三阶段：下行探测（Alice 发射导频，Bob/Eve 通过 LS 估计获得 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>b</mi></msub><mo separator="true">,</mo><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>e</mi><mi>d</mi></msubsup></mrow><annotation encoding="application/x-tex">\hat{h}_b, \hat{h}_e^d</annotation></semantics></math>）、上行探测（Bob 发射导频，Alice/Eve 通过 LS 估计获得 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>a</mi><mi>u</mi></msubsup><mo separator="true">,</mo><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>e</mi><mi>u</mi></msubsup></mrow><annotation encoding="application/x-tex">\hat{h}_a^u, \hat{h}_e^u</annotation></semantics></math>、等效信道构建（Alice 对上行估计应用稀疏波束成形 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>a</mi></msub><mo>=</mo><msup><mi>w</mi><mi>H</mi></msup><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>a</mi><mi>u</mi></msubsup></mrow><annotation encoding="application/x-tex">\hat{h}_a = w^H \hat{h}_a^u</annotation></semantics></math>​ 以对齐 Bob 的标量估计）。<strong>FAS 端口切换策略</strong>：单轮密钥生成期间端口配置固定以保证 TDD 互易性，动态切换仅发生于相邻两轮之间。<strong>优化目标</strong>为在发射功率约束 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∥</mi><mi>w</mi><msubsup><mi mathvariant="normal">∥</mi><mn>2</mn><mn>2</mn></msubsup><mo>≤</mo><msub><mi>P</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\|w\|_2^2 \leq P_A</annotation></semantics></math>​ 与稀疏端口激活约束 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∥</mi><mi>w</mi><msub><mi mathvariant="normal">∥</mi><mn>0</mn></msub><mo>≤</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">\|w\|_0 \leq N</annotation></semantics></math> 下最大化 SKR（定义为合法信道估计的条件互信息 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>S</mi><mi>K</mi></mrow></msub><mo>=</mo><mi mathvariant="script">I</mi><mo stretchy="false">(</mo><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>a</mi></msub><mo separator="true">;</mo><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>b</mi></msub><mi mathvariant="normal">∣</mi><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>e</mi><mi>d</mi></msubsup><mo separator="true">,</mo><msubsup><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>e</mi><mi>u</mi></msubsup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">R_{SK} = \mathcal{I}(\hat{h}_a; \hat{h}_b | \hat{h}_e^d, \hat{h}_e^u)</annotation></semantics></math>。</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-33.png ,http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-33.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-33.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-33.png" alt="" class="uag-image-1132" width="802" height="656" title="PixPin_2026-04-02_14-04-33" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.3</figcaption></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-43.png ,http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-43.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-43.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-43.png" alt="" class="uag-image-1133" width="802" height="656" title="PixPin_2026-04-02_14-04-43" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.4</figcaption></figure></div>
+</div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size"><strong>FAS 辅助 PLKG 方案在两种信道场景下均显著优于固定天线方案，以更少 RF 链（N=5）实现优于更多固定天线（N=7）的 SKR，且滑动窗口法以多项式复杂度紧密逼近穷举搜索最优性能</strong>：如原文 <strong>Fig. 3</strong>（i.i.d. 场景，SKR 约 21~25 bits/channel use）与 <strong>Fig. 4</strong>（空间相关场景，SKR 约 0.8~2.6 bits/channel use）所示，所有 FAS 方案（&#8221;FAS Opt&#8221;、&#8221;FAS Traverse&#8221;、&#8221;FAS Sliding Window&#8221;）的 SKR 均显著高于 FA 方案（&#8221;FA Opt&#8221;、&#8221;FA MRC&#8221;），其优势源于动态稀疏端口选择将发射功率集中于高相关端口以最大化 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>w</mi><mi>H</mi></msup><msub><mi>J</mi><mi>A</mi></msub><mi>w</mi></mrow><annotation encoding="application/x-tex">w^H J_A w</annotation></semantics></math>。</p>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{huang2026fas,
+  author    = {Zhiyu Huang and Guyue Li and Hao Xu and Derrick Wing Kwan Ng},
+  title     = {Fluid Antenna System-assisted Physical Layer Secret Key Generation},
+  journal   = {IEEE Journal on Selected Areas in Communications},
+  year      = {2026},
+  doi       = {10.1109/JSAC.2026.3679311},
+  note      = {Early Access}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://127.0.0.1:10005/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>基于操控信道测量匹配的密钥生成</title>
 		<link>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
 					<comments>http://127.0.0.1:10005/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
@@ -1360,157 +1506,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>http://127.0.0.1:10005/%e5%8f%af%e7%a7%bb%e5%8a%a8%e5%a4%a9%e7%ba%bf%e8%b5%8b%e8%83%bd%e7%9a%84%e5%8f%8c%e5%b0%ba%e5%ba%a6%e6%b3%a2%e6%9d%9f%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7%e9%80%9a%e4%bf%a1%e3%80%81%e6%84%9f/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>存在混合共谋窃听者的感知通信一体化系统联合波束成形设计</title>
-		<link>http://127.0.0.1:10005/%e5%ad%98%e5%9c%a8%e6%b7%b7%e5%90%88%e5%85%b1%e8%b0%8b%e7%aa%83%e5%90%ac%e8%80%85%e7%9a%84%e6%84%9f%e7%9f%a5%e9%80%9a%e4%bf%a1%e4%b8%80%e4%bd%93%e5%8c%96%e7%b3%bb%e7%bb%9f%e8%81%94%e5%90%88%e6%b3%a2/</link>
-					<comments>http://127.0.0.1:10005/%e5%ad%98%e5%9c%a8%e6%b7%b7%e5%90%88%e5%85%b1%e8%b0%8b%e7%aa%83%e5%90%ac%e8%80%85%e7%9a%84%e6%84%9f%e7%9f%a5%e9%80%9a%e4%bf%a1%e4%b8%80%e4%bd%93%e5%8c%96%e7%b3%bb%e7%bb%9f%e8%81%94%e5%90%88%e6%b3%a2/#respond</comments>
-		
-		<dc:creator><![CDATA[jiushihema]]></dc:creator>
-		<pubDate>Wed, 18 Mar 2026 09:49:13 +0000</pubDate>
-				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://127.0.0.1:10005/?p=1004</guid>
-
-					<description><![CDATA[本文研究了存在混合共谋窃听者的感知通信一体化（ISAC）系统物理层安全（PLS）问题。其中，一个主动窃听者（AE）与一个被动窃听者（PE）相互勾结以截获机密信息。为在保证感知精度的同时防止窃听，基站发射由信息符号和感知波形组成的混合信号，其中感知波形同时充当人工噪声以干扰窃听者。在此框架下，本文提出一种基于交替优化的两阶段方案（AO-TSS）以提升感知与通信性能。第一阶段在已知 AE 完美信道状态信息（CSI）和 PE 统计 CSI 的假设下，以最小化波束图匹配均方误差（MSE）与互相关的加权和为目标，建立联合感知与通信波束成形优化问题，并分别提出半定松弛（SDR）算法和低复杂度迫零（ZF）算法求解；同时将场景推广至 AE CSI 不完美和 PE CSI 未知的更一般情形。第二阶段在雷达性能约束下进一步最大化保密率门限。仿真结果验证了所提方案在感知与安全通信方面的优越性。]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-704e782a wp-block-group-is-layout-constrained" style="min-height:1000px">
-<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-de19a45c wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">存在混合共谋窃听者的感知通信一体化系统联合波束成形设计</h2>
-
-
-<p class="lab-paper-meta has-small-font-size">LIU M, ZHOU Z, SHI Q, et al.</p>
-
-
-
-<p class="lab-paper-meta has-small-font-size"><em>IEEE Transactions on Communications</em></p>
-</div>
-
-
-
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://127.0.0.1:10005/wp-content/uploads/2026/03/Joint_Beamforming_Design_for_Integrated_Sensing_and_Communication_Systems_With_Hybrid-Colluding_Eavesdroppers.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
-
-
-
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TCOMM.2025.3538835" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI 链接</a></div>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 摘要</h3></div>
-
-
-
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>本文研究了存在混合共谋窃听者的感知通信一体化系统物理层安全问题。其中，一个主动窃听者与一个被动窃听者相互勾结以截获机密信息。为在保证感知精度的同时防止窃听，基站发射由信息符号和感知波形组成的混合信号，其中感知波形同时充当人工噪声以干扰窃听者。在此框架下，本文提出一种基于交替优化的两阶段方案以提升感知与通信性能。第一阶段在已知 AE 完美信道状态信息和 PE 统计 CSI 的假设下，以最小化波束图匹配均方误差与互相关的加权和为目标，建立联合感知与通信波束成形优化问题，并分别提出半定松弛算法和低复杂度迫零算法求解；同时将场景推广至 AE CSI 不完美和 PE CSI 未知的更一般情形。第二阶段在雷达性能约束下进一步最大化保密率门限。仿真结果验证了所提方案在感知与安全通信方面的优越性。</p></blockquote></figure>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 核心贡献</h3></div>
-
-
-
-<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
-<li class="lab-feature-list"><strong>提出面向混合共谋窃听场景的 ISAC 安全波束成形框架</strong>：将感知目标中的 AE 与外部 PE 的共谋窃听场景纳入 ISAC 系统设计，令感知波形同时作为人工噪声干扰窃听者，突破了传统 MIMO 雷达波形自由度受合法用户数量限制的瓶颈，并将问题推广至 AE CSI 不完美及 PE CSI 完全未知的实际场景。</li>
-
-
-
-<li class="lab-feature-list"><strong>设计两阶段交替优化方案（AO-TSS），并给出收敛性证明</strong>：第一阶段联合优化信息协方差矩阵与感知协方差矩阵，以最小化波束图 MSE 与互相关加权和为目标，在 QoS 与 PLS 约束下分别提出全局最优 SDR 算法和低复杂度 ZF 算法；第二阶段在固定波束成形矩阵下通过 SCA 算法最大化保密率门限；理论证明 AO-TSS 的目标函数在迭代过程中单调不增，保证了收敛性。</li>
-
-
-
-<li class="lab-feature-list"><strong>理论证明 SDR 与 ZF 算法的最优性，并给出复杂度对比分析</strong>：通过 Proposition 1 证明 SDR 算法所得解满足秩一约束，可获得全局最优；通过 Proposition 2 证明 ZF 算法所得波束成形矩阵亦为全局最优，且其复杂度不随用户数增加而增长（如 Table I 所示），更适用于大规模系统。</li>
-</ul>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 方法概览</h3></div>
-
-
-
-<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-45-03.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-45-03.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-45-03.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-45-03.png" alt="" class="uag-image-1005" width="802" height="656" title="PixPin_2026-03-18_17-45-03" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size">系统由配备 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math> 根天线的半双工基站、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi></mrow><annotation encoding="application/x-tex">K</annotation></semantics></math>个单天线合法用户（LU）和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math> 个感知目标组成，其中第 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math> 个目标同时充当全双工 AE，并与 PE 勾结。基站发射信号 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">x</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>W</mi><mi>s</mi></msub><mi mathvariant="bold">s</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mi>W</mi><mi>c</mi></msub><mi mathvariant="bold">c</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathbf{x}(n) = W_s\mathbf{s}(n) + W_c\mathbf{c}(n)</annotation></semantics></math>，感知波形 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>W</mi><mi>s</mi></msub><mi mathvariant="bold">s</mi></mrow><annotation encoding="application/x-tex">W_s\mathbf{s}</annotation></semantics></math> 在雷达功能中用于目标探测，在通信功能中作为人工噪声干扰窃听者。<strong>第一阶段</strong>以波束图 MSE 与互相关加权和 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">L</mi><mo stretchy="false">(</mo><mi mathvariant="bold">R</mi><mo separator="true">,</mo><msub><mi>δ</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{L}(\mathbf{R}, \delta_1)</annotation></semantics></math> 最小化为目标，在 LU SINR 门限约束、AE SINR 上界约束、PE 中断概率约束和发射功率约束下，联合优化信息协方差矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">{</mo><msub><mi>R</mi><mi>k</mi></msub><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{R_k\}</annotation></semantics></math> 与感知协方差矩阵 <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mi>s</mi></msub></mrow><annotation encoding="application/x-tex">R_s</annotation></semantics></math>​；SDR 算法通过去除秩一约束后恢复最优解，ZF 算法则通过消除多用户干扰和雷达干扰大幅降低计算复杂度。<strong>第二阶段</strong>在固定最优波束成形矩阵的条件下，通过 SCA 算法迭代求解 max-min 保密率优化问题，进一步提升安全通信性能，且对雷达性能的影响可忽略不计。</p>
-</div>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 实验结果</h3></div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-fe9cc265 wp-block-group-is-layout-flex">
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9dbf05af"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-47.png" alt="" class="uag-image-1008" width="500" height="400" title="PixPin_2026-03-18_17-46-47" loading="lazy" role="img"/></figure></div>
-
-
-
-<div class="wp-block-uagb-image uagb-block-d5f8b4dd wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9dbf05af"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-46-29.png" alt="" class="uag-image-1007" width="500" height="400" title="PixPin_2026-03-18_17-46-29" loading="lazy" role="img"/></figure></div>
-</div>
-
-
-
-<div class="wp-block-uagb-image uagb-block-9ddd8b30 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png ,http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 780w, http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://127.0.0.1:10005/wp-content/uploads/2026/03/PixPin_2026-03-18_17-47-52.png" alt="" class="uag-image-1009" width="600" height="225" title="PixPin_2026-03-18_17-47-52" loading="lazy" role="img"/></figure></div>
-</div>
-
-
-
-<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-e1300cac wp-block-group-is-layout-flex">
-<p class="lab-experiment-caption has-medium-font-size"><strong>两阶段方案（AO-TSS）相比单阶段方案在低 SINR 门限下显著提升系统平均保密率，且对雷达感知性能的影响可忽略不计</strong>：如原文 <strong>Fig. 10</strong> 所示，随着 LU SINR 门限的增大，所提两阶段方案的平均系统保密率始终高于无两阶段优化的方案，在低 SINR 门限区间优势尤为明显；ZF 算法因消除了干扰、扩展了 SINR 门限可行域，其保密率甚至高于 SDR 算法，两者在高 SINR 下趋于一致。<strong>Fig. 9</strong> 的收敛曲线表明，AO-TSS 在不同系统参数下均能快速收敛。<strong>Table III</strong> 进一步定量验证：在各 SINR 门限下，两阶段方案与单阶段方案的感知目标函数差距可忽略，证明安全通信性能的提升是在几乎不损失雷达感知性能的前提下实现的。</p>
-</div>
-
-
-
-<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 引用</h3></div>
-
-
-
-<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{liu2025isac,
-  author    = {Meiding Liu and Zhengchun Zhou and Qiao Shi and Guyue Li and Zilong Liu and Pingzhi Fan and Inkyu Lee},
-  title     = {Joint Beamforming Design for Integrated Sensing and Communication Systems With Hybrid-Colluding Eavesdroppers},
-  journal   = {IEEE Transactions on Communications},
-  volume    = {73},
-  number    = {8},
-  pages     = {6484--6498},
-  month     = aug,
-  year      = {2025},
-  doi       = {10.1109/TCOMM.2025.3538835}
-}
-</code></pre>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
-
-
-
-<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-cb46ffcb wp-block-group-is-layout-flex">
-
-</div>
-</div>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>http://127.0.0.1:10005/%e5%ad%98%e5%9c%a8%e6%b7%b7%e5%90%88%e5%85%b1%e8%b0%8b%e7%aa%83%e5%90%ac%e8%80%85%e7%9a%84%e6%84%9f%e7%9f%a5%e9%80%9a%e4%bf%a1%e4%b8%80%e4%bd%93%e5%8c%96%e7%b3%bb%e7%bb%9f%e8%81%94%e5%90%88%e6%b3%a2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
