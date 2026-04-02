@@ -622,11 +622,11 @@ Uri: http://127.0.0.1:10005/wp-content/uploads/2026/04/PixPin_2026-04-02_14-04-4
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\2026\04\PixPin_2026-04-02_14-04-43.png
 Content Type: image/png
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1775110273
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-127.css?ver=1775110586
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-127.css
 Content Type: text/css
 
-Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1775110273
+Uri: http://127.0.0.1:10005/wp-content/uploads/uag-plugin/assets/0/uag-css-187.css?ver=1775110586
 File Name: C:\Users\hema\Desktop\site_backup\127.0.0.1\wp-content\uploads\uag-plugin\assets\0\uag-css-187.css
 Content Type: text/css
 
