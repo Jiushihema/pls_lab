@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	「MirageBeam：面向高鲁棒 WiFi 感知劫持的隐蔽对抗性波束赋形反馈」的评论	</title>
+	<atom:link href="http://localhost:10004/miragebeam%EF%BC%9A%E9%9D%A2%E5%90%91%E5%BC%B9%E6%80%A7-wifi-%E6%84%9F%E7%9F%A5%E5%8A%AB%E6%8C%81%E7%9A%84%E9%9A%90%E8%94%BD%E5%AF%B9%E6%8A%97%E6%80%A7%E6%B3%A2%E6%9D%9F%E8%B5%8B%E5%BD%A2%E5%8F%8D/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost:10004/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/</link>
+	<description></description>
+	<lastBuildDate>Thu, 02 Jul 2026 12:37:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0</generator>
+</channel>
+</rss>
