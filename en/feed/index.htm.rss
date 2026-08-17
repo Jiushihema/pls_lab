@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PLS-LAB</title>
+	<atom:link href="http://localhost:10011/en/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost:10011/en</link>
+	<description></description>
+	<lastBuildDate>Fri, 17 Jul 2026 08:18:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updateperiod>
+	hourly	</sy:updateperiod>
+	<sy:updatefrequency>
+	1	</sy:updatefrequency>
+	<generator>https://wordpress.org/?v=7.0</generator>
+
+<image>
+	<url>http://localhost:10011/wp-content/uploads/2026/01/718857fe-7e7e-4487-90e8-2c81ebcfa141-150x150.png</url>
+	<title>PLS-LAB</title>
+	<link>http://localhost:10011/en</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>流体天线系统辅助的物理层密钥生成</title>
+		<link>http://localhost:10011/en/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>http://localhost:10011/en/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2026 07:19:55 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://localhost:10011/?p=1231</guid>
+
+					<description><![CDATA[This paper investigates physical layer secret key generation (PLKG) in multi-antenna base station systems, leveraging the Fluid Antenna System (FAS) to dynamically customize the radio environment. Without requiring additional nodes or a large number of radio frequency (RF) chains, FAS enhances the secret key rate (SKR) at legitimate nodes by exploiting channel spatial correlation for adaptive antenna port selection. To comprehensively evaluate the performance of FAS in PLKG, this paper proposes a FAS-assisted PLKG model that integrates transmit beamforming and sparse port selection under both independent and identically distributed (i.i.d.) and spatially correlated channel models. Specifically, PLKG utilizes reciprocal channel probing, deriving an approximate SKR expression based on the mutual information between legitimate channel estimates, and explicitly considers the channel observations of the eavesdropper, Eve, in the spatially correlated channel scenario. Non-convex optimization problems are formulated for these scenarios to maximize SKR under transmit power constraints and sparse port activation. This paper proposes an iterative algorithm based on successive convex approximation (SCA) and the Cauchy–Schwarz inequality to obtain locally optimal solutions, and employs a reweighted ℓ1\ell_1ℓ1​-norm-based algorithm to promote sparse port activation for FAS-assisted PLKG. To approximate the optimal activated ports obtained by exhaustive search, this paper proposes a low-complexity sliding window port selection method based on Rayleigh quotient analysis, serving as an alternative to the reweighted ℓ1\ell_1ℓ1​-norm method. Simulation results demonstrate that the FAS-assisted PLKG scheme significantly outperforms the fixed-antenna-assisted PLKG scheme in both environments; FAS achieves higher SKR with fewer RF chains through dynamic sparse port selection, effectively reducing resource overhead, and the sliding window method closely approximates the globally optimal port selection at comparable complexity, making it suitable for practical deployment.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Physical Layer Secret Key Generation Assisted by Fluid Antenna Systems</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">Zhiyu Huang and Guyue Li and Hao Xu and Derrick Wing Kwan Ng</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Journal on Selected Areas in Communications</em></p>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>This paper investigates physical layer secret key generation (PLKG) in multi-antenna base station systems, leveraging fluid antenna systems (FAS) to dynamically customize the radio environment. Without requiring additional nodes or a large number of radio frequency (RF) chains, FAS enhances the secret key rate (SKR) at legitimate nodes by exploiting channel spatial correlation for adaptive antenna port selection. To comprehensively evaluate the performance of FAS in PLKG, this paper proposes a FAS-assisted PLKG model that integrates transmit beamforming and sparse port selection under both independent and identically distributed (i.i.d.) and spatially correlated channel models. Specifically, PLKG utilizes reciprocal channel probing, and approximate SKR expressions are derived based on the mutual information between legitimate channel estimates, with the eavesdropper Eve's channel observations explicitly considered in the spatially correlated channel scenario. Non-convex optimization problems are formulated for these scenarios to maximize the SKR under transmit power constraints and sparse port activation. This paper proposes an iterative algorithm based on successive convex approximation (SCA) and the Cauchy-Schwarz inequality to obtain locally optimal solutions, and employs a reweighted <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ norm-based algorithm to promote sparse port activation for FAS-assisted PLKG. To approximate the optimal activated ports obtained by exhaustive search, this paper proposes a low-complexity sliding-window port selection method based on Rayleigh quotient analysis, serving as an alternative to the reweighted <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ norm method. Simulation results demonstrate that the FAS-assisted PLKG scheme significantly outperforms fixed-antenna-assisted PLKG schemes in both environments; FAS achieves higher SKR with fewer RF chains through dynamic sparse port selection, effectively reducing resource overhead, and the sliding-window method closely approximates the globally optimal port selection at comparable complexity, making it suitable for practical deployment.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Two FAS-assisted PLKG models are proposed</strong>: one for scenarios where Eve's estimation is independent of legitimate users' estimation, and another for correlated scenarios considering spatial correlation between the eavesdropping channel and the legitimate channel; approximate SKR expressions are derived via mutual information and joint entropy analysis, explicitly incorporating the FAS port activation matrix and spatial correlation structure into the SKR analysis, and it is proven that the SKR gain increases with the largest eigenvalue of the spatial correlation matrix at the base station.</li>
+
+
+
+<li class="lab-feature-list"><strong>Algorithm design for solving non-convex optimization problems</strong>: non-convex terms are relaxed via SCA combined with the Cauchy-Schwarz inequality, and a reweighted <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>​ norm method is proposed to promote sparsity in port activation; further leveraging Rayleigh quotient theory and the oscillatory decay characteristics of Bessel-function-based spatial correlation, a low-complexity, near-optimal sliding-window port selection framework is proposed to approximate exhaustive search results, significantly reducing computational complexity.</li>
+
+
+
+<li class="lab-feature-list"><strong>Simulation validation and performance boundary revelation</strong>: the performance of FAS-assisted PLKG is revealed as an implementation boundary for achieving high SKR with minimal RF chains; results show that the scheme significantly outperforms fixed-antenna schemes in both independent and spatially correlated scenarios, and the sliding-window method consistently outperforms the reweighted <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\ell_1</annotation></semantics></math>norm method at the same complexity order while closely approximating the optimal selection of all ports via exhaustive search.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png ,http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png" alt="" class="uag-image-1232" width="802" height="656" title="01655daf-a505-4698-8dbe-34a41cc10ca3" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>System and channel model</strong>: a MISO system employing the TDD protocol is considered, where a multi-antenna base station Alice is equipped with a linear fluid antenna surface containing $N$ RF chains, and $M$ preset ports share these RF chains and are uniformly distributed over a linear space of length $\lambda W$. A FAS-correlated channel model is adopted, where the elements of the spatial correlation matrix $J_A$ at Alice are characterized by the zero-order Bessel function of the first kind $J_0$, and ports can be adaptively selected via software control to exploit spatial correlation for enhancing the secret key rate.<strong>Beamforming and SKR derivation</strong>: Alice and Bob obtain channel state information through reciprocal channel probing combined with least-squares estimation, and Alice then constructs an equivalent channel aligned with Bob's scalar estimate via beamforming. The secret key rate $R_{SK}$ is defined as the conditional mutual information of the legitimate parties' channel estimates, $R_{SK}=I(\hat{h}_a;\hat{h}_b\mid \hat{h}^d_e,\hat{h}^u_e)$, and approximate expressions are derived for both i.i.d. and spatially correlated eavesdropping scenarios, with the core quantity being $w^H J_A w$.<strong>Joint optimization and port selection</strong>: the SKR is maximized under the transmit power constraint $|w|^2_2\le P_A$ and the sparsity constraint $|w|_0\le N$. Since the objective increases monotonically with $\beta_{ab}w^H J_A w$, the problem reduces to maximizing $w^H J_A w$, which is successively convexified via eigendecomposition and SCA combined with the Cauchy-Schwarz inequality, with a reweighted $\ell_1$ norm promoting sparsity. Furthermore, based on Rayleigh quotient theory and the oscillatory decay characteristics of Bessel functions, a sliding-window port selection method is proposed: a window of length $N$ slides over the $M$ ports, selecting the consecutive port combination maximizing $w^H J_A w$ as the initial vector before power optimization, reducing complexity from exponential to polynomial order $O((M+N-1)M^2)$.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-ac75e9d6 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group has-custom-css is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex wp-custom-css-a08f9db9">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-3add2428 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png ,http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 780w, http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png" alt="" class="uag-image-1238" width="773" height="551" title="b7fe770b-9274-4275-b440-d36801098f17" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-132ce920 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png ,http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 780w, http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png" alt="" class="uag-image-1239" width="778" height="527" title="30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12" loading="lazy" role="img"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-9104dc44 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png ,http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png" alt="" class="uag-image-1241" width="802" height="656" title="0e026b36-7e9a-40ad-bb50-08992f8381f3" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-9b091da0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png ,http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png" alt="" class="uag-image-1234" width="1061" height="684" title="7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3" loading="lazy" role="img"/></figure></div>
+</div>
+</div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>FAS-assisted PLKG significantly outperforms fixed-antenna schemes in both channel environments and achieves higher secret key rates with fewer RF chains</strong>: as shown in Fig. 3 and Fig. 4, the SKR increases monotonically with the power budget $P_A$ and gradually saturates; the FAS scheme achieves or even exceeds the performance of fixed-antenna schemes with more activated antennas (”FA Opt, $N=7$”) using fewer activated antennas (”FAS Opt, $N=5$”). Regarding the impact of the number of RF chains (Fig. 8, Fig. 9), the SKR improves monotonically as $N$ increases, with the spatially correlated scenario showing a 38.2% SKR increase while the i.i.d. scenario increases only 4.2%, indicating significantly higher sensitivity to the number of RF chains in the former. Additionally, the sliding-window method (”FAS Sliding Window”) consistently outperforms the reweighted $\ell_1$ norm method (”FAS Opt”) in terms of convergence, key disagreement rate (KDR, Fig. 7), and the impact of normalized size $W$ (Fig. 12, Fig. 13), while closely approximating exhaustive search (”FAS Traverse”); in robustness tests (Fig. 16, Fig. 17), the FAS scheme degrades more slowly as the spatial correlation matrix estimation error $\sigma^2_\Delta$ increases. In terms of convergence, approximately 15 iterations are required for $M=32$ and about 10 for $M=16$.</p>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{huang2026fluid,
+  author    = {Zhiyu Huang and Guyue Li and Hao Xu and Derrick Wing Kwan Ng},
+  title     = {Fluid Antenna System-Assisted Physical Layer Secret Key Generation},
+  journal   = {IEEE Journal on Selected Areas in Communications},
+  volume    = {44},
+  pages     = {4429--4443},
+  year      = {2026},
+  doi       = {10.1109/JSAC.2026.3679311}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MirageBeam：面向高鲁棒 WiFi 感知劫持的隐蔽对抗性波束赋形反馈</title>
+		<link>http://localhost:10011/en/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/</link>
+					<comments>http://localhost:10011/en/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Thu, 02 Jul 2026 06:02:28 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://localhost:10011/?p=1193</guid>
+
+					<description><![CDATA[Sensing based on Beamforming Feedback Information (BFI), which can be obtained on commercial hardware without driver hacking, is emerging as a promising successor to channel state information (CSI)-based WiFi sensing. However, its security implications remain largely unexplored. Unlike CSI, BFI is broadcast in plaintext, offering attackers a broader attack surface. This paper proposes MirageBeam, the first practical framework for adversarial attacks against BFI-based sensing. By injecting carefully crafted BFI frames, attackers can launch untargeted and targeted attacks to induce misclassification in human activity recognition systems. The core challenge lies in maximizing misclassification while remaining indistinguishable from normal activity samples. This paper formulates an optimization problem that jointly selects the amplitude of forged BFI and the injection timing, thereby stealthily controlling the BFI sequence observed at the receiver. Furthermore, real-world injection faces attack asynchrony caused by unpredictable injection delays. This paper introduces a delayed BFI injection window and reformulates the optimization as a weighted form over delay units, enabling seamless adaptation to varying delays. MirageBeam is implemented on commercial WiFi hardware across three indoor environments, achieving an attack success rate exceeding 81%, while keeping the detection rate below 30%, revealing critical vulnerabilities in existing BFI-based sensing systems. Finally, actionable countermeasures are outlined to safeguard future BFI-based deployments.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">MirageBeam: Covert Adversarial Beamforming Feedback for High-Robust WiFi Sensing Hijacking</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">Zhiming Chu and Guyue Li and Tianxiang Xie and Dan Wu and Daqing Zhang</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Transactions on Dependable and Secure Computing</em></p>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>Sensing based on Beamforming Feedback Information (BFI), which can be obtained on commercial hardware without driver hacking, is emerging as a promising successor to channel state information (CSI)-based WiFi sensing. However, its security implications remain largely unexplored. Unlike CSI, BFI is broadcast in plaintext, offering attackers a broader attack surface. This paper proposes MirageBeam, the first practical framework for adversarial attacks against BFI-based sensing. By injecting carefully crafted BFI frames, attackers can launch untargeted and targeted attacks to induce misclassification in human activity recognition systems. The core challenge lies in maximizing misclassification while remaining indistinguishable from normal activity samples. This paper formulates an optimization problem that jointly selects the amplitude of forged BFI and the injection timing, thereby stealthily controlling the BFI sequence observed at the receiver. Furthermore, real-world injection faces attack asynchrony caused by unpredictable injection delays. This paper introduces a delayed BFI injection window and reformulates the optimization as a weighted form over delay units, enabling seamless adaptation to varying delays. MirageBeam is implemented on commercial WiFi hardware across three indoor environments, achieving an attack success rate exceeding 81%, while keeping the detection rate below 30%, revealing critical vulnerabilities in existing BFI-based sensing systems. Finally, actionable countermeasures are outlined to safeguard future BFI-based deployments.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes MirageBeam, the first adversarial framework against BFI-based sensing</strong>: Demonstrates that forged BFI frames can trigger untargeted and targeted misclassification in commercial WiFi human activity recognition systems.</li>
+
+
+
+<li class="lab-feature-list"><strong>Constructs a joint optimization problem</strong>: Jointly selects forged BFI amplitude and injection timing to maximize misclassification while enforcing statistical indistinguishability from normal activity sequences.</li>
+
+
+
+<li class="lab-feature-list"><strong>Extensive evaluation on real hardware</strong>: Achieves 85.95% (untargeted) and 81.81% (targeted) success rates across three indoor environments on off-the-shelf hardware, while keeping detection rates below 30%, exposing critical vulnerabilities in current BFI deployments and providing actionable countermeasures.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png ,http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 780w, http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png" alt="" class="uag-image-1194" width="802" height="656" title="0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>BFI fundamentals and attack objectives</strong>: In a MIMO system with subcarriers and transmit antennas, beamforming performs singular value decomposition on the channel matrix , takes the first columns of to form the steering matrix, and quantizes the feedback angles. The attack objective is defined on the classifier : untargeted attacks require , targeted attacks require , with the adversarial sample .<strong>Problem formulation and solution</strong>: The behavior time window (duration ) is uniformly divided into segments (with in the paper). For each candidate time instant , the binary injection flag and complex perturbation vector are optimized. The forged BFI is constructed as and normalized column-wise. Using logit scores as feedback, the optimization minimizes under sparsity and low-distortion constraints to maximize misclassification; since the injection timing is discrete and non-differentiable, enhanced particle swarm optimization (EPSO) is employed for solving.<strong>Robustness enhancement:</strong>A delayed BFI injection window mechanism is introduced, updating the logit as a weighted sum across delay units, combined with a multi-sample adaptive mechanism to accommodate delay and signal diversity in real-world injection.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-976c3cc2 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-28a173f6 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png ,http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 780w, http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png" alt="" class="uag-image-1196" width="802" height="656" title="7d642c80-55ac-41e7-8594-56c5eeb3da3d" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>MirageBeam successfully hijacks BFI-based sensing with high success rates while maintaining low detection rates across three indoor environments</strong>: As shown in Fig. 14, its targeted attack success rates (TASR) in the meeting room, office, and hall are 83.04%, 75.46%, and 86.94%, respectively; as shown in Fig. 13, the untargeted attack success rates (UASR) are 83%, 82.9%, and 91.96%, respectively. Compared with the random injection baseline, MirageBeam is significantly superior under the same injection volume—untargeted attacks achieve 62%/90%/97% for W/WB/S, whereas the random baseline achieves only 2.5%/57.5%/57.5%. On existing systems (Fig. 22), untargeted success rates against BeamSense and MuseFi mostly exceed 80%. Under black-box settings, the UASR of a 5-layer CNN and Transformer enhanced via model ensembling reaches 88.30% and 88.94%, respectively. Regarding content-level defenses, the baseline detection rate is as high as 50.56%, while MirageBeam remains below 30%. Overall, the paper reports an untargeted attack success rate of 85.95%, a targeted attack success rate of 81.81%, and a detection rate below 30%.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{chu2026miragebeam,
+  author    = {Zhiming Chu and Guyue Li and Tianxiang Xie and Dan Wu and Daqing Zhang},
+  title     = {MirageBeam: Stealthy Adversarial Beamforming Feedback for Resilient WiFi Sensing Hijacking},
+  journal   = {IEEE Transactions on Dependable and Secure Computing},
+  year      = {2026},
+  doi       = {10.1109/TDSC.2026.3699719},
+  note      = {Early Access}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>面向 SIMO 场景低时延 5G 设备识别的信道鲁棒射频指纹提取方法</title>
+		<link>http://localhost:10011/en/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/</link>
+					<comments>http://localhost:10011/en/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2026 12:55:52 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://localhost:10011/?p=1187</guid>
+
+					<description><![CDATA[Ultra-low latency is a hallmark feature of the fifth-generation mobile communications (5G), imposing extremely stringent time requirements on device identification. Current cryptography-based schemes introduce additional computational overhead, thereby exacerbating identification latency. Radio frequency fingerprinting (RFF) identifies devices at the physical layer, which can prevent impersonation attacks and significantly reduce latency. However, multipath channels impair the accuracy of RFF, and existing channel-robust methods require feedback or processing across multiple time instants, incurring additional signaling latency. To address this issue, this paper proposes a novel RFF extraction technique that leverages signals from multiple receive antennas to mitigate multipath effects without increasing latency. Unlike single-domain methods, this work utilizes the Log-Linear Delta Ratio (LLDR) of simultaneous channel frequency responses (CFR) from multiple antennas to preserve discriminative RFF features, thereby eliminating multi-instant sampling and shortening acquisition time. To overcome the challenge of relying on minimal channel variation, the frequency band is divided into subbands, and the LLDR is computed independently within each subband. Simulation results show that in a 20-tap channel at a 20 dB signal-to-noise ratio (SNR), the proposed scheme achieves 96.13% identification accuracy for 30 user equipments (UEs). Furthermore, the theoretical latency evaluated based on the Roofline model yields an over-the-air latency of 0.491 ms, satisfying the latency requirements of ultra-reliable low-latency communication (URLLC).]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Channel-Robust RF Fingerprinting Extraction Method for Low-Latency 5G Device Identification in SIMO Scenarios</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">Yingjie Sun and Guyue Li and Hongfu Chou and Aiqun Hu</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>2026 IEEE Wireless Communications and Networking Conference (WCNC)</em></p>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>Ultra-low latency is a hallmark feature of the fifth-generation mobile communications (5G), imposing extremely stringent time requirements on device identification. Current cryptography-based schemes introduce additional computational overhead, thereby exacerbating identification latency. Radio frequency fingerprinting (RFF) identifies devices at the physical layer, which can prevent impersonation attacks and significantly reduce latency. However, multipath channels impair the accuracy of RFF, and existing channel-robust methods require feedback or processing across multiple time instants, incurring additional signaling latency. To address this issue, this paper proposes a novel RFF extraction technique that leverages signals from multiple receive antennas to mitigate multipath effects without increasing latency. Unlike single-domain methods, this work utilizes the Log-Linear Delta Ratio (LLDR) of simultaneous channel frequency responses (CFR) from multiple antennas to preserve discriminative RFF features, thereby eliminating multi-instant sampling and shortening acquisition time. To overcome the challenge of relying on minimal channel variation, the frequency band is divided into subbands, and the LLDR is computed independently within each subband. Simulation results show that in a 20-tap channel at a 20 dB signal-to-noise ratio (SNR), the proposed scheme achieves 96.13% identification accuracy for 30 user equipments (UEs). Furthermore, the theoretical latency evaluated based on the Roofline model yields an over-the-air latency of 0.491 ms, satisfying the latency requirements of ultra-reliable low-latency communication (URLLC).</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes a novel RFF scheme utilizing multi-antenna received signals</strong>: Only a single uplink transmission is required to mitigate multipath channel effects, thereby reducing identification latency, and the method can be theoretically proven to be robust against multipath channels.</li>
+
+
+
+<li class="lab-feature-list"><strong>Computes the Log-Linear Delta Ratio (LLDR) between CFRs</strong>: Distinct from traditional single-domain signal processing; to address CFR fluctuations, the frequency band is divided and RFF features are extracted within each smooth subband.</li>
+
+
+
+<li class="lab-feature-list"><strong>Simulation validation based on MATLAB 5G NR Toolbox</strong>: Simulations are conducted for 30 virtual UEs under different SNRs, and results show that in a TDL 20-tap channel at an SNR of 20 dB, an accuracy of 96.13% and an over-the-air latency of 0.491 ms are achieved, meeting URLLC latency requirements.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-83d1bd77 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-8da03e20 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div class="wp-block-uagb-image uagb-block-db58d614 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png ,http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 780w, http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png" alt="" class="uag-image-1189" width="295" height="230" title="77080c0d-bf4d-452d-8783-db1e8d8486ad" loading="lazy" role="img"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>System and signal model:</strong>In a SIMO system, the frequency-domain received signals at two receive antennas are Y_1(k)=R_1(k)H_1(k)T(k)X(k)+N_1(k), Y_2(k)=R_2(k)H_2(k)T(k)X(k)+N_2(k), where T(k) denotes the transmit impairment, R_1(k),R_2(k) denote the receive impairments, and H_1(k),H_2(k) denote the CFR. The channel terms superimposed in the channel estimation results Z_1(k)\approx R_1(k)H_1(k)T(k), Z_2(k)\approx R_2(k)H_2(k)T(k) hinder the direct acquisition of stable RFF.</p>
+
+
+
+<p class="lab-experiment-caption has-small-font-size wp-block-paragraph"><strong>LLDR extraction and subband processing:</strong>The frequency band is divided into subbands to ensure CFR smoothness, and normalization is performed within each subband using the means \hat{a}_1,\hat{a}_2. Defining the relative impairment between antennas as r=\frac{R_2(k)}{R_1(k)}, the linear difference D_{12}(k)=Z_{1,norm}(k)-\frac{1}{r}Z_{2,norm}(k) and the logarithmic difference L_{12}(k)=\ln r+\ln\frac{Z_{1,norm}(k)}{Z_{2,norm}(k)} are constructed. Based on the first-order Taylor approximation \ln x\approx\Delta x, the ratio of the two yields the RFF estimate \hat{T}_0(k)=\frac{D_{12}(k)}{L_{12}(k)}\approx T_0(k), which is independent of H_1(k),H_2(k), achieving multipath suppression; repeating per subband and concatenating yields the channel-robust RFF, which is then fed into a CNN for identification.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-46951038 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-a3591eb7 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png ,http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 780w, http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png" alt="" class="uag-image-1204" width="760" height="588" title="746a3f74-370f-49f7-a1f3-45b4ee534733" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-14bb0b9c wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png ,http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 780w, http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png" alt="" class="uag-image-1190" width="802" height="656" title="158aa649-6565-4efa-a707-3d26f4ee076f" loading="lazy" role="img"/></figure></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-f74d106b wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png ,http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 780w, http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png" alt="" class="uag-image-1205" width="775" height="652" title="9e6c75e7-ce1b-41f6-8930-f5f766302353" loading="lazy" role="img"/></figure></div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>The proposed scheme significantly outperforms all baseline methods under multipath channels while meeting URLLC latency requirements</strong>: As shown in Fig. 7, at 25 dB SNR, the proposed method achieves 96.2% accuracy, outperforming all baselines, with Benchmark1 at 61.83%, Benchmark2 at 62.4%, and DoLoS at 83.67%. Furthermore, Fig. 5 shows that with 4 subcarriers and SNR above 20 dB, an accuracy of 96.43% is achieved; Fig. 6 shows that with 30 UEs and SNR greater than 10 dB, accuracy can reach above 95.4%, and with fewer than 20 UEs, it can reach 98.2%. In terms of latency, the estimates are T_{UE}=34.64\,\mu s, T_{RFFI}=81.04\,\mu s, combined with T_{TTI}=0.25\,ms, T_f=0.125\,ms, yielding an overall theoretical latency of T_{air}\approx 0.491\,ms&lt;1\,ms, satisfying the URLLC requirements of ITU-R IMT-2020.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@inproceedings{sun2026channelrobust,
+  author    = {Yingjie Sun and Guyue Li and Hongfu Chou and Aiqun Hu},
+  title     = {Channel-Robust RFF for Low-Latency 5G Device Identification in SIMO Scenarios},
+  booktitle = {2026 IEEE Wireless Communications and Networking Conference (WCNC)},
+  year      = {2026}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>CIDO-FANet：面向 5G 设备的信道鲁棒射频指纹识别</title>
+		<link>http://localhost:10011/en/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/</link>
+					<comments>http://localhost:10011/en/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2026 12:22:43 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://localhost:10011/?p=1182</guid>
+
+					<description><![CDATA[RF fingerprinting identification (RFFI) can enhance wireless security, but research targeting 5G New Radio (NR) is scarce, and performance often degrades under channel variations. This paper proposes a channel-robust RFFI framework for 5G NR. First, a Channel-Independent Differential Operator (CIDO) is introduced to derive channel-invariant device features from NR demodulation reference signals (DMRS), suppressing channel distortion while preserving device characteristics. Second, to accommodate NR's flexible resource mapping and exploit frequency-domain correlations, a Frequency-domain Autocorrelation Network (FANet) is designed, which handles variable-length frequency-domain inputs and employs frequency-domain attention to enhance discriminative capability. Finally, validation is conducted using data from five commercial 5G NR devices collected across diverse environments and times; the proposed method consistently achieves high accuracy and significantly outperforms all baselines in cross-channel generalization. These results demonstrate a viable path toward reliable RF fingerprinting-based device identification in dynamic NR scenarios.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">CIDO-FANet: Channel-Robust RF Fingerprint Identification for 5G Devices</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">Longlong Shen and Guyue Li and Jingyuan Han and Tianqi Wu and Aiqun Hu</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>2026 IEEE Wireless Communications and Networking Conference Workshops (WCNCW)</em></p>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>RF fingerprinting identification (RFFI) can enhance wireless security, but research targeting 5G New Radio (NR) is scarce, and performance often degrades under channel variations. This paper proposes a channel-robust RFFI framework for 5G NR. First, a Channel-Independent Differential Operator (CIDO) is introduced to derive channel-invariant device features from NR demodulation reference signals (DMRS), suppressing channel distortion while preserving device characteristics. Second, to accommodate NR's flexible resource mapping and exploit frequency-domain correlations, a Frequency-domain Autocorrelation Network (FANet) is designed, which handles variable-length frequency-domain inputs and employs frequency-domain attention to enhance discriminative capability. Finally, validation is conducted using data from five commercial 5G NR devices collected across diverse environments and times; the proposed method consistently achieves high accuracy and significantly outperforms all baselines in cross-channel generalization. These results demonstrate a viable path toward reliable RF fingerprinting-based device identification in dynamic NR scenarios.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Key Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Propose a channel-suppressed RF fingerprint representation, CIDO</strong>: Preserves discriminative RFF cues without explicit channel equalization, offering low complexity and strong robustness.</li>
+
+
+
+<li class="lab-feature-list"><strong>Propose FANet</strong>: Combines masked frequency-domain self-attention with length-invariant pooling to capture frequency-domain correlations, naturally supporting variable-length 5G NR inputs.</li>
+
+
+
+<li class="lab-feature-list"><strong>Collect data from commercial gNB and commercial 5G NR devices</strong>: Collected across diverse wireless environments, extensive experiments show that the proposed method achieves reliable device identification under complex channels, effectively supporting practical identity authentication.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png ,http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 780w, http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png" alt="" class="uag-image-1184" width="802" height="656" title="1aa077cf-2874-4e6e-a940-ba69c5275f05" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>Signal Processing and Normalization</strong>: The received baseband signal is modeled as $y(t)=h(\\tau,t)*f(x(t))+n(t)$, where $f(\\cdot)$ aggregates the transmitter hardware impairments. After synchronization, CFO compensation, cyclic prefix removal, and FFT, we obtain $Y[k,l]=H[k,l]U[k,l]+N[k,l]$ (Eq. (2)). On the DMRS resource elements specified in 3GPP TS 38.211, normalizing each RE using the known ideal DMRS yields $CSI(k,l)=H[k,l]F_{TX}(k,l)+\\tilde{N}[k,l]$ (Eq. (3)), which still contains the channel term $H[k,l]$.<strong>CIDO (Channel-Independent Differential Operator)</strong>: Takes the quotient of adjacent DMRS symbol pairs within the same slot to cancel channel coloration, $CIDO_p(k)=\frac{CSI(k,l_{p+1})}{CSI(k,l_p)}$ (Eq. (4), with a sentinel value $c_{\max}$ when the denominator is zero). When symbol times are close, $H[k,l_{p+1}]\approx\gamma_p H[k,l_p]$ (Eq. (6)), so the channel shape largely cancels in the quotient, preserving transmitter-related characteristics; each quotient vector is concatenated in pair order to form the final feature (Eq. (7)).<strong>FANet (Frequency-domain Autocorrelation Network)</strong>: Decouples the complex-valued CIDO into magnitude and phase sequences (Eqs. (8)(9)), using a modified one-dimensional ResNet-18 as the backbone; applies windowed local self-attention to the magnitude stream (Eq. (10), reducing complexity from $O(K^2)$ to $O(K(2r+1))$), and a lightweight 1D stabilizer to the phase stream; then outputs a fixed-dimensional representation independent of the number of retained subcarriers $K$ via masked global average pooling (Eq. (11)).</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-43443d20 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-e2339269 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png ,http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 780w, http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png" alt="" class="uag-image-1185" width="802" height="656" title="ab937bfb-d3ec-4fb1-bb61-d60c2014af83" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>CIDO–FANet achieves the highest accuracy across all six test domains and significantly outperforms all baseline methods</strong>: As shown in Fig. 6, it reaches 98.12%, 96.25%, and 97.27% on E1_L1, E1_L2, and E1_L3, respectively, and 94.70%, 91.71%, and 81.35% on E2_L1, E2_L2, and E2_M, respectively. On average, it improves over ChInS by approximately 7.7 percentage points (with a maximum improvement of 10.43 on E2_M), over ZF equalization by approximately 12.8 percentage points (with a maximum improvement of 25.19 on E1_L2), and over the raw I/Q baseline by more than 40 percentage points across all test domains (up to 45.51 in the E2_M scenario). Furthermore, ablation experiments (Table I) show that performance degrades when FANet is removed and only CIDO features are used; CIDO–FANet improves over the CIDO baseline by approximately 2.6 percentage points on average, still delivering a +2.83 percentage point gain in the most challenging mobility domain E2_M (81.35% vs. 78.52%).</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cite This Paper</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@inproceedings{shen2026cidofanet,
+  author    = {Longlong Shen and Guyue Li and Jingyuan Han and Tianqi Wu and Aiqun Hu},
+  title     = {CIDO-FANet: Channel-Robust RF Fingerprinting Identification for 5G Devices},
+  booktitle = {2026 IEEE Wireless Communications and Networking Conference Workshops (WCNCW)},
+  year      = {2026}
+}</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>基于操控信道测量匹配的密钥生成</title>
+		<link>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 09:14:24 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1076</guid>
+
+					<description><![CDATA[Physical layer secret key generation leveraging wireless channel reciprocity has demonstrated feasibility and effectiveness across various wireless scenarios, including the Internet of Things, mobile communication networks, and industrial control systems. Most existing studies rely on quantization techniques to convert channel measurements into key bits; however, asynchronous channel probing and noise effects in time-division duplexing systems can lead to inconsistent quantization results and key bit mismatches. This paper breaks from traditional quantization approaches by proposing a method that matches randomly manipulated (permuted or edited) channel measurements between users through holistic difference minimization. Specifically, two key generation algorithms are designed: BM-SKG based on bipartite graph matching and SA-SKG based on edit sequence alignment. BM-SKG generates keys from the permutation order of channel measurements, while SA-SKG achieves key agreement by aligning edited channel measurement sequences. Both algorithms allow one party to preset the key and embed encrypted messages in data packets, thereby reducing the communication overhead of key generation. Extensive experimental results demonstrate that BM-SKG and SA-SKG achieve error-free key agreement on channel measurements at low cost across multiple scenarios.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Secret Key Generation Based on Manipulated Channel Measurement Matching</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">DU Y, DAI H, LIU H, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Transactions on Mobile Computing</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TMC.2024.3364909" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>Physical layer secret key generation leveraging wireless channel reciprocity has demonstrated feasibility and effectiveness across various wireless scenarios, including the Internet of Things, mobile communication networks, and industrial control systems. Most existing studies rely on quantization techniques to convert channel measurements into key bits; however, asynchronous channel probing and noise effects in time-division duplexing systems can lead to inconsistent quantization results and key bit mismatches. This paper breaks from traditional quantization approaches by proposing a method that matches randomly manipulated (permuted or edited) channel measurements between users through holistic difference minimization. Specifically, two key generation algorithms are designed: BM-SKG based on bipartite graph matching and SA-SKG based on edit sequence alignment. BM-SKG generates keys from the permutation order of channel measurements, while SA-SKG achieves key agreement by aligning edited channel measurement sequences. Both algorithms allow one party to preset the key and embed encrypted messages in data packets, thereby reducing the communication overhead of key generation. Extensive experimental results demonstrate that BM-SKG and SA-SKG achieve error-free key agreement on channel measurements at low cost across multiple scenarios.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes a new key generation paradigm based on manipulated channel measurement matching, supporting key presetting</strong>: By applying random permutation or editing manipulation to channel measurements, key information is encoded in the manipulation patterns (permutation order or editing patterns), circumventing the non-reciprocity issues in traditional quantization processes; meanwhile, one party is allowed to preset the key during the channel sampling phase and transmit encrypted messages with data packets, reducing communication overhead.</li>
+
+
+
+<li class="lab-feature-list"><strong>Designs BM-SKG: a high-security algorithm based on sparse bipartite graph matching</strong>: Channel segments are modeled as a weighted bipartite graph, and the permutation order is inferred via an edge-pruning improved minimum-weight bipartite graph matching algorithm, reducing the time complexity to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>M</mi><mn>2</mn></msup><mi>log</mi><mo>⁡</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(M^2 \log M)</annotation></semantics></math>; 64 segments provide equivalent encryption strength exceeding 256 bits, with a key generation time of approximately 27 milliseconds at 128-bit encryption strength, suitable for scenarios with sufficient computational resources and high security requirements.</li>
+
+
+
+<li class="lab-feature-list"><strong>Designs SA-SKG: an efficient algorithm based on edit sequence alignment</strong>: Dynamic programming is used to compute edit distance and identify insertion/deletion operation patterns, with a time complexity of ; 64 segments provide equivalent encryption strength exceeding 128 bits, with a generation time of approximately 9 milliseconds at 128-bit strength, suitable for time-sensitive scenarios; combined with the channel multiplexing mechanism, the key generation rate can reach 4 bps.</li>
+
+
+
+<li class="lab-feature-list"><strong>Designs an efficient information reconciliation scheme and channel multiplexing mechanism, validated by NIST randomness tests</strong>: A lightweight two-round challenge-response information reconciliation scheme is proposed, correcting occasional mismatches without traditional multi-round interactions; the channel multiplexing mechanism supports multiple rounds of key generation; all 9 NIST randomness tests pass with 99% confidence across four experimental scenarios.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png" alt="" class="uag-image-1077" width="802" height="656" title="PixPin_2026-03-23_17-11-17" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph">Both algorithms share the same first two stages.<strong>Channel sampling stage</strong>, where Alice and Bob exchange probing signals and respectively obtain RSS or CSI channel measurement sequences <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">V_A</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>B</mi></msub></mrow><annotation encoding="application/x-tex">V_B</annotation></semantics></math>.<strong>Entropy-based random shuffling and segmentation stage</strong>, where Alice shuffles in a random order satisfying entropy requirements <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">V_A</annotation></semantics></math>and notifies Bob; both parties synchronously shuffle and then divide their sequences into equal-length segments of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math> channel segments, enhancing sequence complexity while preserving reciprocity.<strong>Segment permutation and matching stage of BM-SKG</strong>: Alice applies a random permutation <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math> to the segment sequence and makes it public; Bob models it as a weighted bipartite graph and infers via improved minimum-weight matching <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math>, using <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">PO</annotation></semantics></math> as the key.<strong>Segment editing and alignment stage of SA-SKG</strong>: Alice randomly inserts/deletes some segments in the segment sequence and makes it public; Bob identifies the editing patterns (insertion positions <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi></mrow><annotation encoding="application/x-tex">I</annotation></semantics></math> and deletion positions <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>J</mi></mrow><annotation encoding="application/x-tex">J</annotation></semantics></math>) by computing edit distance, using <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mi mathvariant="normal">∥</mi><mi>J</mi></mrow><annotation encoding="application/x-tex">I \| J</annotation></semantics></math> as the key. Both algorithms finally undergo information reconciliation and privacy amplification to generate the final key.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png" alt="" class="uag-image-1078" width="802" height="348" title="PixPin_2026-03-23_17-12-03" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png" alt="" class="uag-image-1079" width="802" height="294" title="PixPin_2026-03-23_17-12-36" loading="lazy" role="img"/></figure></div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>BM-SKG and SA-SKG maintain bit error rate (BER) and key error rate (KER) at levels close to 0 across all scenarios, while completing key generation at 128-bit equivalent encryption strength in approximately 27 milliseconds and 9 milliseconds, respectively</strong>: As shown in <strong>Fig. 7</strong> As shown, under the condition of fixed 64 segments with a segment length of 6, SA-SKG achieves BER and KER of 0 in all four indoor/outdoor mobile/static scenarios (static indoor scenario has BER of only 0.0009 and KER of only 0.0068), and BM-SKG is similarly close to 0; the six compared quantization baseline methods exhibit significantly higher BER and KER in multiple scenarios, while the key generation rates of both methods (KGR = 1 bps) are comparable to most baselines.<strong>Table I</strong> The NIST statistical test results further demonstrate that BM-SKG, SA-SKG, and their channel multiplexing versions (BM-SKGr, SA-SKGr) pass all 9 tests with 99% confidence, verifying the high randomness of the generated keys.</p>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{du2024bmskg,
+  author    = {Yicong Du and Huan Dai and Hongbo Liu and Yan Wang and Guyue Li and Yanzhi Ren and Yingying Chen and Ke Zhang},
+  title     = {Secret Key Generation Based on Manipulated Channel Measurement Matching},
+  journal   = {IEEE Transactions on Mobile Computing},
+  volume    = {23},
+  number    = {10},
+  pages     = {9532--9548},
+  month     = oct,
+  year      = {2024},
+  doi       = {10.1109/TMC.2024.3364909}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>破坏基于信道互易性的密钥生成中的密钥一致性</title>
+		<link>http://localhost:10011/en/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/</link>
+					<comments>http://localhost:10011/en/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 09:00:24 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1068</guid>
+
+					<description><![CDATA[Channel Reciprocity-based Key Generation (CRKG) exploits the reciprocal randomness of wireless channels to establish shared keys between wireless terminals, and is considered an important scheme to complement existing cryptographic techniques in future wireless networks. This paper proposes a novel attack—the RIS-jamming attack—and demonstrates that an attacker can disrupt channel reciprocity by deploying a malicious RIS, thereby preventing legitimate users from agreeing on the same key. Specifically, this paper elaborates on three implementation approaches for the RIS-jamming attack: employing active non-reciprocal circuits, performing asynchronous time-varying control, and reducing the signal-to-noise ratio. By establishing a quantitative relationship between the key rate and RIS deployment parameters, the attack effect is theoretically analyzed. To resist such attacks, this paper proposes a defense scheme based on multipath separation of wideband signals—Contaminated Path Removal CRKG (CPR-CRKG)—which identifies and removes malicious RIS paths, enabling legitimate users to still generate keys from the remaining paths. Simulation and experimental results corroborate each other: in a joint experiment with real Wi-Fi devices and a self-built RIS prototype, the attack increased the average bit disagreement rate (BDR) of the original key by 20%, while the proposed CPR-CRKG scheme can effectively mitigate the attack impact when the RIS propagation path is separable.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Breaking Key Agreement in Channel Reciprocity-Based Secret Key Generation</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">LI G, STAAT P, LI H, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Transactions on Information Forensics and Security</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/TIFS.2024.3389569" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p><a href="http://localhost:10011/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf">Channel Reciprocity-based Key Generation (CRKG) exploits the reciprocal randomness of wireless channels to establish shared keys between wireless terminals, and is considered an important scheme to complement existing cryptographic techniques in future wireless networks. This paper proposes a novel attack—the RIS-jamming attack—and demonstrates that an attacker can disrupt channel reciprocity by deploying a malicious RIS, thereby preventing legitimate users from agreeing on the same key. Specifically, this paper elaborates on three implementation approaches for the RIS-jamming attack: employing active non-reciprocal circuits, performing asynchronous time-varying control, and reducing the signal-to-noise ratio. By establishing a quantitative relationship between the key rate and RIS deployment parameters, the attack effect is theoretically analyzed. To resist such attacks, this paper proposes a defense scheme based on multipath separation of wideband signals—Contaminated Path Removal CRKG (CPR-CRKG)—which identifies and removes malicious RIS paths, enabling legitimate users to still generate keys from the remaining paths. Simulation and experimental results corroborate each other: in a joint experiment with real Wi-Fi devices and a self-built RIS prototype, the attack increased the average bit disagreement rate (BDR) of the original key by 20%, while the proposed CPR-CRKG scheme can effectively mitigate the attack impact when the RIS propagation path is separable.</a></p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes the RIS-jamming attack and provides three implementation approaches</strong>: The attacker disrupts the channel reciprocity relied upon by CRKG by deploying a malicious RIS, with specific implementations including: ① introducing active non-reciprocal circuits to make the uplink and downlink RIS reflection matrices inconsistent; ② employing asynchronous time-varying configurations to randomly switch RIS phases within channel probing intervals; ③ increasing quantization errors by reducing the signal-to-noise ratio. Compared with traditional active jamming attacks, the RIS-jamming attack exploits the low cost and passive nature of RIS, requires no additional signal transmission, and is inherently immune to existing anti-jamming measures such as frequency hopping.</li>
+
+
+
+<li class="lab-feature-list"><strong>Establishes a quantitative relationship between the key rate and RIS deployment parameters, and theoretically analyzes the attack effect</strong>: Derives the analytical expressions for the key rate under RIS jamming <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">R_1</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">R_2</annotation></semantics></math>,<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">R_3</annotation></semantics></math>and the direct link gain <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi mathvariant="normal">ℓ</mi></msub></mrow><annotation encoding="application/x-tex">\beta_\ell</annotation></semantics></math>, RIS gain <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">\beta_r</annotation></semantics></math>, proving that the asynchronous RIS configuration attack (Attack 2) has stronger destructive power than the asymmetric RIS structure attack (Attack 1), and providing the theoretical boundary of the attack effect with respect to RIS deployment location (when the distance between Alice/Bob and the RIS is 20% of the Alice-Bob spacing,<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mi>r</mi></msub><mo>&gt;</mo><mn>0.01</mn></mrow><annotation encoding="application/x-tex">\beta_r &gt; 0.01</annotation></semantics></math>, the attack is feasible).</li>
+
+
+
+<li class="lab-feature-list"><strong>Proposes the CPR-CRKG defense scheme, which removes contaminated paths using wideband multipath separation</strong>: Based on the time-domain resolution capability of OFDM wideband signals, an IDCT transform is applied to the channel estimation matrix to separate multipath components. The RIS-induced path is detected by comparing the autocorrelation coefficients of uplink and downlink paths and is removed from the available path set, thereby restoring key generation capability without relying on information reconciliation; the overall complexity is <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>K</mi><mn>2</mn></msup><msub><mi>N</mi><mi>p</mi></msub><mo>+</mo><mi>K</mi><mi>log</mi><mo>⁡</mo><mi>K</mi><mo>+</mo><msub><mi>N</mi><mi>p</mi></msub><msub><mi>N</mi><mrow><mi>s</mi><mi>e</mi><mi>l</mi></mrow></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(K^2 N_p + K \log K + N_p N_{sel})</annotation></semantics></math>。</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png" alt="" class="uag-image-1070" width="802" height="656" title="PixPin_2026-03-23_16-57-00" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph">The system consists of single-antenna Alice, Bob, and attacker Eve, employing a TDD-OFDM protocol (e.g., IEEE 802.11n Wi-Fi) for bidirectional channel probing. The effective channel is the superposition of the direct link and the RIS-induced link <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo stretchy="false">(</mo><mi>t</mi><mo separator="true">,</mo><mi>k</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>h</mi><mi>d</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mi>β</mi><mi>r</mi></msub><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msup><mi>e</mi><mrow><mi>j</mi><msub><mi>ϕ</mi><mi>r</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">\tilde{h}_{ba}(t, k) = h_d(k) + \beta_r \Phi(t) e^{j\phi_r(t)}</annotation></semantics></math>, where the non-reciprocity of the RIS reflection matrix <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\Phi(t)</annotation></semantics></math> is the core of the attack.<strong>Attack phase</strong>, Eve makes the uplink and downlink <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Φ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\Phi(t)</annotation></semantics></math> inconsistent (Attack 1) or randomly switches within probing intervals (Attack 2), causing <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>b</mi><mi>a</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\tilde{h}_{ba}</annotation></semantics></math>and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>~</mo></mover><mrow><mi>a</mi><mi>b</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\tilde{h}_{ab}</annotation></semantics></math>to lose reciprocity, with the BDR rising to an error floor of 0.15~0.2.<strong>Defense phase</strong>, CPR-CRKG exploits the time-domain resolution of wideband OFDM, mapping the frequency-domain channel estimation matrix <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>H</mi><mo>~</mo></mover></mrow><annotation encoding="application/x-tex">\tilde{H}</annotation></semantics></math> to the time-domain path domain <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>G</mi><mo>~</mo></mover></mrow><annotation encoding="application/x-tex">\tilde{G}</annotation></semantics></math>via IDCT, computing the autocorrelation coefficient for each path to detect the rapidly varying RIS path, and after negotiated exclusion, performs quantization and key extraction only on the remaining paths.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png" alt="" class="uag-image-1071" width="802" height="656" title="PixPin_2026-03-23_16-58-06" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png" alt="" class="uag-image-1072" width="802" height="656" title="PixPin_2026-03-23_16-58-17" loading="lazy" role="img"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>In a joint experiment with real Wi-Fi and a self-built RIS prototype, the RIS-jamming attack increased the average BDR of legitimate users by 20%, while the CPR-CRKG defense scheme reduced the BDR to approximately 1/4 of the level close to the no-attack case</strong>: As shown in <strong>Fig. 12</strong> , the BDR increases linearly with the RIS modulation frequency until <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><msub><mi>f</mi><mi>p</mi></msub></mrow><annotation encoding="application/x-tex">f_r = f_p</annotation></semantics></math>where it saturates, achieving approximately 20% BDR improvement at a typical location about 2 m from Alice;<strong>Fig. 13</strong> The spatial heatmap further shows that the attack effect is strongest when the RIS is close to Alice with a small incidence angle, achieving up to approximately 30% BDR improvement.<strong>The convergence curves in Fig. 9</strong> The simulation results further demonstrate that under CPR-CRKG protection, the BDR curve of the attacked scheme (dashed line) is approximately one-quarter of the corresponding attack curve (solid line), and at SNR &lt; 15 dB, the BDR of CPR-CRKG is even lower than that of the original CRKG scheme without attack, verifying the dual suppression effect of the defense scheme against both noise and attacks.</p>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png" alt="" class="uag-image-1073" width="802" height="656" title="PixPin_2026-03-23_16-57-51" loading="lazy" role="img"/></figure></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{li2024risjamming,
+  author    = {Guyue Li and Paul Staat and Haoyu Li and Markus Heinrichs and Christian Zenger and Rainer Kronberger and Harald Elders-Boll and Christof Paar and Aiqun Hu},
+  title     = {{RIS}-Jamming: Breaking Key Consistency in Channel Reciprocity-Based Key Generation},
+  journal   = {IEEE Transactions on Information Forensics and Security},
+  volume    = {19},
+  pages     = {5090--5105},
+  year      = {2024},
+  doi       = {10.1109/TIFS.2024.3389569}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>支付通道网络中安全且匿名的多通道更新协议</title>
+		<link>http://localhost:10011/en/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/</link>
+					<comments>http://localhost:10011/en/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 08:18:24 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1058</guid>
+
+					<description><![CDATA[Payment channel networks (PCNs) have become a mainstream solution to Bitcoin's scalability issues, significantly reducing on-chain transaction burdens through efficient off-chain updates. However, existing update protocols exhibit notable conflicts when simultaneously pursuing security, privacy, and expressiveness. This paper proposes a novel UTXO-based off-chain update protocol—the Secure and Anonymous Multi-Channel Update protocol (SAMCU). SAMCU achieves, for the first time in history, the simultaneous realization of three goals: internal anonymity (sender/receiver privacy), balance security, and multi-channel updates (MCU). To achieve internal anonymity, this paper introduces the Update Graph Segmentation (UGS) technique, which partitions the update graph into several chain-like subgraphs (SGs), ensuring that each participant only knows the identities of parties within their own subgraph, rather than the addresses of all participants in the entire update graph. To address the balance security issues caused by equivalent subgraphs in the naive UGS scheme, this paper further proposes the Enabled Payment Transaction Tree (EPTT), which safeguards the balance security of every honest participant through carefully designed time locks and signature lock conditions. Additionally, by splitting transactions to reduce transaction fees and employing a hierarchical communication strategy to reduce the number of communication connections, SAMCU is also optimized in performance. Prototype system experiments (involving up to 100 updated payment channels) demonstrate that when the number of updated channels is 100, SAMCU can save approximately 70% of communication connections and reduce on-chain transaction fees by about 66% compared to the existing optimal scheme.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Secure and Anonymous Multi-Channel Update Protocol for Payment Channel Networks</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">WANG J, GAO S,&nbsp;<strong>LI G</strong>,</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Transactions on Information Forensics and Security</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://ieeexplore.ieee.org/abstract/document/10654379" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>Payment channel networks (PCNs) have become the mainstream solution to Bitcoin's scalability problem, significantly reducing on-chain transaction burden through efficient off-chain updates. However, existing update protocols exhibit apparent conflicts when simultaneously pursuing security, privacy, and expressiveness. This paper proposes a novel UTXO-based off-chain update protocol—the Secure and Anonymous Multi-Channel Update protocol. SAMCU is the first to simultaneously achieve internal anonymity (sender/receiver privacy), balance security, and multi-channel updates. To achieve internal anonymity, this paper introduces update graph segmentation, which partitions the update graph into chain-like subgraphs so that each participant only knows the identities of parties within its own subgraph, rather than the addresses of all participants in the entire update graph. To address the balance security issue caused by equivalent subgraphs in the naive UGS scheme, this paper further proposes the Enabled Payment Transaction Tree, which guarantees the balance security of every honest participant through carefully designed time locks and signature locks. Furthermore, SAMCU is also optimized in performance by reducing transaction fees through split transactions and reducing the number of communication connections through a hierarchical communication strategy. Prototype experiments (involving up to 100 update payment channels) show that when the number of update channels is 100, SAMCU saves approximately 70% of communication connections and reduces on-chain transaction fees by approximately 66% compared to the existing optimal scheme.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>First to propose a UTXO protocol that simultaneously achieves MCU, internal anonymity, and constant collateral</strong>: Existing UTXO schemes (e.g., AMCU, Thora) require all participants to share each other's public addresses to collaboratively generate enabling payment transactions, allowing intermediate parties to easily infer the identities of the sender and receiver; HTLC schemes offer anonymity but only support multi-hop single-path payments (MHP) and face the linear collateral problem. SAMCU partitions the update graph into subgraphs via UGS, enabling each party to know only the identity information within its own subgraph, thereby achieving internal anonymity without sacrificing MCU capability or constant collateral, filling a gap in this field (as shown in Table I of the original paper).</li>
+
+
+
+<li class="lab-feature-list"><strong>Proposes EPTT to address the balance security issue in the naive UGS scheme</strong>: In the naive UGS scheme, a malicious trigger can delay the publication of txep1 until after <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo>−</mo><mn>3</mn><mi mathvariant="normal">Δ</mi><mo>−</mo><msub><mi>t</mi><mi>c</mi></msub></mrow><annotation encoding="application/x-tex">T – 3Δ – t_c</annotation></semantics></math>, causing receivers in other subgraphs to be unable to complete on-chain forced payment due to insufficient time, thereby breaking atomicity. EPTT constructs a transaction tree for each channel receiver with that receiver as the trigger, constraining the behavior of rational triggers through hierarchical time lock settings (txep1 must be published before <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo>−</mo><mn>5</mn><mi mathvariant="normal">Δ</mi><mo>−</mo><msub><mi>t</mi><mi>c</mi></msub></mrow><annotation encoding="application/x-tex">T – 5Δ – t_c</annotation></semantics></math> ); meanwhile, double spending is prevented through carefully designed multi-signature conditions, and the Child-Pays-For-Parent (CPFP) mechanism is employed to distribute on-chain transaction fees across each party's own payment transactions, rather than forcing each party to bear the cost of the entire tree.</li>
+
+
+
+<li class="lab-feature-list"><strong>Proves the balance security and internal anonymity of SAMCU</strong>: Theorem 1 enumerates all possible state combinations (unchanged/revoked/compensated/successful) of the upstream channel <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>γ</mi><mi>l</mi></msub></mrow><annotation encoding="application/x-tex">γ_l</annotation></semantics></math> and downstream channel <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>γ</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">γ_r</annotation></semantics></math> , deriving contradictions one by one to prove that honest intermediate parties do not lose funds; Theorem 2 proves that under the undisputed honest execution path, the temporary addresses of key parties (KPs) do not appear on-chain, so each party only knows the public addresses within its own subgraph, and the protocol achieves internal anonymity.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png" alt="" class="uag-image-1089" width="1024" height="443" title="PixPin_2026-03-23_17-22-30" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-4ef57bdf wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png" alt="" class="uag-image-1060" width="400" height="400" title="PixPin_2026-03-23_16-12-37" loading="lazy" role="img"/></figure></div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size wp-container-content-9dbf05af wp-block-paragraph">The PCN is modeled as a weighted graph <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>:</mo><mo>=</mo><mo stretchy="false">(</mo><mi>V</mi><mo separator="true">,</mo><mi>E</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">G := (V, E)</annotation></semantics></math>, where the node set <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi></mrow><annotation encoding="application/x-tex">V</annotation></semantics></math> represents user blockchain addresses and the edge set <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math> represents opened payment channels.<strong>The SAMCU protocol</strong>is executed in six phases:<strong>Initialization</strong>phase: the Dealer performs update graph segmentation and generates parameters required for txrelay;<strong>Pre-Setup-SG</strong> phase: each receiver <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">R_{i,j}</annotation></semantics></math>generates txin and txep1, where txep1 contains only the outputs of receivers within the same subgraph and one special output for cross-subgraph notification;<strong>Pre-Setup-UG</strong> phase: the key party generates txrelay and txep2 and distributes the relevant parameters to each subgraph;<strong>Setup</strong> phase: the channel sender generates txstate, txrefund, and txp1/p2;<strong>Confirmation</strong> phase: a two-step notification mechanism ensures that all channels have completed state updates and all receivers hold valid txep1 before entering the final phase;<strong>Finalization</strong> phase: off-chain state updates are completed, and if a dispute arises, the protocol enters the <strong>Response</strong> phase, where each receiver enforces payment on-chain according to the EPTT tree structure. The UGS partitioning principle requires that senders and receivers must serve as key parties, each subgraph must contain at least one segment of each chain, and the update graph must be partitioned into at least three subgraphs to prevent intermediate parties from simultaneously learning the identities of the sender and receiver.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png" alt="" class="uag-image-1062" width="802" height="656" title="PixPin_2026-03-23_16-16-06" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png" alt="" class="uag-image-1061" width="802" height="656" title="PixPin_2026-03-23_16-15-58" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>When the number of update channels is 100 and the number of subgraphs is 10, SAMCU reduces the number of communication connections from 5350 to 1570 compared to Thora (a reduction of approximately 70%), and reduces on-chain transaction fees from 9.2 USD to 3.1 USD (a reduction of approximately 66%), with the key party's computation time not exceeding 1.5 seconds.</strong>: As shown in <strong>Fig. 8</strong> As shown, as the number of payment channels increases from 20 to 100, the total on-chain transaction size of each scheme grows approximately linearly, while under the same number of channels, SAMCU's transaction size decreases significantly as the number of subgraphs increases;<strong>The convergence curves in Fig. 9</strong> The computation time results show that the key party's computation time grows quadratically but remains within 1.5 seconds in the 100-channel scenario;<strong>Fig. 10</strong> The communication connection comparison verifies the significant effectiveness of the hierarchical communication strategy, reducing communication connections by approximately 70% under the 100-channel, 10-subgraph condition.</p>
+
+
+
+<div class="wp-block-uagb-image uagb-block-c1c6bca8 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png" alt="" class="uag-image-1063" width="802" height="656" title="PixPin_2026-03-23_16-16-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{wang2024samcu,
+  author    = {Jianhuan Wang and Shang Gao and Guyue Li and Keke Gai and Bin Xiao},
+  title     = {{SAMCU}: Secure and Anonymous Multi-Channel Updates in Payment Channel Networks},
+  journal   = {IEEE Transactions on Information Forensics and Security},
+  volume    = {19},
+  pages     = {9115--9128},
+  year      = {2024},
+  doi       = {10.1109/TIFS.2024.3451366}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>面向零信任架构网络的具有一致性证明的隐私保护持续认证方案</title>
+		<link>http://localhost:10011/en/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/</link>
+					<comments>http://localhost:10011/en/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 07:53:49 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1052</guid>
+
+					<description><![CDATA[Continuous Authentication (CA) has been widely adopted by network service providers for user identity verification in finance, healthcare, and e-commerce. However, in next-generation networks, CA faces the risk of user privacy leakage due to its reliance on a verifier-centric authentication model, where verifiers are not always trustworthy—a concern particularly prominent in zero-trust architecture networks. Existing privacy-preserving schemes fail to address this issue because they weaken the linkability of contextual requests, making consistency checks for fine-grained CA difficult to achieve. To fill this gap, this paper proposes a Privacy-Preserving Continuous Authentication scheme (PPCA) that combines anonymous self-sovereign identity with fine-grained CA. PPCA leverages subset proofs to enable users to disclose only the minimal identity data required for authentication. To support fine-grained CA, we construct a novel consistency proof that allows anonymous users to demonstrate that different credentials are bound to the same attribute set, with users having the autonomy to decide whether to send this consistency proof. PPCA is formally defined and constructed based on BLS signatures, set commitments, and Sigma protocols. Security analysis shows that PPCA simultaneously satisfies correctness, soundness, user anonymity, and credential consistency. Performance evaluation demonstrates that PPCA introduces only minimal additional time overhead, achieving an optimal balance between security and efficiency.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Privacy-Preserving Continuous Authentication Scheme with Consistency Proofs for Zero-Trust Architecture Networks</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">WU T, LI G, WANG J, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Internet of Things Journal</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/PPCA_Privacy-Preserving_Continuous_Authentication_Scheme_With_Consistency_Proof_for_Zero-Trust_Architecture_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/JIOT.2025.3537980" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>Continuous Authentication (CA) has been widely adopted by network service providers for user identity verification in finance, healthcare, and e-commerce. However, in next-generation networks, CA faces the risk of user privacy leakage due to its reliance on a verifier-centric authentication model, where verifiers are not always trustworthy—a concern particularly prominent in zero-trust architecture networks. Existing privacy-preserving schemes fail to address this issue because they weaken the linkability of contextual requests, making consistency checks for fine-grained CA difficult to achieve. To fill this gap, this paper proposes a Privacy-Preserving Continuous Authentication scheme (PPCA) that combines anonymous self-sovereign identity with fine-grained CA. PPCA leverages subset proofs to enable users to disclose only the minimal identity data required for authentication. To support fine-grained CA, we construct a novel consistency proof that allows anonymous users to demonstrate that different credentials are bound to the same attribute set, with users having the autonomy to decide whether to send this consistency proof. PPCA is formally defined and constructed based on BLS signatures, set commitments, and Sigma protocols. Security analysis shows that PPCA simultaneously satisfies correctness, soundness, user anonymity, and credential consistency. Performance evaluation demonstrates that PPCA introduces only minimal additional time overhead, achieving an optimal balance between security and efficiency.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes the PPCA scheme, achieving a dynamic balance between anonymity and linkability</strong>: Introduces Anonymous Credential Systems (ACS) into the CA scenario, completing legitimacy checks through subset proofs and consistency checks through a novel consistency proof, granting users the autonomy to decide whether to establish linkability between requests—users may choose to refuse sending the consistency proof to maintain full anonymity, or choose to send it to support fine-grained CA, without requiring a trusted third party, fully aligning with the zero-trust architecture principle of ”never trust, always verify.”</li>
+
+
+
+<li class="lab-feature-list"><strong>Provides the formal definition and security goal framework of PPCA</strong>: From the dual perspectives of verifier and user, formally defines four security goals of PPCA—correctness (legitimate credentials necessarily pass verification), soundness (attackers cannot forge credentials to bypass verification), anonymity (without the consistency proof, verifiers cannot link request origins), and linkability (with the consistency proof, verifiers can confirm requests originate from the same source but cannot learn the real identity).</li>
+
+
+
+<li class="lab-feature-list"><strong>Constructs PPCA based on BLS signatures, set commitments, and Sigma protocols, and proves its security</strong>: BLS blind signatures enable users to register without disclosing private information; set commitments support subset proofs, revealing only the minimal attribute subset satisfying access requirements; the consistency proof constructed based on Sigma protocols demonstrates that two credentials are bound to the same attribute set without leaking the attribute set or real identity; the security proof is based on the DDH assumption and DLOG assumption, satisfying all security requirements with negligible efficiency loss.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png" alt="" class="uag-image-1053" width="802" height="656" title="PixPin_2026-03-23_15-50-40" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph">PPCA defines three types of entities: Issuer, Prover, and Verifier.<strong>In the registration phase</strong>, the prover generates a set commitment <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math>for its attribute set <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math>, and sends the blinded commitment <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>C</mi><mo>^</mo></mover></mrow><annotation encoding="application/x-tex">\hat{C}</annotation></semantics></math> to the issuer; the issuer signs <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>C</mi><mo>^</mo></mover></mrow><annotation encoding="application/x-tex">\hat{C}</annotation></semantics></math> using a BLS blind signature, and the prover recovers a valid signature <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math> \sigma <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi></mrow><annotation encoding="application/x-tex">on the true commitment</annotation></semantics></math>, thereby completing credential generation without disclosing the attribute set to the issuer.<strong>In the legitimacy check phase</strong>, the prover rerandomizes the credential and generates a subset proof, demonstrating to the verifier that <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo>⊂</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">T \subset S</annotation></semantics></math> holds; the verifier can only learn that the attributes satisfy the requirements, without obtaining specific attribute values or the real identity.<strong>In the consistency check phase</strong>, when the verifier issues a CA request, the prover may choose to generate a consistency proof <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi></mrow><annotation encoding="application/x-tex">\pi</annotation></semantics></math>based on Sigma protocols, proving that credentials <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>C</mi><mo>~</mo></mover><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\tilde{C}_1</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>C</mi><mo>~</mo></mover><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\tilde{C}_2</annotation></semantics></math> are bound to the same attribute set; the verifier thereby confirms the requests originate from the same source but still cannot determine the user's real identity.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png" alt="" class="uag-image-1055" width="802" height="656" title="PixPin_2026-03-23_15-51-59" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png" alt="" class="uag-image-1054" width="802" height="656" title="PixPin_2026-03-23_15-51-44" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.7</figcaption></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>The additional latency introduced by PPCA's consistency proof (ConGen + ConVerify) is only approximately 10% of the latency of other functions, with the total time for 100 single-function executions not exceeding 10 seconds, and the credential size being smaller than that of comparison schemes</strong>: As shown in <strong>Fig. 7</strong> and <strong>Fig. 8</strong> As shown in the comparison, under all test conditions with attribute set size <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math> ranging from 20 to 35 and credential count <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>m</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup></mrow><annotation encoding="application/x-tex">m’</annotation></semantics></math>ranging from 1 to 100, the time overhead increments of ConGen and ConVerify are relatively limited, and the impact of attribute set size on time overhead is almost negligible;<strong>Table II</strong> presents the specific running times (in milliseconds) of each function when <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">n=25</annotation></semantics></math> , validating the practicality of the scheme. Furthermore,<strong>The convergence curves in Fig. 9</strong> the communication overhead comparison shows that PPCA's credential size is smaller than those of the schemes in [15] and [43], offering better communication efficiency in frequent authentication scenarios.<strong>Table I</strong> The functional comparison also demonstrates that PPCA is the only scheme simultaneously satisfying the four requirements of soundness, anonymity, linkability, and privacy protection.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{wu2025ppca,
+  author    = {Tianqi Wu and Guyue Li and Jiaheng Wang and Bin Xiao and Yubo Song},
+  title     = {{PPCA}: Privacy-Preserving Continuous Authentication Scheme With Consistency Proof for Zero-Trust Architecture Networks},
+  journal   = {IEEE Internet of Things Journal},
+  volume    = {12},
+  number    = {11},
+  pages     = {17596--17610},
+  month     = jun,
+  year      = {2025},
+  doi       = {10.1109/JIOT.2025.3537980}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>基于可变布隆过滤器的物理层安全传输增强无线通信安全</title>
+		<link>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/</link>
+					<comments>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 07:28:57 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1045</guid>
+
+					<description><![CDATA[This paper investigates a scheme that leverages unpredictable physical layer channel characteristics to achieve one-time pad (OTP) secure communication. Existing OTP schemes based on physical layer secret key generation require an information reconciliation step, which introduces additional transmission overhead and faces security threats of information leakage under slowly varying channels. To address these challenges, this paper studies a fault-tolerant privacy amplification method based on variable Bloom filters. Specifically, the quantized bit sequence of channel state information is processed through BF to enhance sequence randomness, while BF parameters are dynamically adjusted to eliminate correlation between adjacent sequences. Furthermore, this paper optimizes error correction code parameters based on the eavesdropper's location and the quantized bit length, further enhancing system security. Comprehensive simulation results demonstrate that the proposed method achieves near-perfect pass rates in NIST randomness tests, with a bit replacement rate of approximately 0.45, while resisting attacks under slowly varying channels, significantly outperforming existing OTP secure transmission schemes.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Enhancing Wireless Communication Security via Physical Layer Secure Transmission Based on Variable Bloom Filters</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">HUO A, LI G, YANG L, et al.</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Internet of Things Journal</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Enhancing_Wireless_Communication_Security_With_Variable_Bloom_Filter-Based_Physical-Layer_Secure_Transmission.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/JIOT.2025.3567288" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>This paper investigates a scheme that leverages unpredictable physical layer channel characteristics to achieve one-time pad (OTP) secure communication. Existing OTP schemes based on physical layer secret key generation require an information reconciliation step, which introduces additional transmission overhead and faces security threats of information leakage under slowly varying channels. To address these challenges, this paper studies a fault-tolerant privacy amplification method based on variable Bloom filters. Specifically, the quantized bit sequence of channel state information is processed through BF to enhance sequence randomness, while BF parameters are dynamically adjusted to eliminate correlation between adjacent sequences. Furthermore, this paper optimizes error correction code parameters based on the eavesdropper's location and the quantized bit length, further enhancing system security. Comprehensive simulation results demonstrate that the proposed method achieves near-perfect pass rates in NIST randomness tests, with a bit replacement rate of approximately 0.45, while resisting attacks under slowly varying channels, significantly outperforming existing OTP secure transmission schemes.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Propose the VBF-PST scheme to fundamentally address the issues of insufficient randomness and BRR in OTP secure transmission under quasi-static environments.</strong>: Process the quantized bit sequence using a variable BF, applying different hash functions to each round of sequences through time-varying parameters <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(T)</annotation></semantics></math>P(T). Even when input sequences exhibit strong correlation across adjacent time slots, the randomness and BRR of the output sequences can be maintained within a stable range; meanwhile, the information reconciliation step is eliminated, reducing communication overhead and lowering the risk of information leakage.</li>
+
+
+
+<li class="lab-feature-list"><strong>Design an adaptive ECC parameter optimization algorithm to enhance resilience against proximal attacks.</strong>: Based on the position of the eavesdropper Eve (i.e., channel error rate) and the quantized bit length, automatically compute the optimal error correction code parameters <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math>t, ensuring that legitimate communicating parties Alice and Bob can correctly recover confidential information while Eve cannot decode it; both theoretical analysis and simulations jointly validate the scheme's effectiveness in resisting differential attacks and proximal attacks.</li>
+
+
+
+<li class="lab-feature-list"><strong>Derive theoretical guidelines for optimal parameter selection of VBF.</strong>: By computing the information entropy of the output bit sequence, derive the parameter combination that maximizes randomness, proving that when <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">K=2</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">K=4</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>SET</mtext><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\text{SET}=2</annotation></semantics></math> , the highest entropy value is achieved, and theoretically explain the mechanism by which BF parameters affect randomness, providing clear parameter design guidelines for engineering implementation.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png" alt="" class="uag-image-1046" width="802" height="656" title="PixPin_2026-03-23_15-24-56" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph">The key generation process of the VBF-PST scheme consists of four steps:<strong>Channel probing</strong>phase, Alice and Bob alternately transmit probing signals in TDD mode to obtain reciprocal channel measurements;<strong>Quantization</strong>phase, both parties perform equiprobable two-bit quantization on the channel measurements, yielding partially inconsistent quantized bit sequences <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>q</mi><mrow><mi>a</mi><mo separator="true">,</mo><mi>b</mi></mrow></msub><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">q_{a,b}(T)</annotation></semantics></math>；<strong>BF mapping</strong>phase, the quantized sequence undergoes VBF processing—Alice and Bob share the same hash table <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>H</mi></mrow><annotation encoding="application/x-tex">H</annotation></semantics></math>(containing <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi></mrow><annotation encoding="application/x-tex">K</annotation></semantics></math> hash functions) and time-varying parameters <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(T)</annotation></semantics></math>, and the quantized sequence is mapped to an output sequence with higher randomness via the SET method <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>q</mi><mrow><mi>a</mi><mo separator="true">,</mo><mi>b</mi></mrow><mrow><mi>B</mi><mi>F</mi></mrow></msubsup><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">q^{BF}_{a,b}(T)</annotation></semantics></math>；<strong>Data transmission</strong>phase, Bob uses <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>q</mi><mrow><mi>b</mi><mo separator="true">,</mo><mi>a</mi></mrow><mrow><mi>B</mi><mi>F</mi></mrow></msubsup><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">q^{BF}_{b,a}(T)</annotation></semantics></math> as the key to XOR-encrypt confidential information and transmits it, while Alice uses <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>q</mi><mrow><mi>a</mi><mo separator="true">,</mo><mi>b</mi></mrow><mrow><mi>B</mi><mi>F</mi></mrow></msubsup><mo stretchy="false">(</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">q^{BF}_{a,b}(T)</annotation></semantics></math> to decrypt and employs FEC to correct minor errors introduced by incomplete key agreement, thereby completing secure OTP transmission without information reconciliation.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png" alt="" class="uag-image-1049" width="1000" height="400" title="PixPin_2026-03-23_15-27-09" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-82ea6282 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png" alt="" class="uag-image-1047" width="1002" height="400" title="PixPin_2026-03-23_15-26-17" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-15bdad6d wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png" alt="" class="uag-image-1048" width="500" height="500" title="PixPin_2026-03-23_15-26-48" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.11</figcaption></figure></div>
+
+
+
+<p class="lab-experiment-caption has-medium-font-size wp-container-content-432d1f4f wp-block-paragraph"><strong>The VBF-PST scheme improves the NIST randomness test pass rate from 0.1 for UK-PST to nearly 1 (approximately 99%), while maintaining the adjacent-frame bit replacement rate (BRR) stably around 0.45.</strong>: As shown in <strong>As shown in Fig. 9(a)(b)​</strong> , under the parameter <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">K=2</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>SET</mtext><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\text{SET}=2</annotation></semantics></math> configuration, the NIST test pass rates of VBF-PST at adjacent time instants <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">T_1</annotation></semantics></math>​ and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">T_2</annotation></semantics></math> are both close to 1, whereas UK-PST achieves only 0.1 (i.e., only 1 out of every 10 secure transmissions passes all NIST tests);<strong>Fig. 10</strong> further results show that under this configuration, the BRR remains stable around 0.45 across different Doppler frequencies (0–5 Hz), significantly outperforming UK-PST and effectively resisting differential attacks. Additionally,<strong>Fig. 11</strong> presents security analysis results demonstrating that through adaptive ECC parameter optimization, the key recovery success rate of legitimate users remains at a high level, while Eve's success rate stays consistently below 0.2.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{huo2025vbfpst,
+  author    = {Anqi Huo and Guyue Li and Lilin Yang and Zilong Liu and Aiqun Hu},
+  title     = {Enhancing Wireless Communication Security With Variable Bloom Filter-Based Physical-Layer Secure Transmission},
+  journal   = {IEEE Internet of Things Journal},
+  volume    = {12},
+  number    = {14},
+  pages     = {28835--28849},
+  month     = jul,
+  year      = {2025},
+  doi       = {10.1109/JIOT.2025.3567288}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>基于信道互易性与动态星座混淆的无线通信安全方案</title>
+		<link>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/</link>
+					<comments>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/#respond</comments>
+		
+		<dc:creator><![CDATA[jiushihema]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 04:31:07 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<guid ispermalink="false">http://127.0.0.1:10005/?p=1037</guid>
+
+					<description><![CDATA[Secret key generation based on wireless channel reciprocity for one-time pad secure transmission (CR-OTP) has attracted widespread attention due to its perfect secrecy in protecting both data and modulation information. However, existing CR-OTP schemes face dual challenges of reliability and security in practical applications—the assumptions of channel reciprocity and randomness are not always satisfied. To address these issues, this paper proposes a dynamic constellation obfuscation (DCO) method, which dynamically rotates the constellation diagram to obfuscate the plaintext. This analog encryption method is proven to be more robust than existing digital XOR encryption methods, achieving a lower symbol error rate (SER) by reducing the double quantization loss to a single one. The rotation pattern is jointly determined by channel state information (CSI) and the previous frame message, thereby ensuring the randomness of the rotation pattern in slowly varying channel environments. Only legitimate receivers that can correctly recover the previous frame message and observe similar CSI can decode the current transmitted message. Theoretical analysis proves that the secrecy capacity of the DCO method is higher than that of existing optimal schemes. Simulation results demonstrate the superiority of the proposed method in both secrecy capacity and SER: it achieves a 4.5 dB SNR gain at an SER of 0.1; when the secrecy capacity is 0.1, the main channel SNR gain reaches 6.5 dB under an eavesdropper channel SNR of 20 dB.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3749991f wp-block-group-is-layout-constrained" style="min-height:1000px">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-458a08b5 wp-block-group-is-layout-flex"><h2 class="lab-paper-title wp-block-post-title">Wireless Communication Security Scheme Based on Channel Reciprocity and Dynamic Constellation Obfuscation</h2>
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph">HOU Y, SUN H, LI G, et al</p>
+
+
+
+<p class="lab-paper-meta has-small-font-size wp-block-paragraph"><em>IEEE Internet of Things Journal</em></p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Securing_Wireless_Communications_via_Channel_Reciprocity_and_Dynamic_Constellation_Obfuscation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+
+
+
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.1109/JIOT.2025.3581791" target="_blank" rel="https://doi.org/10.1109/LWC.2023.3330809 noreferrer noopener"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" alt="🔗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> DOI Link</a></div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-uagb-advanced-heading uagb-block-46005010 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cc.png" alt="📌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Abstract</h3></div>
+
+
+
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>The one-time-pad secure transmission based on wireless channel reciprocity (CR-OTP) has attracted widespread attention due to its perfect secrecy in simultaneously protecting both data and modulation information. However, existing CR-OTP schemes face dual challenges of reliability and security in practical applications—the assumptions of channel reciprocity and randomness are not always satisfied. To address these issues, this paper proposes a dynamic constellation confusion method that dynamically rotates the constellation diagram to confuse the plaintext. This analog encryption method is proven to be more robust than existing digital XOR encryption methods, achieving a lower symbol error rate by reducing the double quantization loss to a single one. The rotation pattern is jointly determined by the channel state information and the previous frame message, thereby ensuring the randomness of the rotation pattern in slowly varying channel environments. Only legitimate receivers that can correctly recover the previous frame message and observe similar CSI can decode the currently transmitted message. Theoretical analysis proves that the secrecy capacity of the DCO method is higher than that of existing optimal schemes. Simulation results demonstrate that the proposed method excels in both secrecy capacity and SER: it achieves a 4.5 dB SNR gain at SER = 0.1; when the secrecy capacity is 0.1, the main channel SNR gain reaches 6.5 dB under an eavesdropping channel SNR of 20 dB.</p></blockquote></figure>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-6adec98e lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Core Contributions</h3></div>
+
+
+
+<ul start="1" style="border-style:none;border-width:0px" class="wp-block-list lab-feature-list">
+<li class="lab-feature-list"><strong>Proposes the DCO analog encryption scheme, reducing double quantization loss to a single one to enhance transmission reliability</strong>: Unlike traditional digital XOR encryption, which requires CSI quantization, DCO directly drives constellation rotation with analog CSI values, avoiding the secondary accumulation of quantization errors; theoretical derivation proves <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi>Pr</mi><mo>⁡</mo></mrow><mrow><mi>D</mi><mi>C</mi><mi>O</mi></mrow></msub><mo>&lt;</mo><msub><mrow><mi>Pr</mi><mo>⁡</mo></mrow><mrow><mi>X</mi><mi>O</mi><mi>R</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\Pr_{DCO} &lt; \Pr_{XOR}</annotation></semantics></math>, i.e., the SER of DCO is strictly lower than that of the XOR scheme, achieving a 4.5 dB SNR gain at SER = 0.1 under QPSK modulation.</li>
+
+
+
+<li class="lab-feature-list"><strong>Designs a time-varying rotation pattern generation method that jointly exploits channel randomness and message randomness to enhance security in slowly varying environments</strong>: The rotation angle is jointly determined by the current CSI and the previously transmitted message of the previous frame, with a chaotic sequence introduced to ensure the unpredictability of the rotation pattern; theoretical analysis proves that the average secrecy capacity of DCO is higher than that of the XOR scheme (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>C</mi><mi>s</mi><mrow><mi>D</mi><mi>C</mi><mi>O</mi></mrow></msubsup><mo>&gt;</mo><msubsup><mi>C</mi><mi>s</mi><mrow><mi>X</mi><mi>O</mi><mi>R</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">C_s^{DCO} &gt; C_s^{XOR}</annotation></semantics></math>), and at <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>γ</mi><mo>ˉ</mo></mover><mi>m</mi></msub><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">\bar{\gamma}_m = 10</annotation></semantics></math>γ, the secrecy capacity gain reaches 0.1 bps, effectively resisting five typical threats including differential attacks, injection attacks, and channel replay attacks.</li>
+
+
+
+<li class="lab-feature-list"><strong>Comprehensively validates the security and reliability of the DCO scheme through theoretical analysis and simulation experiments</strong>: Comparisons with the XOR scheme across multiple dimensions, including secrecy capacity, outage probability, SER, and phase error robustness, consistently confirm the superiority of DCO; computational complexity is also analyzed, demonstrating the feasibility of DCO for hardware-constrained physical layer security implementations.</li>
+</ul>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-2f9d57f4 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Method Overview</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png" alt="" class="uag-image-1038" width="802" height="656" title="PixPin_2026-03-23_12-27-05" loading="lazy" role="img"/></figure></div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph">The system adopts a classic three-party TDD-OFDM model (Alice, Bob, Eve), where Alice and Bob alternately transmit pilots to perform channel sampling and obtain highly correlated channel estimates <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>A</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\hat{h}_A(k)</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>h</mi><mo>^</mo></mover><mi>B</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\hat{h}_B(k)</annotation></semantics></math>。<strong>DCO encryption process</strong>is divided into two core modules:<strong>Constellation rotation pattern generation module</strong>jointly processes the phase component of the current CSI and the previous frame message through a chaotic map (Logistic map) to generate a time-varying rotation angle sequence <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>θ</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\theta(k)</annotation></semantics></math>, whose randomness originates from both channel randomness and message randomness;<strong>In the constellation confusion and clarification module</strong>, Alice applies rotational encryption to the modulated symbol <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x(k)</annotation></semantics></math> as <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mi>c</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>=</mo><mi>x</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>⋅</mo><msup><mi>e</mi><mrow><mi>j</mi><mi>θ</mi><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">x_c(k) = x(k) \cdot e^{j\theta(k)}</annotation></semantics></math>before transmission, and Bob reconstructs the rotation angle using his own CSI and performs inverse rotation <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>x</mi><mo>^</mo></mover><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>x</mi><mi>c</mi></msub><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo><mo>⋅</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>j</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">\hat{x}(k) = x_c(k) \cdot e^{-j\hat{\theta}(k)}</annotation></semantics></math> for decryption. Since Eve cannot obtain CSI related to Bob and is unaware of the previous frame message, the received constellation points are uniformly distributed across the entire constellation space, preventing the recovery of valid information.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-dda34f26 lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Experimental Results</h3></div>
+
+
+
+<div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png" alt="" class="uag-image-1040" width="802" height="656" title="PixPin_2026-03-23_12-29-07" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.12</figcaption></figure></div>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png" alt="" class="uag-image-1039" width="802" height="656" title="PixPin_2026-03-23_12-28-00" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.14</figcaption></figure></div>
+</div>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
+<p class="lab-experiment-caption has-medium-font-size wp-block-paragraph"><strong>The DCO scheme achieves a 4.5 dB SNR gain over the XOR scheme at SER = 0.1, and a 6.5 dB main channel SNR gain when the secrecy capacity outage probability is 0.1 (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>γ</mi><mo>ˉ</mo></mover><mi>w</mi></msub><mo>=</mo><mn>20</mn></mrow><annotation encoding="application/x-tex">\bar{\gamma}_w = 20</annotation></semantics></math>)</strong>: As shown in <strong>Fig. 14</strong> As shown, the SER of all schemes decreases with increasing SNR, but the DCO scheme consistently outperforms the XOR scheme, leading by 4.5 dB at SER = 0.1 under QPSK modulation, validating the reliability advantage of analog encryption in avoiding double quantization loss.<strong>Fig. 12</strong> The outage probability curves in <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>R</mi><mi>s</mi></msub><mo>=</mo><mn>0.1</mn></mrow><annotation encoding="application/x-tex">R_s = 0.1</annotation></semantics></math>、<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover accent="true"><mi>γ</mi><mo>ˉ</mo></mover><mi>w</mi></msub><mo>=</mo><mn>20</mn></mrow><annotation encoding="application/x-tex">\bar{\gamma}_w = 20</annotation></semantics></math> Under dB conditions, the outage probability curve of the DCO scheme shifts right by approximately 6.5 dB compared to the XOR scheme, demonstrating its stronger secrecy capacity. Furthermore,<strong>Fig. 13</strong> shows that the legitimate receiver's SER approaches 0, while the initial values differ by only <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>15</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-15}</annotation></semantics></math>10−15, the illegitimate receiver's SER reaches as high as 0.7, intuitively verifying the high sensitivity of the chaotic key to initial values.</p>
+
+
+
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png" alt="" class="uag-image-1041" width="802" height="656" title="PixPin_2026-03-23_12-29-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.13</figcaption></figure></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-uagb-advanced-heading uagb-block-e3c2d50d lab-subheading"><h3 class="uagb-heading-text"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Citation</h3></div>
+
+
+
+<pre class="wp-block-code lab-bibtex-code has-small-font-size"><code>@article{hou2025dco,
+  author    = {Yujie Hou and Haixi Sun and Guyue Li and Shuping Dang and Aiqun Hu},
+  title     = {Securing Wireless Communications via Channel Reciprocity and Dynamic Constellation Obfuscation},
+  journal   = {IEEE Internet of Things Journal},
+  volume    = {12},
+  number    = {18},
+  pages     = {37035--37050},
+  month     = sep,
+  year      = {2025},
+  doi       = {10.1109/JIOT.2025.3581791}
+}
+</code></pre>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"/>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-788841da wp-block-group-is-layout-flex">
+
+</div>
+</div>
+</div>]]></content:encoded>
+					
+					<wfw:commentrss>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/feed/</wfw:commentrss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
