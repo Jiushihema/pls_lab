@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PLS-LAB</title>
-	<atom:link href="http://localhost:10011/feed/" rel="self" type="application/rss+xml" />
-	<link>http://localhost:10011</link>
+	<atom:link href="https://jiushihema.github.io/pls_lab/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jiushihema.github.io/pls_lab</link>
 	<description></description>
 	<lastBuildDate>Fri, 17 Jul 2026 08:18:28 +0000</lastBuildDate>
 	<language>zh-Hans</language>
@@ -21,21 +21,21 @@
 	<generator>https://wordpress.org/?v=7.0</generator>
 
 <image>
-	<url>http://localhost:10011/wp-content/uploads/2026/01/718857fe-7e7e-4487-90e8-2c81ebcfa141-150x150.png</url>
+	<url>https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/01/718857fe-7e7e-4487-90e8-2c81ebcfa141-150x150.png</url>
 	<title>PLS-LAB</title>
-	<link>http://localhost:10011</link>
+	<link>https://jiushihema.github.io/pls_lab</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>流体天线系统辅助的物理层密钥生成</title>
-		<link>http://localhost:10011/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
-					<comments>http://localhost:10011/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Thu, 02 Jul 2026 07:19:55 +0000</pubDate>
 				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://localhost:10011/?p=1231</guid>
+		<guid isPermaLink="false">https://jiushihema.github.io/pls_lab/?p=1231</guid>
 
 					<description><![CDATA[本文研究多天线基站系统中的物理层密钥生成（PLKG），利用流体天线系统（Fluid Antenna System, FAS）动态定制无线电环境。在无需额外节点或大量射频（RF）链的情况下，FAS 通过利用信道空间相关性进行自适应天线端口选择，从而提升合法节点处的密钥速率（SKR）。为全面评估 FAS 在 PLKG 中的性能，本文提出一种 FAS 辅助的 PLKG 模型，分别在独立同分布（i.i.d.）与空间相关信道模型下整合发射波束赋形与稀疏端口选择。具体而言，PLKG 利用互易信道探测，基于合法信道估计之间的互信息推导出近似 SKR 表达式，并在空间相关信道场景下显式考虑窃听者 Eve 的信道观测。针对这些场景构建非凸优化问题，在发射功率约束与稀疏端口激活下最大化 SKR。本文提出一种基于逐次凸近似（SCA）与柯西—施瓦茨不等式的迭代算法以求得局部最优解，并采用基于重加权 ℓ1\ell_1ℓ1​ 范数的算法以促进 FAS 辅助 PLKG 的稀疏端口激活。为逼近穷举搜索得到的最优激活端口，本文提出一种基于瑞利商分析的低复杂度滑动窗口端口选择方法，以替代重加权 ℓ1\ell_1ℓ1​ 范数方法。仿真结果表明，FAS 辅助 PLKG 方案在两种环境下均显著优于固定天线辅助的 PLKG 方案；FAS 通过动态稀疏端口选择以更少的 RF 链实现更高 SKR，有效降低资源开销，且滑动窗口方法在相近复杂度下能紧密逼近全局最优端口选择，适合实际部署。]]></description>
 										<content:encoded><![CDATA[
@@ -88,7 +88,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png ,http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png" alt="" class="uag-image-1232" width="802" height="656" title="01655daf-a505-4698-8dbe-34a41cc10ca3" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/01655daf-a505-4698-8dbe-34a41cc10ca3.png" alt="" class="uag-image-1232" width="802" height="656" title="01655daf-a505-4698-8dbe-34a41cc10ca3" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -105,21 +105,21 @@
 
 <div class="wp-block-group has-custom-css is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex wp-custom-css-a08f9db9">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-3add2428 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png ,http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 780w, http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png" alt="" class="uag-image-1238" width="773" height="551" title="b7fe770b-9274-4275-b440-d36801098f17" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-3add2428 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/b7fe770b-9274-4275-b440-d36801098f17.png" alt="" class="uag-image-1238" width="773" height="551" title="b7fe770b-9274-4275-b440-d36801098f17" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-132ce920 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png ,http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 780w, http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png" alt="" class="uag-image-1239" width="778" height="527" title="30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-132ce920 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12.png" alt="" class="uag-image-1239" width="778" height="527" title="30c326e9-5a2c-4bd7-a5fd-f9dd7153ff12" loading="lazy" role="img"/></figure></div>
 </div>
 
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-9104dc44 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png ,http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png" alt="" class="uag-image-1241" width="802" height="656" title="0e026b36-7e9a-40ad-bb50-08992f8381f3" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-9104dc44 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0e026b36-7e9a-40ad-bb50-08992f8381f3.png" alt="" class="uag-image-1241" width="802" height="656" title="0e026b36-7e9a-40ad-bb50-08992f8381f3" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-9b091da0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png ,http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 780w, http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png" alt="" class="uag-image-1234" width="1061" height="684" title="7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-9b091da0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3-1024x660.png" alt="" class="uag-image-1234" width="1061" height="684" title="7b6ecadf-1ab7-45c5-8a60-3ac2b17c93f3" loading="lazy" role="img"/></figure></div>
 </div>
 </div>
 
@@ -163,20 +163,20 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>MirageBeam：面向高鲁棒 WiFi 感知劫持的隐蔽对抗性波束赋形反馈</title>
-		<link>http://localhost:10011/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/</link>
-					<comments>http://localhost:10011/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/</link>
+					<comments>https://jiushihema.github.io/pls_lab/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Thu, 02 Jul 2026 06:02:28 +0000</pubDate>
 				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://localhost:10011/?p=1193</guid>
+		<guid isPermaLink="false">https://jiushihema.github.io/pls_lab/?p=1193</guid>
 
 					<description><![CDATA[基于波束赋形反馈信息（Beamforming Feedback Information, BFI）的感知，凭借其在商用硬件上无需驱动破解即可获取的特性，正成为基于信道状态信息（CSI）的 WiFi 感知的一种有前景的继任者。然而，其安全影响却鲜有研究。与 CSI 不同，BFI 以明文广播，为攻击者提供了更广的攻击面。本文提出 MirageBeam，这是首个针对基于 BFI 感知的对抗性攻击的实用框架。通过注入精心构造的 BFI 帧，攻击者可发起非目标（untargeted）和目标（targeted）攻击，使行为识别系统产生误分类。核心挑战在于在最大化误分类的同时，仍与正常行为样本难以区分。本文构建了一个优化问题，联合选择伪造 BFI 的幅度与注入时机，从而隐蔽地控制接收端观测到的 BFI 序列。此外，现实注入面临由不可预测的注入延迟所导致的攻击异步问题。本文引入延迟 BFI 注入窗口，并将优化重构为在延迟单元上的加权形式，从而实现对不同延迟的无缝适配。MirageBeam 在商用 WiFi 硬件上、跨三个室内环境实现，攻击成功率超过 81%，同时将检测率保持在 30% 以下，揭示了现有 BFI 感知系统中的关键漏洞。最后概述了可落地的对策，以保障未来 BFI 感知的部署。]]></description>
 										<content:encoded><![CDATA[
@@ -229,7 +229,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png ,http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 780w, http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png" alt="" class="uag-image-1194" width="802" height="656" title="0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5-1024x423.png" alt="" class="uag-image-1194" width="802" height="656" title="0c5c8a4f-01f3-41d8-93ba-ae238ff9fbe5" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -245,7 +245,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-28a173f6 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png ,http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 780w, http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png" alt="" class="uag-image-1196" width="802" height="656" title="7d642c80-55ac-41e7-8594-56c5eeb3da3d" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-28a173f6 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/7d642c80-55ac-41e7-8594-56c5eeb3da3d.png" alt="" class="uag-image-1196" width="802" height="656" title="7d642c80-55ac-41e7-8594-56c5eeb3da3d" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -289,20 +289,20 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/miragebeam%ef%bc%9a%e9%9d%a2%e5%90%91%e5%bc%b9%e6%80%a7-wifi-%e6%84%9f%e7%9f%a5%e5%8a%ab%e6%8c%81%e7%9a%84%e9%9a%90%e8%94%bd%e5%af%b9%e6%8a%97%e6%80%a7%e6%b3%a2%e6%9d%9f%e8%b5%8b%e5%bd%a2%e5%8f%8d/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>面向 SIMO 场景低时延 5G 设备识别的信道鲁棒射频指纹提取方法</title>
-		<link>http://localhost:10011/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/</link>
-					<comments>http://localhost:10011/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Wed, 01 Jul 2026 12:55:52 +0000</pubDate>
 				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://localhost:10011/?p=1187</guid>
+		<guid isPermaLink="false">https://jiushihema.github.io/pls_lab/?p=1187</guid>
 
 					<description><![CDATA[超低时延是第五代移动通信（5G）的标志性特征，它对设备识别的时间要求也极为严苛。当前基于密码学的方案会引入额外计算开销，从而加剧识别时延。射频指纹（RFF）在物理层识别设备，可阻止假冒攻击并显著降低时延。然而，多径信道会损害 RFF 的准确性，而现有的信道鲁棒方法需要反馈或跨多个时间点的处理，带来了额外的信令时延。为解决该问题，本文提出一种新的 RFF 提取技术，利用来自多根接收天线的信号来应对多径问题，且不增加时延。与单域方法不同，本文利用来自多天线的同时刻信道频率响应（CFR）的对数线性差分比（Log-Linear Delta Ratio, LLDR）来保留具区分性的 RFF 特征，从而消除多时刻采样并缩短采集时间。为克服对信道变化极小这一依赖的挑战，将频带划分为子带，并在每个子带内单独计算 LLDR。仿真结果表明，在 20 dB 信噪比（SNR）下的 20 径信道中，所提方案对 30 台用户设备（UE）达到 96.13% 的识别准确率。此外，基于 Roofline 模型评估的理论时延，得到 0.491 ms 的空口时延，满足超可靠低时延通信（URLLC）的时延要求。]]></description>
 										<content:encoded><![CDATA[
@@ -356,7 +356,7 @@
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-83d1bd77 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-8da03e20 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-<div class="wp-block-uagb-image uagb-block-db58d614 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png ,http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 780w, http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png" alt="" class="uag-image-1189" width="295" height="230" title="77080c0d-bf4d-452d-8783-db1e8d8486ad" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-db58d614 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/77080c0d-bf4d-452d-8783-db1e8d8486ad.png" alt="" class="uag-image-1189" width="295" height="230" title="77080c0d-bf4d-452d-8783-db1e8d8486ad" loading="lazy" role="img"/></figure></div>
 </div>
 
 
@@ -379,18 +379,18 @@
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-a3591eb7 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png ,http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 780w, http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png" alt="" class="uag-image-1204" width="760" height="588" title="746a3f74-370f-49f7-a1f3-45b4ee534733" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-a3591eb7 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/746a3f74-370f-49f7-a1f3-45b4ee534733-1.png" alt="" class="uag-image-1204" width="760" height="588" title="746a3f74-370f-49f7-a1f3-45b4ee534733" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-14bb0b9c wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png ,http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 780w, http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png" alt="" class="uag-image-1190" width="802" height="656" title="158aa649-6565-4efa-a707-3d26f4ee076f" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-14bb0b9c wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/158aa649-6565-4efa-a707-3d26f4ee076f.png" alt="" class="uag-image-1190" width="802" height="656" title="158aa649-6565-4efa-a707-3d26f4ee076f" loading="lazy" role="img"/></figure></div>
 </div>
 </div>
 
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-f74d106b wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png ,http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 780w, http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png" alt="" class="uag-image-1205" width="775" height="652" title="9e6c75e7-ce1b-41f6-8930-f5f766302353" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-f74d106b wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/9e6c75e7-ce1b-41f6-8930-f5f766302353.png" alt="" class="uag-image-1205" width="775" height="652" title="9e6c75e7-ce1b-41f6-8930-f5f766302353" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -431,20 +431,20 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91-simo-%e5%9c%ba%e6%99%af%e4%bd%8e%e6%97%b6%e5%bb%b6-5g-%e8%ae%be%e5%a4%87%e8%af%86%e5%88%ab%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>CIDO-FANet：面向 5G 设备的信道鲁棒射频指纹识别</title>
-		<link>http://localhost:10011/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/</link>
-					<comments>http://localhost:10011/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/</link>
+					<comments>https://jiushihema.github.io/pls_lab/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Wed, 01 Jul 2026 12:22:43 +0000</pubDate>
 				<category><![CDATA[research]]></category>
-		<guid isPermaLink="false">http://localhost:10011/?p=1182</guid>
+		<guid isPermaLink="false">https://jiushihema.github.io/pls_lab/?p=1182</guid>
 
 					<description><![CDATA[射频指纹识别（RFFI）能够增强无线安全性，但针对 5G 新空口（NR）的研究较为稀缺，且性能常在信道变化下退化。本文提出一种面向 5G NR 的信道鲁棒 RFFI 框架。首先，引入信道无关差分算子（Channel-Independent Differential Operator, CIDO），从 NR 解调参考信号（DMRS）中导出信道不变的设备特征，在抑制信道失真的同时保留设备特性。其次，为适配 NR 灵活的资源映射并利用频域相关性，设计了频域自相关网络（Frequency-domain Autocorrelation Network, FANet），它可处理变长频域输入，并采用频域注意力以提升区分能力。最后，使用在多样环境与时间下采集的五台商用 5G NR 设备数据进行验证，所提方法持续获得高准确率，并在跨信道泛化方面显著优于各基线。这些结果表明，在动态 NR 场景下实现可靠的基于射频指纹的设备识别是一条切实可行的路径。]]></description>
 										<content:encoded><![CDATA[
@@ -497,7 +497,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png ,http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 780w, http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png" alt="" class="uag-image-1184" width="802" height="656" title="1aa077cf-2874-4e6e-a940-ba69c5275f05" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/1aa077cf-2874-4e6e-a940-ba69c5275f05-1024x498.png" alt="" class="uag-image-1184" width="802" height="656" title="1aa077cf-2874-4e6e-a940-ba69c5275f05" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -513,7 +513,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-e2339269 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png ,http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 780w, http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png" alt="" class="uag-image-1185" width="802" height="656" title="ab937bfb-d3ec-4fb1-bb61-d60c2014af83" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-e2339269 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/07/ab937bfb-d3ec-4fb1-bb61-d60c2014af83-1024x732.png" alt="" class="uag-image-1185" width="802" height="656" title="ab937bfb-d3ec-4fb1-bb61-d60c2014af83" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -554,15 +554,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/cido-fanet%ef%bc%9a%e9%9d%a2%e5%90%91-5g-%e8%ae%be%e5%a4%87%e7%9a%84%e4%bf%a1%e9%81%93%e9%b2%81%e6%a3%92%e5%b0%84%e9%a2%91%e6%8c%87%e7%ba%b9%e8%af%86%e5%88%ab/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>基于操控信道测量匹配的密钥生成</title>
-		<link>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
-					<comments>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 09:14:24 +0000</pubDate>
@@ -586,7 +586,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/Secret_Key_Generation_Based_on_Manipulated_Channel_Measurement_Matching.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -636,7 +636,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png" alt="" class="uag-image-1077" width="802" height="656" title="PixPin_2026-03-23_17-11-17" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-11-17.png" alt="" class="uag-image-1077" width="802" height="656" title="PixPin_2026-03-23_17-11-17" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -652,11 +652,11 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png" alt="" class="uag-image-1078" width="802" height="348" title="PixPin_2026-03-23_17-12-03" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-03-1024x348.png" alt="" class="uag-image-1078" width="802" height="348" title="PixPin_2026-03-23_17-12-03" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png" alt="" class="uag-image-1079" width="802" height="294" title="PixPin_2026-03-23_17-12-36" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-12-36-1024x294.png" alt="" class="uag-image-1079" width="802" height="294" title="PixPin_2026-03-23_17-12-36" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -701,15 +701,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e6%93%8d%e6%8e%a7%e4%bf%a1%e9%81%93%e6%b5%8b%e9%87%8f%e5%8c%b9%e9%85%8d%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>破坏基于信道互易性的密钥生成中的密钥一致性</title>
-		<link>http://localhost:10011/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/</link>
-					<comments>http://localhost:10011/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 09:00:24 +0000</pubDate>
@@ -733,7 +733,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -752,7 +752,7 @@
 
 
 
-<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p><a href="http://localhost:10011/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf">基于信道互易性的密钥生成（CRKG）技术利用无线信道的互易随机性在无线终端之间建立共享密钥，被认为是未来无线网络中补充现有密码技术的重要方案。本文提出一种新型攻击——RIS 干扰（RIS-jamming）攻击，并证明攻击者可通过部署恶意 RIS 破坏信道互易性，从而阻止合法用户就同一密钥达成一致。具体地，本文从三个方面阐述 RIS 干扰攻击的实现方式：使用有源非互易电路、执行异步时变控制以及降低信噪比。通过将密钥率与 RIS 部署参数建立定量关系，对攻击效果进行了理论分析。为抵抗此类攻击，本文提出一种基于宽带信号多径分离的防御方案——污染路径移除 CRKG（CPR-CRKG），通过识别并剔除恶意 RIS 路径，使合法用户仍能从剩余路径中生成密钥。仿真结果与实验结果相互印证：在实际 Wi-Fi 设备与自制 RIS 原型的联合实验中，攻击使原始密钥的平均比特不一致率（BDR）提升了 20%，而所提 CPR-CRKG 方案在 RIS 传播路径可分离的条件下能有效缓解攻击影响。</a></p></blockquote></figure>
+<figure class="wp-block-pullquote has-text-align-left lab-abstract-quote has-small-font-size" style="margin-right:var(--wp--preset--spacing--10);margin-left:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p><a href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/RIS-Jamming_Breaking_Key_Consistency_in_Channel_Reciprocity-Based_Key_Generation.pdf">基于信道互易性的密钥生成（CRKG）技术利用无线信道的互易随机性在无线终端之间建立共享密钥，被认为是未来无线网络中补充现有密码技术的重要方案。本文提出一种新型攻击——RIS 干扰（RIS-jamming）攻击，并证明攻击者可通过部署恶意 RIS 破坏信道互易性，从而阻止合法用户就同一密钥达成一致。具体地，本文从三个方面阐述 RIS 干扰攻击的实现方式：使用有源非互易电路、执行异步时变控制以及降低信噪比。通过将密钥率与 RIS 部署参数建立定量关系，对攻击效果进行了理论分析。为抵抗此类攻击，本文提出一种基于宽带信号多径分离的防御方案——污染路径移除 CRKG（CPR-CRKG），通过识别并剔除恶意 RIS 路径，使合法用户仍能从剩余路径中生成密钥。仿真结果与实验结果相互印证：在实际 Wi-Fi 设备与自制 RIS 原型的联合实验中，攻击使原始密钥的平均比特不一致率（BDR）提升了 20%，而所提 CPR-CRKG 方案在 RIS 传播路径可分离的条件下能有效缓解攻击影响。</a></p></blockquote></figure>
 
 
 
@@ -779,7 +779,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png" alt="" class="uag-image-1070" width="802" height="656" title="PixPin_2026-03-23_16-57-00" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-00.png" alt="" class="uag-image-1070" width="802" height="656" title="PixPin_2026-03-23_16-57-00" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -796,11 +796,11 @@
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png" alt="" class="uag-image-1071" width="802" height="656" title="PixPin_2026-03-23_16-58-06" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-06.png" alt="" class="uag-image-1071" width="802" height="656" title="PixPin_2026-03-23_16-58-06" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png" alt="" class="uag-image-1072" width="802" height="656" title="PixPin_2026-03-23_16-58-17" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-58-17.png" alt="" class="uag-image-1072" width="802" height="656" title="PixPin_2026-03-23_16-58-17" loading="lazy" role="img"/></figure></div>
 </div>
 
 
@@ -810,7 +810,7 @@
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png" alt="" class="uag-image-1073" width="802" height="656" title="PixPin_2026-03-23_16-57-51" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-57-51.png" alt="" class="uag-image-1073" width="802" height="656" title="PixPin_2026-03-23_16-57-51" loading="lazy" role="img"/></figure></div>
 </div>
 </div>
 
@@ -850,15 +850,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e7%a0%b4%e5%9d%8f%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e7%9a%84%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90%e4%b8%ad%e7%9a%84%e5%af%86%e9%92%a5%e4%b8%80%e8%87%b4%e6%80%a7/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>支付通道网络中安全且匿名的多通道更新协议</title>
-		<link>http://localhost:10011/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/</link>
-					<comments>http://localhost:10011/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 08:18:24 +0000</pubDate>
@@ -882,7 +882,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/SAMCU_Secure_and_Anonymous_Multi-Channel_Updates_in_Payment_Channel_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -928,12 +928,12 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png" alt="" class="uag-image-1089" width="1024" height="443" title="PixPin_2026-03-23_17-22-30" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_17-22-30-1024x443.png" alt="" class="uag-image-1089" width="1024" height="443" title="PixPin_2026-03-23_17-22-30" loading="lazy" role="img"/></figure></div>
 
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-4ef57bdf wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png" alt="" class="uag-image-1060" width="400" height="400" title="PixPin_2026-03-23_16-12-37" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-4ef57bdf wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-12-37-278x300.png" alt="" class="uag-image-1060" width="400" height="400" title="PixPin_2026-03-23_16-12-37" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -949,11 +949,11 @@
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png" alt="" class="uag-image-1062" width="802" height="656" title="PixPin_2026-03-23_16-16-06" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-06.png" alt="" class="uag-image-1062" width="802" height="656" title="PixPin_2026-03-23_16-16-06" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png" alt="" class="uag-image-1061" width="802" height="656" title="PixPin_2026-03-23_16-15-58" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-15-58.png" alt="" class="uag-image-1061" width="802" height="656" title="PixPin_2026-03-23_16-15-58" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
 </div>
 
 
@@ -963,7 +963,7 @@
 
 
 
-<div class="wp-block-uagb-image uagb-block-c1c6bca8 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png" alt="" class="uag-image-1063" width="802" height="656" title="PixPin_2026-03-23_16-16-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-c1c6bca8 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_16-16-16.png" alt="" class="uag-image-1063" width="802" height="656" title="PixPin_2026-03-23_16-16-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
 </div>
 </div>
 
@@ -1003,15 +1003,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e6%94%af%e4%bb%98%e9%80%9a%e9%81%93%e7%bd%91%e7%bb%9c%e4%b8%ad%e5%ae%89%e5%85%a8%e4%b8%94%e5%8c%bf%e5%90%8d%e7%9a%84%e5%a4%9a%e9%80%9a%e9%81%93%e6%9b%b4%e6%96%b0%e5%8d%8f%e8%ae%ae/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>面向零信任架构网络的具有一致性证明的隐私保护持续认证方案</title>
-		<link>http://localhost:10011/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/</link>
-					<comments>http://localhost:10011/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 07:53:49 +0000</pubDate>
@@ -1035,7 +1035,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/PPCA_Privacy-Preserving_Continuous_Authentication_Scheme_With_Consistency_Proof_for_Zero-Trust_Architecture_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PPCA_Privacy-Preserving_Continuous_Authentication_Scheme_With_Consistency_Proof_for_Zero-Trust_Architecture_Networks.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -1081,7 +1081,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png" alt="" class="uag-image-1053" width="802" height="656" title="PixPin_2026-03-23_15-50-40" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-50-40.png" alt="" class="uag-image-1053" width="802" height="656" title="PixPin_2026-03-23_15-50-40" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -1098,11 +1098,11 @@
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png" alt="" class="uag-image-1055" width="802" height="656" title="PixPin_2026-03-23_15-51-59" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-59.png" alt="" class="uag-image-1055" width="802" height="656" title="PixPin_2026-03-23_15-51-59" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.8</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png" alt="" class="uag-image-1054" width="802" height="656" title="PixPin_2026-03-23_15-51-44" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.7</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-51-44.png" alt="" class="uag-image-1054" width="802" height="656" title="PixPin_2026-03-23_15-51-44" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.7</figcaption></figure></div>
 </div>
 
 
@@ -1150,15 +1150,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e9%9d%a2%e5%90%91%e9%9b%b6%e4%bf%a1%e4%bb%bb%e6%9e%b6%e6%9e%84%e7%bd%91%e7%bb%9c%e7%9a%84%e5%85%b7%e6%9c%89%e4%b8%80%e8%87%b4%e6%80%a7%e8%af%81%e6%98%8e%e7%9a%84%e9%9a%90%e7%a7%81%e4%bf%9d%e6%8a%a4/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>基于可变布隆过滤器的物理层安全传输增强无线通信安全</title>
-		<link>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/</link>
-					<comments>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 07:28:57 +0000</pubDate>
@@ -1182,7 +1182,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Enhancing_Wireless_Communication_Security_With_Variable_Bloom_Filter-Based_Physical-Layer_Secure_Transmission.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/Enhancing_Wireless_Communication_Security_With_Variable_Bloom_Filter-Based_Physical-Layer_Secure_Transmission.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -1228,7 +1228,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png" alt="" class="uag-image-1046" width="802" height="656" title="PixPin_2026-03-23_15-24-56" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-24-56.png" alt="" class="uag-image-1046" width="802" height="656" title="PixPin_2026-03-23_15-24-56" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -1244,16 +1244,16 @@
 
 
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png" alt="" class="uag-image-1049" width="1000" height="400" title="PixPin_2026-03-23_15-27-09" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-27-09-1024x428.png" alt="" class="uag-image-1049" width="1000" height="400" title="PixPin_2026-03-23_15-27-09" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.9</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-82ea6282 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png" alt="" class="uag-image-1047" width="1002" height="400" title="PixPin_2026-03-23_15-26-17" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-82ea6282 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-17-1024x431.png" alt="" class="uag-image-1047" width="1002" height="400" title="PixPin_2026-03-23_15-26-17" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.10</figcaption></figure></div>
 
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-15bdad6d wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png" alt="" class="uag-image-1048" width="500" height="500" title="PixPin_2026-03-23_15-26-48" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.11</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-15bdad6d wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_15-26-48.png" alt="" class="uag-image-1048" width="500" height="500" title="PixPin_2026-03-23_15-26-48" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.11</figcaption></figure></div>
 
 
 
@@ -1299,15 +1299,15 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e5%8f%af%e5%8f%98%e5%b8%83%e9%9a%86%e8%bf%87%e6%bb%a4%e5%99%a8%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%ae%89%e5%85%a8%e4%bc%a0%e8%be%93%e5%a2%9e%e5%bc%ba%e6%97%a0%e7%ba%bf%e9%80%9a/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>基于信道互易性与动态星座混淆的无线通信安全方案</title>
-		<link>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/</link>
-					<comments>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/#respond</comments>
+		<link>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/</link>
+					<comments>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/#respond</comments>
 		
 		<dc:creator><![CDATA[jiushihema]]></dc:creator>
 		<pubDate>Mon, 23 Mar 2026 04:31:07 +0000</pubDate>
@@ -1331,7 +1331,7 @@
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-buttons lab-btn-group is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://localhost:10011/wp-content/uploads/2026/03/Securing_Wireless_Communications_via_Channel_Reciprocity_and_Dynamic_Constellation_Obfuscation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/Securing_Wireless_Communications_via_Channel_Reciprocity_and_Dynamic_Constellation_Obfuscation.pdf"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> PDF</a></div>
 
 
 
@@ -1377,7 +1377,7 @@
 
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png" alt="" class="uag-image-1038" width="802" height="656" title="PixPin_2026-03-23_12-27-05" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-b46d2053 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-27-05.png" alt="" class="uag-image-1038" width="802" height="656" title="PixPin_2026-03-23_12-27-05" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -1394,11 +1394,11 @@
 
 <div class="wp-block-group lab-paper-results is-nowrap is-layout-flex wp-container-core-group-is-layout-3a88641f wp-block-group-is-layout-flex">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-831b2db5 wp-block-group-is-layout-flex">
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png" alt="" class="uag-image-1040" width="802" height="656" title="PixPin_2026-03-23_12-29-07" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.12</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-07.png" alt="" class="uag-image-1040" width="802" height="656" title="PixPin_2026-03-23_12-29-07" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.12</figcaption></figure></div>
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png" alt="" class="uag-image-1039" width="802" height="656" title="PixPin_2026-03-23_12-28-00" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.14</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-28-00.png" alt="" class="uag-image-1039" width="802" height="656" title="PixPin_2026-03-23_12-28-00" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.14</figcaption></figure></div>
 </div>
 
 
@@ -1408,7 +1408,7 @@
 
 
 
-<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png ,http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 780w, http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="http://localhost:10011/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png" alt="" class="uag-image-1041" width="802" height="656" title="PixPin_2026-03-23_12-29-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.13</figcaption></figure></div>
+<div class="wp-block-uagb-image uagb-block-080de2b0 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none wp-container-content-9cfa9a5a"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png ,https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 780w, https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png 360w" sizes="auto, (max-width: 480px) 150px" src="https://jiushihema.github.io/pls_lab/wp-content/uploads/2026/03/PixPin_2026-03-23_12-29-16.png" alt="" class="uag-image-1041" width="802" height="656" title="PixPin_2026-03-23_12-29-16" loading="lazy" role="img"/><figcaption class="uagb-image-caption">Fig.13</figcaption></figure></div>
 </div>
 </div>
 
@@ -1450,7 +1450,7 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://localhost:10011/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/feed/</wfw:commentRss>
+					<wfw:commentRss>https://jiushihema.github.io/pls_lab/%e5%9f%ba%e4%ba%8e%e4%bf%a1%e9%81%93%e4%ba%92%e6%98%93%e6%80%a7%e4%b8%8e%e5%8a%a8%e6%80%81%e6%98%9f%e5%ba%a7%e6%b7%b7%e6%b7%86%e7%9a%84%e6%97%a0%e7%ba%bf%e9%80%9a%e4%bf%a1%e5%ae%89%e5%85%a8%e6%96%b9/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
