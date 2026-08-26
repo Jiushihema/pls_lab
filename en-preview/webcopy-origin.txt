@@ -1,5 +1,5 @@
 Uri: https://jiushihema.github.io/pls_lab/
-File Name: C:\Downloaded Web Sites\localhost\index-1.htm
+File Name: C:\Downloaded Web Sites\localhost\index.htm
 Content Type: text/html
 
 Uri: https://jiushihema.github.io/pls_lab/可移动天线赋能的双尺度波束：面向弹性通信、感/
