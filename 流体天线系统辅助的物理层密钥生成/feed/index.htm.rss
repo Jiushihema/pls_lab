@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	「流体天线系统辅助的物理层密钥生成」的评论	</title>
-	<atom:link href="http://localhost:10011/%E6%B5%81%E4%BD%93%E5%A4%A9%E7%BA%BF%E7%B3%BB%E7%BB%9F%E8%BE%85%E5%8A%A9%E7%9A%84%E7%89%A9%E7%90%86%E5%B1%82%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90/feed/" rel="self" type="application/rss+xml" />
-	<link>http://localhost:10011/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+	<atom:link href="https://jiushihema.github.io/pls_lab/%E6%B5%81%E4%BD%93%E5%A4%A9%E7%BA%BF%E7%B3%BB%E7%BB%9F%E8%BE%85%E5%8A%A9%E7%9A%84%E7%89%A9%E7%90%86%E5%B1%82%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jiushihema.github.io/pls_lab/%e6%b5%81%e4%bd%93%e5%a4%a9%e7%ba%bf%e7%b3%bb%e7%bb%9f%e8%be%85%e5%8a%a9%e7%9a%84%e7%89%a9%e7%90%86%e5%b1%82%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
 	<description></description>
 	<lastBuildDate>Fri, 17 Jul 2026 08:17:10 +0000</lastBuildDate>
 	<sy:updatePeriod>

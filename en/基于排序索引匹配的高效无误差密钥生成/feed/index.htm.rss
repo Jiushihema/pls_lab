@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: 基于排序索引匹配的高效无误差密钥生成	</title>
-	<atom:link href="http://localhost:10011/en/%E5%9F%BA%E4%BA%8E%E6%8E%92%E5%BA%8F%E7%B4%A2%E5%BC%95%E5%8C%B9%E9%85%8D%E7%9A%84%E9%AB%98%E6%95%88%E6%97%A0%E8%AF%AF%E5%B7%AE%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90/feed/" rel="self" type="application/rss+xml" />
-	<link>http://localhost:10011/en/%e5%9f%ba%e4%ba%8e%e6%8e%92%e5%ba%8f%e7%b4%a2%e5%bc%95%e5%8c%b9%e9%85%8d%e7%9a%84%e9%ab%98%e6%95%88%e6%97%a0%e8%af%af%e5%b7%ae%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
+	<atom:link href="https://jiushihema.github.io/pls_lab/en/%E5%9F%BA%E4%BA%8E%E6%8E%92%E5%BA%8F%E7%B4%A2%E5%BC%95%E5%8C%B9%E9%85%8D%E7%9A%84%E9%AB%98%E6%95%88%E6%97%A0%E8%AF%AF%E5%B7%AE%E5%AF%86%E9%92%A5%E7%94%9F%E6%88%90/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jiushihema.github.io/pls_lab/en/%e5%9f%ba%e4%ba%8e%e6%8e%92%e5%ba%8f%e7%b4%a2%e5%bc%95%e5%8c%b9%e9%85%8d%e7%9a%84%e9%ab%98%e6%95%88%e6%97%a0%e8%af%af%e5%b7%ae%e5%af%86%e9%92%a5%e7%94%9f%e6%88%90/</link>
 	<description></description>
 	<lastBuildDate>Wed, 18 Mar 2026 09:26:24 +0000</lastBuildDate>
 	<sy:updateperiod>

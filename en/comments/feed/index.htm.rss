@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comments for PLS-LAB	</title>
-	<atom:link href="http://localhost:10011/en/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://localhost:10011/en</link>
+	<atom:link href="https://jiushihema.github.io/pls_lab/en/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jiushihema.github.io/pls_lab/en</link>
 	<description></description>
-	<lastBuildDate>Mon, 17 Aug 2026 12:44:44 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 Aug 2026 17:26:40 +0000</lastBuildDate>
 	<sy:updateperiod>
 	hourly	</sy:updateperiod>
 	<sy:updatefrequency>
