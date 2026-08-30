@@ -2464,6 +2464,22 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 </div>
 
+
+
+<style>
+/* papers-box-overflow-fix: 去掉代表性成果外层多余横向滚动条，保留内层拖拽滚动 */
+.columns-waterfall.papers-box,
+.papers-box {
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+
+.wp-block-group:has(> .wp-block-query.papers-box) {
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+</style>
+
 </div></main>
 
 
